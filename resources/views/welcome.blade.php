@@ -135,8 +135,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- welcome -->
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
-			<div class="col-sm-6 col-xs-6 welcome-w3left">
-				<div class="col-xs-3 welcome-w3limg">
+            <div class="col-xs-12 welcome-w3center">
+                <h1>Persekutuan Jumat</h1>
+            </div>
+			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
+                <div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
@@ -146,7 +149,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="col-sm-6 col-xs-6 welcome-w3right">
+			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
 					<h4>LONDON, UK</h4>
