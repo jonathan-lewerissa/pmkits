@@ -22,3 +22,15 @@ Route::get('/home', 'HomeController@index');
 Route::get('/dashboard', function() {
     return view('dashboard');
 });
+
+Route::get('/listmahasiswa', function() {
+    return view('mahasiswa.index');
+});
+
+Route::get('/listdosenkaryawan', function() {
+    return view('dosenkaryawan.index');
+});
+
+Route::get('/listalumni', function() {
+    return view('alumni.index');
+});
