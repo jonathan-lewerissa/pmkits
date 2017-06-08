@@ -133,11 +133,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //welcome -->
     <!-- welcome -->
+    <div class="banner-text welcome-w3center">
+        <h2>Persekutuan Jumat</h2>
+        <h3>Hari Ini</h3>
+    </div>
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
-            <div class="col-xs-12 welcome-w3center">
-                <h1>Persekutuan Jumat</h1>
-            </div>
 			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
                 <div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
@@ -169,7 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="video">
 			<div class="container"> 
 				<div class="col-md-6 video-left">
-					<h3 class="w3stitle w3stitle1">Renungan</h3>  
+					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
 					<h4>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut </h4> 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget.</p>
 				</div> 
@@ -246,6 +247,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- //FlexSlider js -->
 		</div>
 	</div>
+    <!-- callendar -->
+    <div id="callendar" class="callendar">
+		<div class="container"> 
+            <div class="col-sm-12 col-xs-12">
+                <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <img src="calendar">
+            </div>
+        </div>
+    </div>
 	<!-- //testimonials -->
 	<!-- gallery -->
 	<div id="gallery" class="gallery">
@@ -353,6 +365,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<h3 class="w3stitle">Contact <span> us</span></h3>
 			<div class="contact-row agileits-w3layouts">  
+<!--
 				<div class="col-md-6 col-sm-6 contact-w3lsleft">
 					<div class="contact-grid agileits">
 						<h4>DROP US A LINE </h4>
@@ -365,9 +378,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</form> 
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-6 contact-w3lsright">
+-->
+                <div class="col-md-12 col-sm-12 contact-w3lsright" align="center">
 					<h6><span>Sed interdum </span>interdum accumsan nec purus ac orci finibus facilisis.</h6>
-					<div class="address-row">
+					<div class="col-md-4 col-sm-4 address-row">
 						<div class="col-xs-2 address-left">
 							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 						</div>
@@ -377,7 +391,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="address-row w3-agileits">
+					<div class="col-md-4 col-sm-4 address-row w3-agileits">
 						<div class="col-xs-2 address-left">
 							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 						</div>
@@ -387,7 +401,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="address-row">
+					<div class="col-md-4 col-sm-4 address-row">
 						<div class="col-xs-2 address-left">
 							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
 						</div>
@@ -396,9 +410,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<p>+01 222 333 4444</p>
 						</div>
 						<div class="clearfix"> </div>
-					</div>  
+					</div> 
 					<!-- map -->
-					<div class="map agileits">
+					<div class="col-md-12 col-sm-12 map agileits">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.948805392833!2d-73.99619098458929!3d40.71914347933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1479793484055"></iframe>
 					</div>
 					<!-- //map --> 

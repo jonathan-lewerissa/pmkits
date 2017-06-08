@@ -323,13 +323,12 @@ p {
     line-height: 2em;
 }
 .welcome-w3center{ 
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.2em 0 1.8em 0;
     text-align: center;
-    background: #ffffff;
-    color: black;
+    background: #004466;
 }
-.welcome-w3center h1{ 
-    font-size: 66px;
+.welcome-w3center h3{ 
+    color: white;
 }
 .welcome-w3left,.welcome-w3right{
     padding: 3em 13em;
