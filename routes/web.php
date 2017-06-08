@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 Route::get('/home', 'HomeController@index');
 
 Route::get('/dashboard', function() {
@@ -35,6 +35,6 @@ Route::get('/listdosenkaryawan', function() {
 Route::get('/listalumni', function() {
     return view('alumni.index');
 });
-=======
+//=======
 Route::get('/home', 'HomeController@index');
->>>>>>> 121b8182ff64fdf084da3e1365bb8740607a6b9d
+//>>>>>>> 121b8182ff64fdf084da3e1365bb8740607a6b9d
