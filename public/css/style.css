@@ -322,6 +322,13 @@ p {
     color: #999;
     line-height: 2em;
 }
+
+.about-detail{
+    padding: 1.2em 0 1.2em 0;
+    text-align: justify;
+    background: #004466;
+    color: white;
+}
 .welcome-w3center{ 
     padding: 1.2em 0 1.2em 0;
     text-align: center;
