@@ -323,11 +323,9 @@ p {
     line-height: 2em;
 }
 .welcome-w3center{ 
-    padding: 1.2em 0 1.8em 0;
+    padding: 1.2em 0 1.2em 0;
     text-align: center;
     background: #004466;
-}
-.welcome-w3center h3{ 
     color: white;
 }
 .welcome-w3left,.welcome-w3right{

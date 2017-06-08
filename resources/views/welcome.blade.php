@@ -53,7 +53,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <a class="dropdown-toggle" data-toggle="dropdown">Home
                                     <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#services" data-hover="Services">Callendar</a></li>
+                                    <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
                                     <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
                                 </ul>
                             </li>
@@ -133,9 +133,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //welcome -->
     <!-- welcome -->
-    <div class="banner-text welcome-w3center">
-        <h2>Persekutuan Jumat</h2>
-        <h3>Hari Ini</h3>
+    <div class="welcome-w3center">
+        <div class="container">
+            <h3 class="w3stitle w3stitle1">Persekutuan Jumat</h3>
+            <h4>Hari Ini</h4>
+        </div>
     </div>
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
