@@ -20,6 +20,14 @@ Auth::routes();
 //<<<<<<< HEAD
 Route::get('/home', 'HomeController@index');
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/about', function() {
+    return view('about');
+});
+
 Route::get('/dashboard', function() {
     return view('dashboard');
 });
@@ -36,5 +44,5 @@ Route::get('/listalumni', function() {
     return view('alumni.index');
 });
 //=======
-Route::get('/home', 'HomeController@index');
+//Route::get('/home', 'HomeController@index');
 //>>>>>>> 121b8182ff64fdf084da3e1365bb8740607a6b9d

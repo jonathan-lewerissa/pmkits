@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PMK ITS Joss!!!</title>
+<title>PMK ITS | Persekutuan Mahasiswa Kristen ITS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -43,21 +43,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.html">PMK <span>ITS</span></a></h1>
+						<h1><a class="navbar-brand" href="welcome">PMK <span>ITS</span></a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+<!--
 							<li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown">Home
-                                    <span class="caret"></span></a>
+                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
                                     <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" >Tentang</a></li>
+-->
+                            <li><a href="welcome">Home</a></li> 
+                            <li><a href="about">Tentang</a></li>
                             <li><a href="#" >Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
 						</ul>
