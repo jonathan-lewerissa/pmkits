@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateDosenkaryawanTable extends Migration
+class CreateAlumnisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateDosenkaryawanTable extends Migration
      */
     public function up()
     {
-        Schema::create('dosenkaryawan', function (Blueprint $table) {
+        Schema::create('alumnis', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 100);
-            $table->string('pekerjaan', 10);
-            $table->string('fakultas', 10);
-            $table->string('departemen', 50);
             $table->string('email', 50)->unique();
             $table->string('jk', 1);
             $table->string('asal', 20);
@@ -26,6 +23,11 @@ class CreateDosenkaryawanTable extends Migration
             $table->string('alamat', 150);
             $table->string('gereja', 50);
             $table->string('no_hp',13);
+            $table->string('pekerjaan', 50);
+            $table->string('tempat_kerja', 50);
+            $table->string('asal_fakultas', 10);
+            $table->string('asal_departemen', 50);
+            $table->string('angkatan', 4);
             $table->rememberToken();
             $table->timestamps();
         });

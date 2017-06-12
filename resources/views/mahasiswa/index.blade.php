@@ -400,33 +400,47 @@
 
     <!-- Main content -->
     <br><br>
-    <div class="container">      
-      <table class="table">
+    <div class="container">
+    @php $count = 1 @endphp
+      <table class="table" style="width:auto">
         <thead>
           <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
+            <th>No.</th>
+            <th>Name</th>
+            <th>NRP</th>
             <th>Email</th>
+            <th>JK</th>
+            <th>Asal</th>
+            <th>Tanggal Lahir</th>
+            <th>Alamat Surabaya</th>
+            <th>Alamat Asal</th>
+            <th>Gereja</th>
+            <th>No. HP</th>
+            <th>Line ID</th>
           </tr>
         </thead>
+        @if($mhs->count())
         <tbody>
+          @foreach($mhs as $m)
           <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
+            <td>@php echo $count++ @endphp</td>
+            <td>{{$m->name}}</td>
+            <td>{{$m->nrp}}</td>
+            <td>{{$m->email}}</td>
+            <td>{{$m->jk}}</td>
+            <td>{{$m->asal}}</td>
+            <td>{{$m->tgl_lahir}}</td>
+            <td>{{$m->alamat_sby}}</td>
+            <td>{{$m->alamat_asal}}</td>
+            <td>{{$m->gereja}}</td>
+            <td>{{$m->no_hp}}</td>
+            <td>{{$m->line_id}}</td>
           </tr>
-          <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-          </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-          </tr>
+          @endforeach
         </tbody>
+        @endif
       </table>
+      {{$mhs->render()}}
     </div>
       
     <!-- /.Main content -->

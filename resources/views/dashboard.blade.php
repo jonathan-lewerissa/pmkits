@@ -343,9 +343,9 @@
           </a>
 
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Mahasiswa</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Dosen & Karyawan</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Alumni</a></li>
+            <li><a href="/listmahasiswa"><i class="fa fa-circle-o"></i> Mahasiswa</a></li>
+            <li><a href="/listdosenkaryawan"><i class="fa fa-circle-o"></i> Dosen & Karyawan</a></li>
+            <li><a href="/listalumni"><i class="fa fa-circle-o"></i> Alumni</a></li>
           </ul>
         </li>
 

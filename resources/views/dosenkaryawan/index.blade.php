@@ -394,13 +394,55 @@
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">List Mahasiswa</li>
+        <li class="active">List Dosen & Karyawan</li>
       </ol>
     </section>
 
     <!-- Main content -->
       
-      
+    <br><br>
+    <div class="container">
+    @php $count = 1 @endphp
+      <table class="table" style="width:auto">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Pekerjaan</th>
+            <th>Fakultas</th>
+            <th>Departemen</th>
+            <th>Email</th>
+            <th>JK</th>
+            <th>Asal</th>
+            <th>Tanggal Lahir</th>
+            <th>Alamat</th>
+            <th>Gereja</th>
+            <th>No. HP</th>
+          </tr>
+        </thead>
+        @if($dsn->count())
+        <tbody>
+          @foreach($dsn as $d)
+          <tr>
+            <td>@php echo $count++ @endphp</td>
+            <td>{{$d->name}}</td>
+            <td>{{$d->pekerjaan}}</td>
+            <td>{{$d->fakultas}}</td>
+            <td>{{$d->departemen}}</td>
+            <td>{{$d->email}}</td>
+            <td>{{$d->jk}}</td>
+            <td>{{$d->asal}}</td>
+            <td>{{$d->tgl_lahir}}</td>
+            <td>{{$d->alamat}}</td>
+            <td>{{$d->gereja}}</td>
+            <td>{{$d->no_hp}}</td>
+          </tr>
+          @endforeach
+        </tbody>
+        @endif
+      </table>
+      {{$dsn->render()}}
+    </div>
       
     <!-- /.Main content -->
     
