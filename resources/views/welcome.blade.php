@@ -4,30 +4,35 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PMK ITS | Persekutuan Mahasiswa Kristen ITS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+    <title>PMK ITS | Persekutuan Mahasiswa Kristen ITS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
-<link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
-<link rel="stylesheet" href="css/lightbox.css"> 
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
-<!-- //Custom Theme files --> 
-<!-- js -->
-<script src="js/jquery-2.2.3.min.js"></script>  
-<!-- //js -->
-<!-- web-fonts -->   
-<link href="//fonts.googleapis.com/css?family=Trochut:400,400i,700" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-<!-- //web-fonts -->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+    <link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
+    <link rel="stylesheet" href="css/lightbox.css"> 
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+    <!-- //Custom Theme files --> 
+    
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>  
+    <!-- //js -->
+
+    <!-- web-fonts -->   
+    <link href="//fonts.googleapis.com/css?family=Trochut:400,400i,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- //web-fonts -->
 </head>
+    
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
 	<!-- banner -->
 	<div id="home" class="w3ls-banner w3-agilefireworks jarallax"> 
@@ -51,14 +56,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 <!--
 							<li class="dropdown">
-                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
+                                <a href="welcome" class="dropdown-toggle" data-toggle="dropdown">Beranda <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
                                     <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
                                 </ul>
                             </li>
 -->
-                            <li><a href="welcome">Home</a></li> 
+                            <li><a href="#">Beranda</a></li>
                             <li><a href="about">Tentang</a></li>
                             <li><a href="#" >Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
@@ -72,11 +77,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>Happy New Year</h2>
+			<h2>Natal PMK ITS</h2>
 			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
 			<!-- timer -->
 			<div class="agileits-timer"> 
 				<div class="clock">
+                    <div class="column months">
+						<div class="timer" id="months"></div>
+						<div class="text">Months</div>
+					</div>
 					<div class="column days">
 						<div class="timer" id="days"></div>
 						<div class="text">Days</div>
@@ -100,12 +109,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	 
 			</div>
 			<!-- //timer --> 
-			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Get Your Entry Ticket </a> 
+			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">daftar di sini </a> 
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner --> 
-	<!-- welcome -->
+    
+	<!-- event -->
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
 			<div class="col-sm-6 col-xs-6 welcome-w3left">
@@ -114,16 +124,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>When</p>
-					<h4>31st DEC 2016</h4>
-					<h6>Starting at : 10:00 pm </h6>
+					<h4>25th DEC 2017</h4>
+					<h6>Starting at : 17:30 pm </h6>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-sm-6 col-xs-6 welcome-w3right">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>LONDON, UK</h4>
-					<h6>MTJ Club, 412 New Green Road </h6>
+					<h4>Graha ITS</h4>
+					<h6>Kampus ITS Sukolilo, Surabaya </h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -133,15 +143,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"> </div>
 		</div> 
 	</div>
-	<!-- //welcome -->
-    <!-- welcome -->
-    <div class="welcome-w3center">
-        <div class="container">
+	<!-- //event -->
+    
+    <!-- persekutuan jumat -->
+	<div class="welcome">  
+        <div class="welcome-w3center">
             <h3 class="w3stitle w3stitle1">Persekutuan Jumat</h3>
-            <h4>Hari Ini</h4>
+            <h4>"Kasih yang Sempurna"</h4>
         </div>
-    </div>
-	<div class="welcome">    
 		<div class="welcome-agileinfo">
 			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
                 <div class="col-xs-3 welcome-w3limg">
@@ -149,16 +158,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>When</p>
-					<h4>31st DEC 2016</h4>
-					<h6>Starting at : 10:00 pm </h6>
+					<h4>1st SEPT 2017</h4>
+					<h6>Starting at : 11:15 am </h6>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>LONDON, UK</h4>
-					<h6>MTJ Club, 412 New Green Road </h6>
+					<h4>Teater B</h4>
+					<h6>Alamat</h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -168,15 +177,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"> </div>
 		</div> 
 	</div>
-	<!-- //welcome -->
-	<!-- RENUNGAN -->
+	<!-- //persekutuan jumat -->
+    
+	<!-- renungan -->
 	<div class="video-agileits jarallax">
 		<div class="video">
 			<div class="container"> 
 				<div class="col-md-6 video-left">
 					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
 					<h4>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut </h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. <a href="#">Lihat di sini</a></p>
 				</div> 
 				<div class="col-md-6 video-right"> 
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">
@@ -191,7 +201,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<!-- //RENUNGAN -->
+	<!-- //renungan -->
     <!-- testimonials -->
 	<div class="testimonials team">
 		<div class="container">
@@ -251,18 +261,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- //FlexSlider js -->
 		</div>
 	</div>
+	<!-- //testimonials -->
+
     <!-- callendar -->
-    <div id="callendar" class="callendar">
+    <div id="callendar" class="blog gallery">
 		<div class="container"> 
-            <div class="col-sm-12 col-xs-12">
-                <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <img src="calendar">
+            <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
+            <div class="blog-agileinfo">
+                <img src="images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
             </div>
         </div>
     </div>
-	<!-- //testimonials -->
+    <!-- //callendar -->
+    
+    <!-- subscribe -->
+	<div class="subscribe wthree-sub jarallax">  
+		<div class="subscribe-agileinfo">  
+			<div class="container"> 
+				<div class="col-sm-6 sub-w3lsleft"> 
+					<h3 class="w3stitle">Subscribe <span> Newsletter</span></h3>   
+					<p>Sed tincidunt lorem sed velit lacus ornare <a href="">Privacy policy</a>.</p>			
+				</div>
+				<div class="col-sm-6 sub-w3lsright">
+					<form action="#" method="post"> 
+						<input type="email" name="email" placeholder="Enter your Email..." required="">
+						<input type="submit" value="Subscribe">
+						<div class="clearfix"> </div>
+					</form>  
+				</div>
+				<div class="clearfix"></div> 
+			</div>
+		</div>
+	</div>
+	<!-- //subscribe -->
+    
 	<!-- gallery -->
 	<div id="gallery" class="gallery">
 		<div class="container"> 
@@ -417,7 +449,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div> 
 					<!-- map -->
 					<div class="col-md-12 col-sm-12 map agileits">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.948805392833!2d-73.99619098458929!3d40.71914347933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1479793484055"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.8754084025924!2d112.79344346601461!3d-7.283335575481929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa13437afe8b%3A0x2639580c16508b90!2sSCC+ITS!5e0!3m2!1sen!2s!4v1497280389964"></iframe>
 					</div>
 					<!-- //map --> 
 				</div>
@@ -486,7 +518,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 				</ul>
 			</div>
-			<p>© 2016 Let's Party. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 
@@ -495,29 +527,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="pop_up w3-agile">
 			<div class="payment-online-form-left">
 				<form action="#" method="post"> 
-					<h4>Account Info</h4>
+					<h4>Identitasmu</h4>
 					<ul>
-						<li><input class="text-box-dark" placeholder="First Name" type="text" required=""></li>
-						<li><input class="text-box-dark" placeholder="Last Name" type="text" required=""></li>
-					</ul>
-					<ul>
-						<li><input class="text-box-dark" placeholder="Email" type="email" required=""></li>
-						<li><input class="text-box-dark" placeholder="Phone Number" type="text" required=""></li> 
+						<li><input class="text-box-dark" placeholder="Nama" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="NRP" type="text" required=""></li>
 					</ul> 
 					<ul>  
 						<li>
-							<label>No of Tickets</label>
+							<label>Angkatan</label>
 							<select class="form-control">
-								<option value="1">1 Ticket</option>
-								<option value="2">2 Tickets</option>
-								<option value="3">3 Tickets</option>
-								<option value="4">4 Tickets</option>
-								<option value="5">5 Tickets</option>
-								<option value="6">More</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="0">Lainnya</option>
 							</select> 
 						</li>
 						<li>
-							<label>Package</label>
+							<label>Jurusan</label>
 							<select class="form-control"> 
 								<option value="1">Classic</option>
 								<option value="2">Elite</option>
@@ -526,10 +554,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</select>
 						</li> 
 					</ul>	
-					<ul> 
+<!--					<ul> 
 						<li class="w3ls-address"><input class="text-box-dark" placeholder="Address" type="text" required=""></li> 
-					</ul>	
+					</ul>	-->
 					<div class="clearfix"> </div>
+<!--
 					<h4>Payment Method</h4> 
 					<ul class="payment-type w3-agile"> 
 						<li><span class="col_checkbox">
@@ -553,9 +582,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><input class="text-box-dark" placeholder="Expiration Date" type="text" required=""></li>
 						<li><input class="text-box-dark" placeholder="Security Code" type="text" required=""></li>
 					</ul> 
+-->
 					<ul class="payment-sendbtns">
 						<li><input type="reset" value="Reset"></li>
-						<li><input type="submit" value="Process order"></li>
+						<li><input type="submit" value="Absen"></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</form>
