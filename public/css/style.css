@@ -323,11 +323,17 @@ p {
     line-height: 2em;
 }
 
-.about-detail{
+.about-container{
     padding: 1.2em 0 1.2em 0;
     text-align: justify;
     background: #004466;
-    color: white;
+    color: black;
+    display: table;
+    width: 100%;
+}
+.about-detail{
+    display: table-cell;
+    padding: 20px;
 }
 .welcome-w3center{ 
     padding: 1.2em 0 1.2em 0;

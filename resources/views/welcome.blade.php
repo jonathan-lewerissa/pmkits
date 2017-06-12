@@ -148,7 +148,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- persekutuan jumat -->
 	<div class="welcome">  
         <div class="welcome-w3center">
-            <h3 class="w3stitle w3stitle1">Persekutuan Jumat</h3>
+            <h3 class="w3stitle w3stitle1">Persekutuan Jumat PMK ITS</h3>
             <h4>"Kasih yang Sempurna"</h4>
         </div>
 		<div class="welcome-agileinfo">
@@ -166,7 +166,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>Teater B</h4>
+					<h4>Theater B</h4>
 					<h6>Alamat</h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
@@ -401,20 +401,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<h3 class="w3stitle">Contact <span> us</span></h3>
 			<div class="contact-row agileits-w3layouts">  
-<!--
-				<div class="col-md-6 col-sm-6 contact-w3lsleft">
-					<div class="contact-grid agileits">
-						<h4>DROP US A LINE </h4>
-						<form action="#" method="post"> 
-							<input type="text" name="Name" placeholder="Name" required="">
-							<input type="email" name="Email" placeholder="Email" required=""> 
-							<input type="text" name="Phone Number" placeholder="Phone Number" required="">
-							<textarea name="Message" placeholder="Message..." required=""></textarea>
-							<input type="submit" value="Submit" >
-						</form> 
-					</div>
-				</div>
--->
                 <div class="col-md-12 col-sm-12 contact-w3lsright" align="center">
 					<h6><span>Sed interdum </span>interdum accumsan nec purus ac orci finibus facilisis.</h6>
 					<div class="col-md-4 col-sm-4 address-row">
@@ -423,7 +409,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Visit Us</h5>
-							<p>Bmr St, Canada, New York, USA</p>
+							<p>SCC Lantai 2 - Institut Teknologi Sepuluh Nopember</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -433,7 +419,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Mail Us</h5>
-							<p><a href="mailto:info@example.com"> mail@example.com</a></p>
+							<p><a href="mailto:divhumas.pmk.its@gmail.com"> divhumas.pmk.its@gmail.com</a></p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -443,7 +429,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Call Us</h5>
-							<p>+01 222 333 4444</p>
+							<p>+62813 9663 7328</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div> 
@@ -468,7 +454,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>LOCATION</p>
-						<h4>LONDON, UK</h4>
+						<h4>SURABAYA</h4>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -512,10 +498,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
 				</ul>
 			</div>
 			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>

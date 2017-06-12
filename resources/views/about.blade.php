@@ -63,7 +63,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="welcome">Home</a></li> 
+                            <li><a href="welcome">Beranda</a></li> 
                             <li><a href="about">Tentang</a></li>
                             <li><a href="#" >Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
@@ -79,40 +79,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="banner-text"> 
 			<h2>About PMK ITS</h2>
 			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
-			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Get Your Entry Ticket </a> 
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner -->
 	<!-- about -->
-    <div class="about-detail">
-        <div class="container">
-        <h3 class="w3stitle w3stitle1">Visi dan Misi</h3><br>
-        <div class="row">
-            <div class="row-eq-height">
-            <div class="col-sm-6 col-xs-12" style="background:#66c2ff;">
-                <h3 class="w3stitle w3stitle1">Visi</h3>
-                <ol>
-                    <li>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</li>
-                    <li>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</li>
-                    <li>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</li>
-                    <li>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</li>
-                </ol>
-                <div class="clearfix"> </div>
-            </div> 
-            <div class="col-sm-6 col-xs-12" style="background:#0077b3;"> 
-		        <h3 class="w3stitle w3stitle1">Misi</h3>
-                <ol>
-                    <li>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</li>
-                    <li>Melaksanakan pola pemuridan yang berkelanjutan.</li>
-                    <li>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</li>
-                    <li>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</li>
-                </ol>
-                <div class="clearfix"> </div>
-		    </div>  
-            </div>
+    <div class="about-container">
+        <h3 style="font-size: 3em; padding: 10px;" align="center">Visi dan Misi</h3><br>
+        <div class="col-sm-3 col-xs-3 about-detail">
+            <h3 class="w3stitle w3stitle1">Visi</h3>
         </div>
-    </div>
+        <div class="col-sm-9 col-xs-9 about-detail">
+        <ol style="margin:0 10px 0 0">
+            <li>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</li>
+            <li>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</li>
+            <li>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</li>
+            <li>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</li>
+        </ol>
+        <div class="clearfix"> </div>
+        </div> 
+        <div class="col-sm-9 col-xs-9 about-detail"> 
+        <ol>
+            <li>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</li>
+            <li>Melaksanakan pola pemuridan yang berkelanjutan.</li>
+            <li>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</li>
+            <li>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</li>
+        </ol>
+        </div>
+        <div class="col-sm-3 col-xs-3 about-detail">
+            <h3 class="w3stitle w3stitle1">Misi</h3>
+        </div>
+        <div class="clearfix"> </div> 
     </div>
 	<!-- //about --> 
     
@@ -215,7 +212,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
     <div class="gallery">
 		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Natal Paskah</span></h3>     
+			<h3 class="w3stitle">PMK-ITS <span> NAPAS</span></h3>     
 			<div class="container">
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
@@ -224,7 +221,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">NAPAS</a></h4>
+					<h4><a href="#myModal" data-toggle="modal">Natal Paskah</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
 				</div> 
@@ -252,107 +249,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //divisi -->
-	<!-- gallery -->
-	<div id="gallery" class="gallery">
-		<div class="container"> 
-			<h3 class="w3stitle">OUR <span> Gallery</span></h3>  
-			<div class="gallery-w3lsrow">
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g1.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g2.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g3.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g3.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g4.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g4.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g5.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g5.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g6.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g7.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g7.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-4 gallery-grids">
-					<div class="w3ls-hover">
-						<a href="images/g8.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g8.jpg" class="img-responsive zoom-img" alt=""/>
-							<div class="view-caption">
-								<h5>Latest Gallery</h5>
-								<span class="glyphicon glyphicon-search"></span>
-							</div>
-						</a>
-					</div>
-				</div>  
-				<div class="clearfix"> </div> 
-			</div>
-			<!--  light box js -->
-			<script src="js/lightbox-plus-jquery.min.js"> </script> 
-			<!-- //light box js--> 
-		</div> 
-	</div>
-	<!-- //gallery -->
 	<!-- contact -->
 	<div id="contact" class="contact">
 		<div class="container"> 
@@ -455,89 +351,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
 				</ul>
 			</div>
-			<p>© 2016 Let's Party. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 
-	<!-- pop-up-grid -->
-	<div id="small-dialog" class="mfp-hide">
-		<div class="pop_up w3-agile">
-			<div class="payment-online-form-left">
-				<form action="#" method="post"> 
-					<h4>Account Info</h4>
-					<ul>
-						<li><input class="text-box-dark" placeholder="First Name" type="text" required=""></li>
-						<li><input class="text-box-dark" placeholder="Last Name" type="text" required=""></li>
-					</ul>
-					<ul>
-						<li><input class="text-box-dark" placeholder="Email" type="email" required=""></li>
-						<li><input class="text-box-dark" placeholder="Phone Number" type="text" required=""></li> 
-					</ul> 
-					<ul>  
-						<li>
-							<label>No of Tickets</label>
-							<select class="form-control">
-								<option value="1">1 Ticket</option>
-								<option value="2">2 Tickets</option>
-								<option value="3">3 Tickets</option>
-								<option value="4">4 Tickets</option>
-								<option value="5">5 Tickets</option>
-								<option value="6">More</option>
-							</select> 
-						</li>
-						<li>
-							<label>Package</label>
-							<select class="form-control"> 
-								<option value="1">Classic</option>
-								<option value="2">Elite</option>
-								<option value="3">Couple</option>
-								<option value="4">Special</option> 
-							</select>
-						</li> 
-					</ul>	
-					<ul> 
-						<li class="w3ls-address"><input class="text-box-dark" placeholder="Address" type="text" required=""></li> 
-					</ul>	
-					<div class="clearfix"> </div>
-					<h4>Payment Method</h4> 
-					<ul class="payment-type w3-agile"> 
-						<li><span class="col_checkbox">
-							<input type="radio" name="payment-method" id="paypal" value="paypal"> 
-							<a class="visa" href="#"> </a>
-							</span>												
-						</li>
-						<li>
-							<span class="col_checkbox">
-								<input type="radio" name="payment-method" id="card" value="card" checked="">
-								<a class="paypal" href="#"> </a>
-							</span>
-						</li>  
-					</ul>
-					<div class="clearfix"> </div>
-					<ul>
-						<li><input class="text-box-dark" placeholder="Card Number" type="text" required=""></li>
-						<li><input class="text-box-dark" placeholder="Name on card" type="text" required=""></li>
-					</ul>
-					<ul>
-						<li><input class="text-box-dark" placeholder="Expiration Date" type="text" required=""></li>
-						<li><input class="text-box-dark" placeholder="Security Code" type="text" required=""></li>
-					</ul> 
-					<ul class="payment-sendbtns">
-						<li><input type="reset" value="Reset"></li>
-						<li><input type="submit" value="Process order"></li>
-					</ul>
-					<div class="clearfix"> </div>
-				</form>
-			</div>
-		</div>
-	</div>
-	<!-- //pop-up-grid --> 
+	
 	<!-- modal -->
 	<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -554,72 +377,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //modal -->
-	<!-- modal -->
-	<div class="modal about-modal w3-agileits fade" id="myModal2" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div> 
-				<div class="modal-body login-page "><!-- login-page -->      
-					<div class="sap_tabs">
-						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-							<ul class="resp-tabs-list">
-								<li class="resp-tab-item" aria-controls="tab_item-0"><span>Login</span></li>
-								<li class="resp-tab-item" aria-controls="tab_item-1"><span>Register</span></li> 
-							</ul>	 
-							<div class="clearfix"> </div>	
-							<div class="resp-tabs-container">
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-									<div class="agileits-login">
-										<form action="#" method="post">
-											<input type="text" class="email" name="Email" placeholder="Email" required=""/>
-											<input type="password" class="password" name="Password" placeholder="Password" required=""/>
-											<div class="wthree-text"> 
-												<ul> 
-													<li>
-														<label class="anim">
-															<input type="checkbox" class="checkbox">
-															<span> Remember me ?</span> 
-														</label> 
-													</li>
-													<li> <a href="#">Forgot password?</a> </li>
-												</ul>
-												<div class="clearfix"> </div>
-											</div>  
-											<div class="w3ls-submit"> 
-												<input type="submit" value="LOGIN">  	
-											</div>	
-										</form>
-									</div> 
-								</div>
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="login-top sign-top">
-										<div class="agileits-login">
-											<form action="#" method="post">
-												<input type="text" name="Username" placeholder="Username" required="">
-												<input type="text" class="email" name="Email" placeholder="Email" required=""/>
-												<input type="password" class="password" name="Password" placeholder="Password" required=""/>	
-												<label class="anim">
-													<input type="checkbox" class="checkbox">
-													<span> I accept the terms of use</span> 
-												</label> 
-												<div class="w3ls-submit"> 
-													<input class="register" type="submit" value="REGISTER">  
-												</div>
-											</form> 
-										</div>  
-									</div>
-								</div>
-							</div>	
-						</div>
-						<div class="clearfix"> </div>
-					</div>   
-				</div> <!-- //login-page -->
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->  		 
+	
 	<!-- fireworks scripts --> 
 	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
 	<script>	
