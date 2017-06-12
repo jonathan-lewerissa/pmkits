@@ -17,14 +17,47 @@ Route::get('/', function () {
 
 Auth::routes();
 
+<<<<<<< HEAD
 Route::get('/home', 'HomeController@index');
 
 Route::get('dashboard', function() {
     return view('dashboard');  
+=======
+//<<<<<<< HEAD
+Route::get('/home', 'HomeController@index');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/about', function() {
+    return view('about');
+});
+
+Route::get('/dashboard', function() {
+    return view('dashboard');
+>>>>>>> f9c33f824dfac53328edf56874c33e0eddd44fdb
 });
     
 Route::resource('/listmahasiswa','MahasiswaController');
 Route::resource('/listdosenkaryawan','DosenkaryawanController');
 Route::resource('/listalumni','AlumniController');
 
+<<<<<<< HEAD
 Route::get('/home', 'HomeController@index');
+=======
+Route::get('/listmahasiswa', function() {
+    return view('mahasiswa.index');
+});
+
+Route::get('/listdosenkaryawan', function() {
+    return view('dosenkaryawan.index');
+});
+
+Route::get('/listalumni', function() {
+    return view('alumni.index');
+});
+//=======
+//Route::get('/home', 'HomeController@index');
+//>>>>>>> 121b8182ff64fdf084da3e1365bb8740607a6b9d
+>>>>>>> f9c33f824dfac53328edf56874c33e0eddd44fdb

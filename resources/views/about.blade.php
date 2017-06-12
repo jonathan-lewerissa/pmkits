@@ -8,13 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PMK ITS | Persekutuan Mahasiswa Kristen ITS</title>
+    <title>ABOUT PMK ITS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    
+
     <!-- Custom Theme files -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="css/lightbox.css"> 
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
     <!-- //Custom Theme files --> 
-    
+
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>  
     <!-- //js -->
@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <!-- //web-fonts -->
 </head>
-    
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
 	<!-- banner -->
 	<div id="home" class="w3ls-banner w3-agilefireworks jarallax"> 
@@ -56,14 +56,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 <!--
 							<li class="dropdown">
-                                <a href="welcome" class="dropdown-toggle" data-toggle="dropdown">Beranda <span class="caret"></span></a>
+                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
                                     <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
                                 </ul>
                             </li>
 -->
-                            <li><a href="#">Beranda</a></li>
+                            <li><a href="welcome">Home</a></li> 
                             <li><a href="about">Tentang</a></li>
                             <li><a href="#" >Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
@@ -77,224 +77,181 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>Natal PMK ITS</h2>
+			<h2>About PMK ITS</h2>
 			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
-			<!-- timer -->
-			<div class="agileits-timer"> 
-				<div class="clock">
-                    <div class="column months">
-						<div class="timer" id="months"></div>
-						<div class="text">Months</div>
-					</div>
-					<div class="column days">
-						<div class="timer" id="days"></div>
-						<div class="text">Days</div>
-					</div>
-					<div class="timer days"></div>
-					<div class="column">
-						<div class="timer" id="hours"></div>
-						<div class="text">Hours</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="minutes"></div>
-						<div class="text">Minutes</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="seconds"></div>
-						<div class="text">Seconds</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>	 
-			</div>
-			<!-- //timer --> 
-			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">daftar di sini </a> 
+			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Get Your Entry Ticket </a> 
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
-	<!-- //banner --> 
-    
-	<!-- event -->
-	<div class="welcome">    
-		<div class="welcome-agileinfo">
-			<div class="col-sm-6 col-xs-6 welcome-w3left">
-				<div class="col-xs-3 welcome-w3limg">
-					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-				</div>
-				<div class="col-xs-9 welcome-w3ltext"> 
-					<p>When</p>
-					<h4>25th DEC 2017</h4>
-					<h6>Starting at : 17:30 pm </h6>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-sm-6 col-xs-6 welcome-w3right">
-				<div class="col-xs-9 welcome-w3ltext"> 
-					<p>Where</p>
-					<h4>Graha ITS</h4>
-					<h6>Kampus ITS Sukolilo, Surabaya </h6>
-				</div>
-				<div class="col-xs-3 welcome-w3limg">
-					<i class="fa fa-street-view" aria-hidden="true"></i>
-				</div> 
-				<div class="clearfix"> </div>
-			</div> 
-			<div class="clearfix"> </div>
-		</div> 
-	</div>
-	<!-- //event -->
-    
-    <!-- persekutuan jumat -->
-	<div class="welcome">  
-        <div class="welcome-w3center">
-            <h3 class="w3stitle w3stitle1">Persekutuan Jumat</h3>
-            <h4>"Kasih yang Sempurna"</h4>
-        </div>
-		<div class="welcome-agileinfo">
-			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
-                <div class="col-xs-3 welcome-w3limg">
-					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-				</div>
-				<div class="col-xs-9 welcome-w3ltext"> 
-					<p>When</p>
-					<h4>1st SEPT 2017</h4>
-					<h6>Starting at : 11:15 am </h6>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
-				<div class="col-xs-9 welcome-w3ltext"> 
-					<p>Where</p>
-					<h4>Teater B</h4>
-					<h6>Alamat</h6>
-				</div>
-				<div class="col-xs-3 welcome-w3limg">
-					<i class="fa fa-street-view" aria-hidden="true"></i>
-				</div> 
-				<div class="clearfix"> </div>
-			</div> 
-			<div class="clearfix"> </div>
-		</div> 
-	</div>
-	<!-- //persekutuan jumat -->
-    
-	<!-- renungan -->
-	<div class="video-agileits jarallax">
-		<div class="video">
-			<div class="container"> 
-				<div class="col-md-6 video-left">
-					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
-					<h4>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut </h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. <a href="#">Lihat di sini</a></p>
-				</div> 
-				<div class="col-md-6 video-right"> 
-					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">
-						<span class="fa fa-play-circle-o"> </span>
-					</a> 
-					<div id="small-dialog2" class="mfp-hide">
-						<div class="pop_up w3-agile">
-							<iframe src="https://www.youtube.com/embed/9JX4hCTuiEw"></iframe>
-						</div>   
-					</div> 
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //renungan -->
-    <!-- testimonials -->
-	<div class="testimonials team">
-		<div class="container">
-			<h3 class="w3stitle">What <span> People say</span></h3>     
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-						<div class="testi-three-grids"> 
-							<div class="testi-left">
-								<img src="images/t5.jpg" alt=" " class="img-responsive" />
-							</div>
-							<div class="testi-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue tempor nisi sed luctus. Vestibulum semper quis enim vitae posuere. Vestibulum ac odio nec lorem commodo. </p>
-								<h4>Douglas Joe	- <span>Adipiscing</span></h4> 
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</li>
-					<li>
-						<div class="testi-three-grids"> 
-							<div class="testi-left">
-								<img src="images/t6.jpg" alt=" " class="img-responsive" />
-							</div>
-							<div class="testi-right">
-								<p>Fusce congue tempor nisi sed luctus. Vestibulum semper quis enim vitae posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum ac odio nec lorem commodo. </p>
-								<h4>Laura Hill	- <span>Lorem ipsum</span></h4> 
-							</div>
-							<div class="clearfix"> </div>
-						</div> 
-					</li>
-					<li>
-						<div class="testi-three-grids"> 
-							<div class="testi-left">
-								<img src="images/t7.jpg" alt=" " class="img-responsive" />
-							</div>
-							<div class="testi-right">
-								<p>Vestibulum semper quis enim vitae posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue tempor nisi sed luctus. Vestibulum ac odio nec lorem commodo. </p>
-								<h4>Christopher	- <span>Fusce congue</span></h4> 
-							</div>
-							<div class="clearfix"> </div>
-						</div> 
-					</li>
-				</ul>
-			</div> 
-			<!-- FlexSlider js -->
-			<script defer src="js/jquery.flexslider.js"></script>
-			<script type="text/javascript">
-				$(window).load(function(){
-				  $('.flexslider').flexslider({
-					animation: "slide",
-					start: function(slider){
-					  $('body').removeClass('loading');
-					}
-				  });
-				});
-			</script>
-			<!-- //FlexSlider js -->
-		</div>
-	</div>
-	<!-- //testimonials -->
-
-    <!-- callendar -->
-    <div id="callendar" class="blog gallery">
-		<div class="container"> 
-            <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
-            <div class="blog-agileinfo">
-                <img src="images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
+	<!-- //banner -->
+	<!-- about -->
+    <div class="about-detail">
+        <div class="container">
+        <h3 class="w3stitle w3stitle1">Visi dan Misi</h3><br>
+        <div class="row">
+            <div class="row-eq-height">
+            <div class="col-sm-6 col-xs-12" style="background:#66c2ff;">
+                <h3 class="w3stitle w3stitle1">Visi</h3>
+                <ol>
+                    <li>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</li>
+                    <li>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</li>
+                    <li>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</li>
+                    <li>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</li>
+                </ol>
+                <div class="clearfix"> </div>
+            </div> 
+            <div class="col-sm-6 col-xs-12" style="background:#0077b3;"> 
+		        <h3 class="w3stitle w3stitle1">Misi</h3>
+                <ol>
+                    <li>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</li>
+                    <li>Melaksanakan pola pemuridan yang berkelanjutan.</li>
+                    <li>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</li>
+                    <li>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</li>
+                </ol>
+                <div class="clearfix"> </div>
+		    </div>  
             </div>
         </div>
     </div>
-    <!-- //callendar -->
+    </div>
+	<!-- //about --> 
     
-    <!-- subscribe -->
-	<div class="subscribe wthree-sub jarallax">  
-		<div class="subscribe-agileinfo">  
-			<div class="container"> 
-				<div class="col-sm-6 sub-w3lsleft"> 
-					<h3 class="w3stitle">Subscribe <span> Newsletter</span></h3>   
-					<p>Sed tincidunt lorem sed velit lacus ornare <a href="">Privacy policy</a>.</p>			
+    <!-- divisi -->
+	<div class="contact">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
+            <div class="blog-agileinfo">
+				<div class="col-md-7 blog-w3grid-img">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+					</a>  
 				</div>
-				<div class="col-sm-6 sub-w3lsright">
-					<form action="#" method="post"> 
-						<input type="email" name="email" placeholder="Enter your Email..." required="">
-						<input type="submit" value="Subscribe">
-						<div class="clearfix"> </div>
-					</form>  
-				</div>
-				<div class="clearfix"></div> 
+				<div class="col-md-5 blog-w3grid-text"> 
+                    <h4><a href="#myModal" data-toggle="modal">Pemuridan</a></h4><br>
+					<p><b>Discipleship Development</b></p>
+                    <p><b>Kelompok Kecil (KK)</b></p>
+                    <p><b>Kelompok Besar (KB)</b></p> 
+                    <p><b>Kelompok Pra Alumni (KPA)</b></p> 
+				</div> 
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- //subscribe -->
-    
+    <div class="gallery">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">Media Informasi</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+	</div>
+    <div class="contact">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Persekutuan</span></h3>     
+			<div class="blog-agileinfo">
+				<div class="col-md-7 blog-w3grid-img">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">Persekutuan</a></h4><br>
+					<p><b>Acara</b></p>
+                    <p><b>Ministry</b></p>
+                    <p><b>Maintenance</b></p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+    <div class="gallery">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> DPK</span></h3>     
+			<div class="container">
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">Doa Pemerhati dan Konseling</a></h4><br>
+					<p><b>Menara Doa</b></p>
+                    <p><b>Persekutuan Doa</b></p>
+                    <p><b>Konseling Doa</b></p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+		</div>
+	</div>
+    <div class="contact">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> PKMBK</span></h3>     
+			<div class="blog-agileinfo">
+				<div class="col-md-7 blog-w3grid-img">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+    <div class="gallery">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Natal Paskah</span></h3>     
+			<div class="container">
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">NAPAS</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+		</div>
+	</div>
+     <div class="contact">
+		<div class="container">
+			<h3 class="w3stitle">TEST</h3>     
+			<div class="blog-agileinfo">
+				<div class="col-md-7 blog-w3grid-img">
+					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //divisi -->
 	<!-- gallery -->
 	<div id="gallery" class="gallery">
 		<div class="container"> 
@@ -401,20 +358,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<h3 class="w3stitle">Contact <span> us</span></h3>
 			<div class="contact-row agileits-w3layouts">  
-<!--
-				<div class="col-md-6 col-sm-6 contact-w3lsleft">
-					<div class="contact-grid agileits">
-						<h4>DROP US A LINE </h4>
-						<form action="#" method="post"> 
-							<input type="text" name="Name" placeholder="Name" required="">
-							<input type="email" name="Email" placeholder="Email" required=""> 
-							<input type="text" name="Phone Number" placeholder="Phone Number" required="">
-							<textarea name="Message" placeholder="Message..." required=""></textarea>
-							<input type="submit" value="Submit" >
-						</form> 
-					</div>
-				</div>
--->
                 <div class="col-md-12 col-sm-12 contact-w3lsright" align="center">
 					<h6><span>Sed interdum </span>interdum accumsan nec purus ac orci finibus facilisis.</h6>
 					<div class="col-md-4 col-sm-4 address-row">
@@ -423,7 +366,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Visit Us</h5>
-							<p>Bmr St, Canada, New York, USA</p>
+							<p>SCC Lantai 2 - Institut Teknologi Sepuluh Nopember</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -433,7 +376,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Mail Us</h5>
-							<p><a href="mailto:info@example.com"> mail@example.com</a></p>
+							<p><a href="mailto:divhumas.pmk.its@gmail.com"> divhumas.pmk.its@gmail.com</a></p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -443,7 +386,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Call Us</h5>
-							<p>+01 222 333 4444</p>
+							<p>+62813 9663 7328</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div> 
@@ -518,7 +461,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 				</ul>
 			</div>
-			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2016 Let's Party. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 
@@ -527,25 +470,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="pop_up w3-agile">
 			<div class="payment-online-form-left">
 				<form action="#" method="post"> 
-					<h4>Identitasmu</h4>
+					<h4>Account Info</h4>
 					<ul>
-						<li><input class="text-box-dark" placeholder="Nama" type="text" required=""></li>
-						<li><input class="text-box-dark" placeholder="NRP" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="First Name" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="Last Name" type="text" required=""></li>
+					</ul>
+					<ul>
+						<li><input class="text-box-dark" placeholder="Email" type="email" required=""></li>
+						<li><input class="text-box-dark" placeholder="Phone Number" type="text" required=""></li> 
 					</ul> 
 					<ul>  
 						<li>
-							<label>Angkatan</label>
+							<label>No of Tickets</label>
 							<select class="form-control">
-								<option value="2017">2017</option>
-								<option value="2016">2016</option>
-								<option value="2015">2015</option>
-								<option value="2014">2014</option>
-								<option value="2013">2013</option>
-								<option value="0">Lainnya</option>
+								<option value="1">1 Ticket</option>
+								<option value="2">2 Tickets</option>
+								<option value="3">3 Tickets</option>
+								<option value="4">4 Tickets</option>
+								<option value="5">5 Tickets</option>
+								<option value="6">More</option>
 							</select> 
 						</li>
 						<li>
-							<label>Jurusan</label>
+							<label>Package</label>
 							<select class="form-control"> 
 								<option value="1">Classic</option>
 								<option value="2">Elite</option>
@@ -554,11 +501,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</select>
 						</li> 
 					</ul>	
-<!--					<ul> 
+					<ul> 
 						<li class="w3ls-address"><input class="text-box-dark" placeholder="Address" type="text" required=""></li> 
-					</ul>	-->
+					</ul>	
 					<div class="clearfix"> </div>
-<!--
 					<h4>Payment Method</h4> 
 					<ul class="payment-type w3-agile"> 
 						<li><span class="col_checkbox">
@@ -582,10 +528,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><input class="text-box-dark" placeholder="Expiration Date" type="text" required=""></li>
 						<li><input class="text-box-dark" placeholder="Security Code" type="text" required=""></li>
 					</ul> 
--->
 					<ul class="payment-sendbtns">
 						<li><input type="reset" value="Reset"></li>
-						<li><input type="submit" value="Absen"></li>
+						<li><input type="submit" value="Process order"></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</form>
