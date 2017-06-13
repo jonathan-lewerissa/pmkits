@@ -4,11 +4,11 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>ABOUT PMK ITS</title>
+    <title>Renungan Harian - PMK ITS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -19,10 +19,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
     <link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
-    <link rel="stylesheet" href="css/lightbox.css"> 
+    <link rel="stylesheet" href="css/lightbox.css">    
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
-    <!-- //Custom Theme files --> 
 
+    <!-- //Custom Theme files --> 
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>  
     <!-- //js -->
@@ -48,26 +48,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="welcome">PMK <span>ITS</span></a></h1>
+						<h1><a class="navbar-brand" href="index.html">Let's <span>Party</span></a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-<!--
-							<li class="dropdown">
-                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
-                                    <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
-                                </ul>
-                            </li>
--->
-                            <li><a href="welcome">Beranda</a></li>
-                            <li><a href="#" data-hover="Tentang">Tentang</a></li>
-                            <li><a href="renungan">Renungan Harian</a></li>
+							<li><a href="welcome">Beranda</a></li>
+                            <li><a href="#">Tentang</a></li>
+                            <li><a href="renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
-						</ul>
+                        </ul>
 					</div>
 					<!-- /.navbar-collapse -->
 				</div>
@@ -77,67 +68,57 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>About PMK ITS</h2>
+			<h2>Happy New Year</h2>
 			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
+			<!-- timer -->
+			<div class="agileits-timer"> 
+				<div class="clock">
+					<div class="column days">
+						<div class="timer" id="days"></div>
+						<div class="text">Days</div>
+					</div>
+					<div class="timer days"></div>
+					<div class="column">
+						<div class="timer" id="hours"></div>
+						<div class="text">Hours</div>
+					</div>
+					<div class="timer"></div>
+					<div class="column">
+						<div class="timer" id="minutes"></div>
+						<div class="text">Minutes</div>
+					</div>
+					<div class="timer"></div>
+					<div class="column">
+						<div class="timer" id="seconds"></div>
+						<div class="text">Seconds</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>	 
+			</div>
+			<!-- //timer --> 
+			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Get Your Entry Ticket </a> 
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
-	<!-- //banner -->
-	<!-- about -->
-    <div class="about-container">
-        <h3 style="font-size: 3em; padding: 10px;" align="center">Visi dan Misi</h3><br>
-        <div class="row">
-            <div class="col-sm-3 col-xs-3 about-detail">
-                <h3 class="w3stitle w3stitle1">Visi</h3>
-            </div>
-            <div class="col-sm-9 col-xs-9 about-detail">
-            <ol style="margin:0 10px 0 0">
-                <li>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</li>
-                <li>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</li>
-                <li>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</li>
-                <li>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</li>
-            </ol>
-            </div>
-        </div>
-        <div class="col-sm-9 col-xs-9 about-detail" height="100%"> 
-        <ol>
-            <li>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</li>
-            <li>Melaksanakan pola pemuridan yang berkelanjutan.</li>
-            <li>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</li>
-            <li>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</li>
-        </ol>
-        </div>
-        <div class="col-sm-3 col-xs-3 about-detail" height="100%">
-            <h3 class="w3stitle w3stitle1">Misi</h3>
-        </div>
-        <div class="clearfix"> </div> 
-    </div>
-	<!-- //about --> 
-    
-    <!-- divisi -->
-	<div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
-            <div class="blog-agileinfo">
+	<!-- //banner --> 
+	
+	<!-- blog -->
+	<div id="blog" class="blog gallery">
+		<div class="container">  
+			<h3 class="w3stitle">Renungan<span> Hari Ini</span></h3>     
+			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="images/img1.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-                    <h4><a href="#myModal" data-toggle="modal">Pemuridan</a></h4><br>
-					<p><b>Discipleship Development</b></p>
-                    <p><b>Kelompok Kecil (KK)</b></p>
-                    <p><b>Kelompok Besar (KB)</b></p> 
-                    <p><b>Kelompok Pra Alumni (KPA)</b></p> 
+					<h4><a href="#myModal" data-toggle="modal">Efesus 5 : 22 - 23</a></h4>
+					<h6>By <a href="#"> peemkaitees</a> - Feb 25th, 2017 </h6>
+					<p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. </p>
 				</div> 
 				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-    <div class="gallery">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
+			</div> 
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
@@ -145,17 +126,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Media Informasi</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
+					<h4><a href="#myModal" data-toggle="modal">Amsal 31:10-31</a></h4>
+					<h6>By <a href="#"> peemkaitees</a> - Feb 26th, 2017 </h6>
+					<p>Pada Desember 2015, Litbang Kompas mengadakan survei dengan responden 1.640 siswa SMA di 12 kota di Indonesia. Mereka diminta menyebutkan sosok pahlawan dalam kehidupan mereka. Sebagian besar responden menyebutkan ibu masing-masing. </p>
 				</div> 
 				<div class="clearfix"> </div>
 			</div> 
-		</div>
-	</div>
-    <div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Persekutuan</span></h3>     
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
@@ -163,93 +139,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Persekutuan</a></h4><br>
-					<p><b>Acara</b></p>
-                    <p><b>Ministry</b></p>
-                    <p><b>Maintenance</b></p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-    <div class="gallery">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> DPK</span></h3>     
-			<div class="container">
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Doa Pemerhati dan Konseling</a></h4><br>
-					<p><b>Menara Doa</b></p>
-                    <p><b>Persekutuan Doa</b></p>
-                    <p><b>Konseling Doa</b></p>
+					<h4><a href="#myModal" data-toggle="modal">Lukas 3:7-14</a></h4>
+					<h6>By <a href="#"> peemkaitees</a> - Feb 27th, 2017 </h6>
+					<p>Abraham dikenal sebagai bapak orang beriman. Ia memiliki ketaatan yang tidak kepalang tanggung kepada Allah. Ketika dipanggil keluar dari Ur-Kasdim ke negeri yang tidak diketahuinya, ia taat. Ketika disuruh mempersembahkan Ishak, anak yang sangat dikasihinya, ia taat.</p>
 				</div> 
 				<div class="clearfix"> </div>
 			</div> 
 		</div>
-		</div>
 	</div>
-    <div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> PKMBK</span></h3>     
-			<div class="blog-agileinfo">
-				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
-					</a>  
+	<!-- //blog --> 
+	<!-- subscribe -->
+	<div class="subscribe wthree-sub jarallax">  
+		<div class="subscribe-agileinfo">  
+			<div class="container"> 
+				<div class="col-sm-6 sub-w3lsleft"> 
+					<h3 class="w3stitle">Subscribe <span> Newsletter</span></h3>   
+					<p>Sed tincidunt lorem sed velit lacus ornare <a href="">Privacy policy</a>.</p>			
 				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
-				</div> 
-				<div class="clearfix"> </div>
+				<div class="col-sm-6 sub-w3lsright">
+					<form action="#" method="post"> 
+						<input type="email" name="email" placeholder="Enter your Email..." required="">
+						<input type="submit" value="Subscribe">
+						<div class="clearfix"> </div>
+					</form>  
+				</div>
+				<div class="clearfix"></div> 
 			</div>
 		</div>
 	</div>
-    <div class="gallery">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> NAPAS</span></h3>     
-			<div class="container">
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Natal Paskah</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div> 
-		</div>
-		</div>
-	</div>
-     <div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">TEST</h3>     
-			<div class="blog-agileinfo">
-				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //divisi -->
+	<!-- //subscribe -->
 	<!-- contact -->
 	<div id="contact" class="contact">
 		<div class="container"> 
@@ -352,16 +270,89 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
 				<ul>
-					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 				</ul>
 			</div>
-			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2016 Let's Party. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 
-	
+	<!-- pop-up-grid -->
+	<div id="small-dialog" class="mfp-hide">
+		<div class="pop_up w3-agile">
+			<div class="payment-online-form-left">
+				<form action="#" method="post"> 
+					<h4>Account Info</h4>
+					<ul>
+						<li><input class="text-box-dark" placeholder="First Name" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="Last Name" type="text" required=""></li>
+					</ul>
+					<ul>
+						<li><input class="text-box-dark" placeholder="Email" type="email" required=""></li>
+						<li><input class="text-box-dark" placeholder="Phone Number" type="text" required=""></li> 
+					</ul> 
+					<ul>  
+						<li>
+							<label>No of Tickets</label>
+							<select class="form-control">
+								<option value="1">1 Ticket</option>
+								<option value="2">2 Tickets</option>
+								<option value="3">3 Tickets</option>
+								<option value="4">4 Tickets</option>
+								<option value="5">5 Tickets</option>
+								<option value="6">More</option>
+							</select> 
+						</li>
+						<li>
+							<label>Package</label>
+							<select class="form-control"> 
+								<option value="1">Classic</option>
+								<option value="2">Elite</option>
+								<option value="3">Couple</option>
+								<option value="4">Special</option> 
+							</select>
+						</li> 
+					</ul>	
+					<ul> 
+						<li class="w3ls-address"><input class="text-box-dark" placeholder="Address" type="text" required=""></li> 
+					</ul>	
+					<div class="clearfix"> </div>
+					<h4>Payment Method</h4> 
+					<ul class="payment-type w3-agile"> 
+						<li><span class="col_checkbox">
+							<input type="radio" name="payment-method" id="paypal" value="paypal"> 
+							<a class="visa" href="#"> </a>
+							</span>												
+						</li>
+						<li>
+							<span class="col_checkbox">
+								<input type="radio" name="payment-method" id="card" value="card" checked="">
+								<a class="paypal" href="#"> </a>
+							</span>
+						</li>  
+					</ul>
+					<div class="clearfix"> </div>
+					<ul>
+						<li><input class="text-box-dark" placeholder="Card Number" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="Name on card" type="text" required=""></li>
+					</ul>
+					<ul>
+						<li><input class="text-box-dark" placeholder="Expiration Date" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="Security Code" type="text" required=""></li>
+					</ul> 
+					<ul class="payment-sendbtns">
+						<li><input type="reset" value="Reset"></li>
+						<li><input type="submit" value="Process order"></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //pop-up-grid --> 
 	<!-- modal -->
 	<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -371,14 +362,83 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="modal-body">
 					<img src="images/img2.jpg" alt=""> 
-					<h5>Cras rutrum iaculis enim</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+					<h5>Efesus 5:22-33</h5>
+                    <p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. Sudah tidak lagi saling mengasihi, begitu alasan yang sering dipakai. Lalu ke manakah kasih yang dahulu ketika memulai pernikahan? Sudah habis? Luntur? Ataukah memang kasihnya hanya berkualitas palsu?</p>
+
+                    <p>Firman Allah memerintahkan pasangan suami-istri untuk membangun hubungan pernikahan di atas dasar kasih Kristus. Suami dipanggil untuk mengasihi istrinya seperti Kristus mengasihi jemaat (ay. 25), ada pun istri dipanggil untuk menundukkan diri pada suami seperti kepada Tuhan (ay. 22). Hubungan kasih antara Kristus dan jemaat menjadi tolok ukur hubungan kasih suami-istri (ay. 32). Kasih Kristus yang kekal adalah dasar yang teguh untuk membangun hubungan pernikahan di tengah dunia yang berubah-ubah dan penuh tantangan ini.</p>
+
+                    <p>Jika Allah tidak hadir dalam hidup seseorang, mustahil baginya untuk mengalirkan kasih yang sejati kepada pasangannya. Ia tidak memiliki sumber kasih yang sejati. Sumber kasihnya hanyalah perasaan yang bisa memudar, ketertarikan fisik, atau hal-hal lain yang fana, bukan kasih Kristus yang kekal. Sebaliknya, ketika kita tinggal di dalam kasih Kristus, kasih-Nya itu akan mengalir dari hati kita kepada pasangan kita. Kasih-Nya yang sempurna akan memampukan kita mengasihi dan menghormati pasangan kita yang tidak sempurna.</p>
 				</div> 
 			</div>
 		</div>
 	</div>
 	<!-- //modal -->
-	
+	<!-- modal -->
+	<div class="modal about-modal w3-agileits fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body login-page "><!-- login-page -->      
+					<div class="sap_tabs">
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							<ul class="resp-tabs-list">
+								<li class="resp-tab-item" aria-controls="tab_item-0"><span>Login</span></li>
+								<li class="resp-tab-item" aria-controls="tab_item-1"><span>Register</span></li> 
+							</ul>	 
+							<div class="clearfix"> </div>	
+							<div class="resp-tabs-container">
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="agileits-login">
+										<form action="#" method="post">
+											<input type="text" class="email" name="Email" placeholder="Email" required=""/>
+											<input type="password" class="password" name="Password" placeholder="Password" required=""/>
+											<div class="wthree-text"> 
+												<ul> 
+													<li>
+														<label class="anim">
+															<input type="checkbox" class="checkbox">
+															<span> Remember me ?</span> 
+														</label> 
+													</li>
+													<li> <a href="#">Forgot password?</a> </li>
+												</ul>
+												<div class="clearfix"> </div>
+											</div>  
+											<div class="w3ls-submit"> 
+												<input type="submit" value="LOGIN">  	
+											</div>	
+										</form>
+									</div> 
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="login-top sign-top">
+										<div class="agileits-login">
+											<form action="#" method="post">
+												<input type="text" name="Username" placeholder="Username" required="">
+												<input type="text" class="email" name="Email" placeholder="Email" required=""/>
+												<input type="password" class="password" name="Password" placeholder="Password" required=""/>	
+												<label class="anim">
+													<input type="checkbox" class="checkbox">
+													<span> I accept the terms of use</span> 
+												</label> 
+												<div class="w3ls-submit"> 
+													<input class="register" type="submit" value="REGISTER">  
+												</div>
+											</form> 
+										</div>  
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="clearfix"> </div>
+					</div>   
+				</div> <!-- //login-page -->
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->  		 
 	<!-- fireworks scripts --> 
 	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
 	<script>	

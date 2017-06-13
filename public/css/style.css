@@ -326,13 +326,13 @@ p {
 .about-container{
     padding: 1.2em 0 1.2em 0;
     text-align: justify;
-    background: #004466;
-    color: black;
+    background: #a22c48;
+    color: white;
     display: table;
     width: 100%;
 }
 .about-detail{
-    display: table-cell;
+    background: #004466;
     padding: 20px;
 }
 .welcome-w3center{ 

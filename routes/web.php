@@ -31,6 +31,10 @@ Route::get('/about', function() {
     return view('about');
 });
 
+Route::get('/renungan', function() {
+    return view('renungan');
+});
+
 Route::get('/dashboard', function() {
     return view('dashboard');
 });

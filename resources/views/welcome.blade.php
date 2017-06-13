@@ -63,9 +63,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#" data-hover="Beranda">Beranda</a></li>
                             <li><a href="about">Tentang</a></li>
-                            <li><a href="#" >Renungan Harian</a></li>
+                            <li><a href="renungan">Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
 						</ul>
 					</div>
@@ -178,6 +178,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div> 
 	</div>
 	<!-- //persekutuan jumat -->
+    
+    <!-- services -->
+	<div id="services" class="services">
+		<div class="container">   
+			<div class="services-w3ls-row">
+				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
+					<img src="images/pmk-its.png" alt=" " class="img-responsive" />
+					<h5>PMK ITS</h5>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
+					<img src="images/pkmbk.png" alt=" " class="img-responsive" />
+					<h5>Pembinaan Kerohanian Mahasiswa Baru Kristen</h5>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
+					<img src="images/napas.png" alt=" " class="img-responsive" />
+					<h5>Natal Paskah ITS</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>  
+		</div>
+	</div>
+	<!-- //services -->
     
 	<!-- renungan -->
 	<div class="video-agileits jarallax">
