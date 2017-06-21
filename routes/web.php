@@ -44,3 +44,6 @@ Route::resource('/listdosenkaryawan','DosenkaryawanController');
 Route::resource('/listalumni','AlumniController');
     
 Route::get('/home', 'HomeController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
