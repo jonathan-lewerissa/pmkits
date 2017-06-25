@@ -27,17 +27,11 @@ Route::get('/welcome', function () {
 Route::get('/about', function() {
     return view('about');
 });
-
-Route::get('/renungan', function() {
-    return view('renungan');
-});
-
-Route::get('/dashboard', function() {
-    return view('dashboard');
-});
     
-Route::resource('/dashboard', 'DashboardController');
-Route::resource('/listmahasiswa','MahasiswaController');
-Route::resource('/listdosenkaryawan','DosenkaryawanController');
-Route::resource('/listalumni','AlumniController');
+Route::resource('dashboard', 'DashboardController');
+Route::resource('mahasiswa','MahasiswaController');
+Route::resource('doskar','DosenkaryawanController');
+Route::resource('alumni','AlumniController');
+Route::resource('event','EventController');
+Route::resource('renungan','RenunganController');
     
