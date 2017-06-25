@@ -26,6 +26,7 @@ class CreateMahasiswasTable extends Migration
             $table->string('gereja', 50);
             $table->string('no_hp',13);
             $table->string('line_id',30);
+            $table->string('talenta',50);
             $table->rememberToken();
             $table->timestamps();
         });

@@ -24,6 +24,7 @@ class MahasiswaTableSeeder extends Seeder
         $mhs1->gereja = 'Gereja';
         $mhs1->no_hp = '081122233344';
         $mhs1->line_id = 'pras';
+        $mhs1->talenta = 'musik';
         $mhs1->save();
         
         $mhs2 = new Mahasiswa();
@@ -38,6 +39,7 @@ class MahasiswaTableSeeder extends Seeder
         $mhs2->gereja = 'Gereja';
         $mhs2->no_hp = '081112233344';
         $mhs2->line_id = 'josh';
+        $mhs2->talenta = 'musik';
         $mhs2->save();
     }
 }
