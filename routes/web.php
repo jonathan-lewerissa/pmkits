@@ -11,17 +11,14 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', 'HomeController@index');
+//Route::get('/home', 'HomeController@index');
 
-Route::get('dashboard', function() {
-    return view('dashboard');
-});
-
-Route::get('/home', 'HomeController@index');
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -39,11 +36,8 @@ Route::get('/dashboard', function() {
     return view('dashboard');
 });
     
+Route::resource('/dashboard', 'DashboardController');
 Route::resource('/listmahasiswa','MahasiswaController');
 Route::resource('/listdosenkaryawan','DosenkaryawanController');
 Route::resource('/listalumni','AlumniController');
     
-Route::get('/home', 'HomeController@index');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');
