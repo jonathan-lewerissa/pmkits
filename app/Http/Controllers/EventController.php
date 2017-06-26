@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
 
 class EventController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,6 +19,8 @@ class EventController extends Controller
     public function index()
     {
         //
+        $event = Event::paginate(10);
+//        return view('event.index', compact('event'));
     }
 
     /**

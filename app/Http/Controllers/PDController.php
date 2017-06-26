@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\PD;
 
 class PDController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,6 +19,8 @@ class PDController extends Controller
     public function index()
     {
         //
+        $pd = PD::paginate(10);
+//        return view('pd.index', compact('pd'));
     }
 
     /**

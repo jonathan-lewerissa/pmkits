@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Renungan;
 
 class RenunganController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,6 +19,8 @@ class RenunganController extends Controller
     public function index()
     {
         //
+        $renungan = Renungan::paginate(10);
+//        return view('renungan.index', compact('renungan'));
     }
 
     /**

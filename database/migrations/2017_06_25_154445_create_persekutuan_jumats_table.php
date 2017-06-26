@@ -15,6 +15,11 @@ class CreatePersekutuanJumatsTable extends Migration
     {
         Schema::create('persekutuan_jumats', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 20);
+            $table->date('date');
+            $table->bigInteger('absence')->unsigned();
+            $table->bigInteger('persembahan')->unsigned();
+            $table->string('notes', 200);
             $table->timestamps();
         });
     }

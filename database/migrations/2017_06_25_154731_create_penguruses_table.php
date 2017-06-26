@@ -15,6 +15,9 @@ class CreatePengurusesTable extends Migration
     {
         Schema::create('penguruses', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nrp', 20);
+            $table->string('name', 20);
+            $table->string('divisi', 20);
             $table->timestamps();
         });
     }

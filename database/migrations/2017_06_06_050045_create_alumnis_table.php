@@ -40,6 +40,6 @@ class CreateAlumnisTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('alumnis');
     }
 }

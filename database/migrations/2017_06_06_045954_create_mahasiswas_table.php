@@ -27,6 +27,9 @@ class CreateMahasiswasTable extends Migration
             $table->string('no_hp',13);
             $table->string('line_id',30);
             $table->string('talenta',50);
+            $table->bigInteger('kehadiran_pj')->unsigned();
+            $table->bigInteger('kehadiran_pd')->unsigned();
+            $table->bigInteger('kehadiran_rapat')->unsigned();
             $table->rememberToken();
             $table->timestamps();
         });
@@ -39,6 +42,6 @@ class CreateMahasiswasTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('mahasiswas');
     }
 }

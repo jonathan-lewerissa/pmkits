@@ -7,6 +7,10 @@ use App\Alumni;
 
 class AlumniController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -16,6 +20,7 @@ class AlumniController extends Controller
     {
         $alumni = Alumni::paginate(10);
         return view('alumni.index',compact('alumni'));
+//        return view('alumni.index')->with('alumni',$alumni);
     }
 
     /**

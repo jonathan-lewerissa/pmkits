@@ -38,6 +38,6 @@ class CreateDosenkaryawansTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('dosenkaryawans');
     }
 }

@@ -15,6 +15,9 @@ class CreateDivisisTable extends Migration
     {
         Schema::create('divisis', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 20);
+            $table->bigInteger('anggota')->unsigned();
+            $table->bigInteger('event')->unsigned();
             $table->timestamps();
         });
     }

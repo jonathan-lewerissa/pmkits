@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>PMK ITS | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -158,8 +158,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        List Mahasiswa
-        <small>Control panel</small>
+        Mahasiswa
+        <small>Data Mahasiswa</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -170,49 +170,59 @@
 
     <!-- Main content -->
     <br><br>
-    <div class="container">
-    @php $count = 1 @endphp
-      <table class="table" style="width:auto">
-        <thead>
-          <tr>
-            <th>No.</th>
-            <th>Name</th>
-            <th>NRP</th>
-            <th>Email</th>
-            <th>JK</th>
-            <th>Asal</th>
-            <th>Tanggal Lahir</th>
-            <th>Alamat Surabaya</th>
-            <th>Alamat Asal</th>
-            <th>Gereja</th>
-            <th>No. HP</th>
-            <th>Line ID</th>
-          </tr>
-        </thead>
-        @if($mhs->count())
-        <tbody>
-          @foreach($mhs as $m)
-          <tr>
-            <td>@php echo $count++ @endphp</td>
-            <td>{{$m->name}}</td>
-            <td>{{$m->nrp}}</td>
-            <td>{{$m->email}}</td>
-            <td>{{$m->jk}}</td>
-            <td>{{$m->asal}}</td>
-            <td>{{$m->tgl_lahir}}</td>
-            <td>{{$m->alamat_sby}}</td>
-            <td>{{$m->alamat_asal}}</td>
-            <td>{{$m->gereja}}</td>
-            <td>{{$m->no_hp}}</td>
-            <td>{{$m->line_id}}</td>
-          </tr>
-          @endforeach
-        </tbody>
-        @endif
-      </table>
-      {{$mhs->render()}}
-    </div>
-      
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-body">
+                    <h3>Data Mahasiswa</h3>
+                        <div class="table-responsive" style="overflow: auto">
+                        <table id="alumni" class="table table-bordered table-striped">
+                        @php $count = 1 @endphp
+                            <thead>
+                              <tr>
+                                <th>No.</th>
+                                <th>Name</th>
+                                <th>NRP</th>
+                                <th>Email</th>
+                                <th>JK</th>
+                                <th>Asal</th>
+                                <th>Tanggal Lahir</th>
+                                <th>Alamat Surabaya</th>
+                                <th>Alamat Asal</th>
+                                <th>Gereja</th>
+                                <th>No. HP</th>
+                                <th>Line ID</th>
+                              </tr>
+                            </thead>
+                            @if($mhs->count())
+                            <tbody>
+                              @foreach($mhs as $m)
+                              <tr>
+                                <td>@php echo $count++ @endphp</td>
+                                <td>{{$m->name}}</td>
+                                <td>{{$m->nrp}}</td>
+                                <td>{{$m->email}}</td>
+                                <td>{{$m->jk}}</td>
+                                <td>{{$m->asal}}</td>
+                                <td>{{$m->tgl_lahir}}</td>
+                                <td>{{$m->alamat_sby}}</td>
+                                <td>{{$m->alamat_asal}}</td>
+                                <td>{{$m->gereja}}</td>
+                                <td>{{$m->no_hp}}</td>
+                                <td>{{$m->line_id}}</td>
+                              </tr>
+                              @endforeach
+                            </tbody>
+                            @endif
+                          </table>
+                          {{$mhs->render()}}
+                        </div> 
+                    </div>
+                </div>
+              </div>
+          </div>
+        </section>
     <!-- /.Main content -->
     
   </div>

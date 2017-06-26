@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Absensi;
 
 class AbsensiController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,6 +19,8 @@ class AbsensiController extends Controller
     public function index()
     {
         //
+        $absensi = Absensi::paginate(10);
+//        return view('absensi.index', compact('absensi'));
     }
 
     /**
