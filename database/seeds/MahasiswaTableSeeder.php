@@ -25,6 +25,9 @@ class MahasiswaTableSeeder extends Seeder
         $mhs1->no_hp = '081122233344';
         $mhs1->line_id = 'pras';
         $mhs1->talenta = 'musik';
+        $mhs1->kehadiran_pj = 0;
+        $mhs1->kehadiran_pd = 0;
+        $mhs1->kehadiran_rapat = 0;
         $mhs1->save();
         
         $mhs2 = new Mahasiswa();
@@ -40,6 +43,9 @@ class MahasiswaTableSeeder extends Seeder
         $mhs2->no_hp = '081112233344';
         $mhs2->line_id = 'josh';
         $mhs2->talenta = 'musik';
+        $mhs2->kehadiran_pj = 0;
+        $mhs2->kehadiran_pd = 0;
+        $mhs2->kehadiran_rapat = 0;
         $mhs2->save();
     }
 }
