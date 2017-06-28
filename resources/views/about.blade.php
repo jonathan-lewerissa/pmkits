@@ -16,15 +16,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
     <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
-    <link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
-    <link rel="stylesheet" href="css/lightbox.css"> 
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+    <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="public/css/style.css" type="text/css" rel="stylesheet" media="all">   
+    <link href="public/css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->   
+    <link rel="stylesheet" href="public/css/lightbox.css"> 
+    <link rel="stylesheet" href="public/css/flexslider.css" type="text/css" media="screen" /> 
     <!-- //Custom Theme files --> 
 
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>  
+    <script src="public/js/jquery-2.2.3.min.js"></script>  
     <!-- //js -->
 
     <!-- web-fonts -->   
@@ -121,7 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -141,7 +141,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -159,7 +159,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -179,7 +179,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -199,7 +199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -218,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -237,7 +237,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -380,7 +380,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //modal -->
 	
 	<!-- fireworks scripts --> 
-	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
+	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
@@ -388,13 +388,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //fireworks scripts -->
 	<!-- timer scripts --> 
-	<script type="text/javascript" src=" js/moment.js"></script>
-	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
-	<script type="text/javascript" src="js/timer.js"></script>
+	<script type="text/javascript" src=" public/js/moment.js"></script>
+	<script type="text/javascript" src=" public/js/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="public/js/timer.js"></script>
 	<!-- //scripts -->  
 	<!-- jarallax -->
-	<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="public/js/jarallax.js"></script>
+	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -405,7 +405,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //jarallax --> 
 	<!-- ResponsiveTabs js -->
-	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="public/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#horizontalTab').easyResponsiveTabs({
@@ -417,10 +417,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //ResponsiveTabs js --> 
 	<!-- Scrolling Nav JavaScript --> 
-    <script src="js/scrolling-nav.js"></script>  
+    <script src="public/js/scrolling-nav.js"></script>  
 	<!-- //fixed-scroll-nav-js --> 
 	<!-- pop-up-box -->    
-	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="public/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({
@@ -439,8 +439,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script> 
 	<!-- //pop-up-box -->
 	<!-- start-smooth-scrolling --> 
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript" src="public/js/move-top.js"></script>
+	<script type="text/javascript" src="public/js/easing.js"></script>	
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -471,6 +471,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
 </body>
 </html>

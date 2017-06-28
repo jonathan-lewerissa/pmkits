@@ -34,7 +34,7 @@
             <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-          <div class="col-lg-2 col-xs-4">
+        <div class="col-lg-2 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-orange">
             <div class="inner">
@@ -111,7 +111,45 @@
       <!-- /.row -->
       <!-- Main row -->
         <div class="row">
-            
+            <div class="col-md-6">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                      <h3 class="box-title"><strong>Rekap Kehadiran PJ PMK ITS 2017/2018</strong></h3>
+
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                      </div>
+                    </div>
+                    <div class="box-body">
+                      <div class="chart">
+                        <canvas id="lineChart" style="height:250px"></canvas>
+                      </div>
+                    </div>
+                <!-- /.box-body -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                      <h3 class="box-title"><strong>Rekap Kehadiran PD PMK ITS 2017/2018</strong></h3>
+
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                      </div>
+                    </div>
+                    <div class="box-body">
+                      <div class="chart">
+                        <canvas id="lineChart" style="height:250px"></canvas>
+                      </div>
+                    </div>
+                <!-- /.box-body -->
+                </div>
+            </div>
+          <!-- /.box -->
         </div>
       <!-- /.row (main row) -->
 
@@ -151,6 +189,8 @@
 <script src="public/Admin-LTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <!-- Slimscroll -->
 <script src="public/Admin-LTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- ChartJS 1.0.1 -->
+<script src="public/Admin-LTE/plugins/chartjs/Chart.min.js"></script>
 <!-- FastClick -->
 <script src="public/Admin-LTE/plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
