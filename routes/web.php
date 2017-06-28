@@ -27,9 +27,9 @@ Route::get('/welcome', function () {
 Route::get('/about', function() {
     return view('about');
 });
-    
-Route::get('/dashboard', 'DashboardController@index');
-Route::get('/logout', 'DashboardController@logout');
+
+Route::get('logout', 'Auth\LoginController@logout');
+Route::get('dashboard', 'DashboardController@index');
 Route::resource('mahasiswa','MahasiswaController');
 Route::resource('doskar','DosenkaryawanController');
 Route::resource('alumni','AlumniController');

@@ -20,18 +20,9 @@ class DashboardController extends Controller
     public function index()
     {
         //
-        $user = Auth::user();
         if(Auth::check()){
+            $user = Auth::user();
             return view("dashboard")->with('user',$user);
-        }
-        
-    }
-
-    public function logout()
-    {
-        if(Auth::check()){
-            Auth::logout();
-            return route("login");
-        }
+        }        
     }
 }

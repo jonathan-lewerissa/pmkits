@@ -155,19 +155,19 @@
         <li class="header">PERSEKUTUAN</li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Persekutuan Jumat</span>
+            <i class="fa fa-users"></i> <span>Persekutuan Jumat</span>
           </a>
         </li>
         
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Persekutuan Doa Jurusan</span>
+            <i class="fa fa-users"></i> <span>Persekutuan Doa Jurusan</span>
           </a>
         </li>
           
         <li class="header">LOGOUT</li>
         <li class="treeview">
-          <a href="{{url('/logout')}}">
+          <a href="{{route('logout')}}">
             <i class="fa fa-power-off"></i> <span>Logout</span>
           </a>
         </li>
@@ -180,9 +180,9 @@
   @yield('content')
     <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
+      <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+    <strong>PMK ITS 2017-2018</strong> All rights
     reserved.
   </footer>
 </div>

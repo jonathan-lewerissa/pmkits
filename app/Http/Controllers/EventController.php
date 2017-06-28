@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Event;
 
@@ -19,8 +20,9 @@ class EventController extends Controller
     public function index()
     {
         //
+        $user = Auth::user();
         $event = Event::paginate(10);
-//        return view('event.index', compact('event'));
+        return view('event.index', compact('event'))->with('user',$user);
     }
 
     /**

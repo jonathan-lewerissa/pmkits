@@ -25,7 +25,7 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                    <h3>Data Alumni</h3>
+                        <h3>Data Alumni <a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
                         <div class="table-responsive" style="overflow: auto">
                         <table id="alumni" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
@@ -45,6 +45,8 @@
                                 <th>Asal Fakultas</th>
                                 <th>Asal Departemen</th>
                                 <th>Angkatan</th>
+                                <th>Update</th>
+                                <th>Delete</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -64,6 +66,15 @@
                                 <td>{{$a->asal_fakultas}}</td>
                                 <td>{{$a->asal_departemen}}</td>
                                 <td>{{$a->angkatan}}</td>
+                                <td>
+                                    <a class="btn btn-primary" type="submit" href="./alumni?id={{$a->ID}}">Edit</a>
+                                </td>
+                                <td>
+                                    {{ Form::open(array('url' => 'alumni/' . $a->ID)) }}
+                                        {{ Form::hidden('_method', 'DELETE') }}
+                                        {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
+                                    {{ Form::close() }}
+                                </td>
                               </tr>
                               @endforeach
                             </tbody>
@@ -131,6 +142,3 @@ $(function() {
     });
   });
 </script>
-
-</body>
-</html>

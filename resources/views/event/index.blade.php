@@ -7,13 +7,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Mahasiswa
-        <small>Data Mahasiswa</small>
+        Event
+        <small>Data Event</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">List Mahasiswa</li>
+        <li class="active">List Event</li>
       </ol>
     </section>
 
@@ -24,64 +24,44 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                        <h3>Data Mahasiswa <a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
+                        <h3>Data Event <a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
                         <div class="table-responsive" style="overflow: auto">
-                        <table id="alumni" class="table table-bordered table-striped">
+                        <table id="event" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
                             <thead>
                               <tr>
                                 <th>No.</th>
                                 <th>Name</th>
-                                <th>NRP</th>
-                                <th>Email</th>
-                                <th>JK</th>
-                                <th>Asal</th>
-                                <th>Tanggal Lahir</th>
-                                <th>Alamat Surabaya</th>
-                                <th>Alamat Asal</th>
-                                <th>Gereja</th>
-                                <th>No. HP</th>
-                                <th>Line ID</th>
-                                <th>Update</th>
-                                <th>Delete</th>
+                                <th>Divisi</th>
+                                <th>Date</th>
+                                <th>Kehadiran</th>
+                                <th>Notes</th>
+                                <th>Detail</th>
                               </tr>
                             </thead>
-                            @if($mhs->count())
+                            @if($event->count())
                             <tbody>
-                              @foreach($mhs as $m)
+                              @foreach($event as $e)
                               <tr>
                                 <td>@php echo $count++ @endphp</td>
-                                <td>{{$m->name}}</td>
-                                <td>{{$m->nrp}}</td>
-                                <td>{{$m->email}}</td>
-                                <td>{{$m->jk}}</td>
-                                <td>{{$m->asal}}</td>
-                                <td>{{$m->tgl_lahir}}</td>
-                                <td>{{$m->alamat_sby}}</td>
-                                <td>{{$m->alamat_asal}}</td>
-                                <td>{{$m->gereja}}</td>
-                                <td>{{$m->no_hp}}</td>
-                                <td>{{$m->line_id}}</td>
-                                <td>
-                                    <a class="btn btn-primary" type="submit" href="./mahasiswa?id={{$m->ID}}">Edit</a>
-                                </td>
-                                <td>
-                                    {{ Form::open(array('url' => 'mahasiswa/' . $m->ID)) }}
-                                        {{ Form::hidden('_method', 'DELETE') }}
-                                        {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
-                                    {{ Form::close() }}
-                                </td>
+                                <td>{{$e->name}}</td>
+                                <td>{{$e->divisi}}</td>
+                                <td>{{$e->date}}</td>
+                                <td>{{$e->absence}}</td>
+                                <td>{{$e->notes}}</td>
+                                <td><a href="#" class="btn btn-ok">VIEW</a></td>
                               </tr>
                               @endforeach
                             </tbody>
                             @endif
                           </table>
-                          {{$mhs->render()}}
+                          {{$event->render()}}
                         </div> 
                     </div>
                 </div>
-              </div>
-          </div>
+                </div>
+                
+            </div>
         </section>
     <!-- /.Main content -->
     
@@ -126,5 +106,15 @@
 <script src="Admin-LTE/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="Admin-LTE/dist/js/demo.js"></script>
-</body>
-</html>
+<script>
+$(function() {
+    $('#event').DataTable({
+          "paging": true,
+          "lengthChange": true,
+          "searching": true,
+          "ordering": true,
+          "info": true,
+          "autoWidth": true
+    });
+  });
+</script>
