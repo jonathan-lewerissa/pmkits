@@ -16,15 +16,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     
     <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
-    <link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
-    <link rel="stylesheet" href="css/lightbox.css"> 
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+    <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="public/css/style.css" type="text/css" rel="stylesheet" media="all">   
+    <link href="public/css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
+    <link rel="stylesheet" href="public/css/lightbox.css"> 
+    <link rel="stylesheet" href="public/css/flexslider.css" type="text/css" media="screen" /> 
     <!-- //Custom Theme files --> 
     
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>  
+    <script src="public/js/jquery-2.2.3.min.js"></script>  
     <!-- //js -->
 
     <!-- web-fonts -->   
@@ -64,8 +64,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </li>
 -->
                             <li><a href="#" data-hover="Beranda">Beranda</a></li>
-                            <li><a href="about">Tentang</a></li>
-                            <li><a href="renungan">Renungan Harian</a></li>
+                            <li><a href="./about">Tentang</a></li>
+                            <li><a href="./renungan">Renungan Harian</a></li>
                             <li><a href="#" >Aktivitas</a></li>
 						</ul>
 					</div>
@@ -109,7 +109,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	 
 			</div>
 			<!-- //timer --> 
-			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">daftar di sini </a> 
+<!--			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">daftar di sini </a> -->
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
@@ -178,29 +178,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div> 
 	</div>
 	<!-- //persekutuan jumat -->
-    
-    <!-- services -->
-	<div id="services" class="services">
-		<div class="container">   
-			<div class="services-w3ls-row">
-				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
-					<img src="images/pmk-its.png" alt=" " class="img-responsive" />
-					<h5>PMK ITS</h5>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
-					<img src="images/pkmbk.png" alt=" " class="img-responsive" />
-					<h5>Pembinaan Kerohanian Mahasiswa Baru Kristen</h5>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-6 services-grid agileits-w3layouts">
-					<img src="images/napas.png" alt=" " class="img-responsive" />
-					<h5>Natal Paskah ITS</h5>
-				</div>
-				<div class="clearfix"> </div>
-			</div>  
-		</div>
-	</div>
-	<!-- //services -->
-    
+        
 	<!-- renungan -->
 	<div class="video-agileits jarallax">
 		<div class="video">
@@ -233,7 +211,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li>
 						<div class="testi-three-grids"> 
 							<div class="testi-left">
-								<img src="images/t5.jpg" alt=" " class="img-responsive" />
+								<img src="public/images/t5.jpg" alt=" " class="img-responsive" />
 							</div>
 							<div class="testi-right">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue tempor nisi sed luctus. Vestibulum semper quis enim vitae posuere. Vestibulum ac odio nec lorem commodo. </p>
@@ -245,7 +223,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li>
 						<div class="testi-three-grids"> 
 							<div class="testi-left">
-								<img src="images/t6.jpg" alt=" " class="img-responsive" />
+								<img src="public/images/t6.jpg" alt=" " class="img-responsive" />
 							</div>
 							<div class="testi-right">
 								<p>Fusce congue tempor nisi sed luctus. Vestibulum semper quis enim vitae posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum ac odio nec lorem commodo. </p>
@@ -257,7 +235,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li>
 						<div class="testi-three-grids"> 
 							<div class="testi-left">
-								<img src="images/t7.jpg" alt=" " class="img-responsive" />
+								<img src="public/images/t7.jpg" alt=" " class="img-responsive" />
 							</div>
 							<div class="testi-right">
 								<p>Vestibulum semper quis enim vitae posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue tempor nisi sed luctus. Vestibulum ac odio nec lorem commodo. </p>
@@ -269,7 +247,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</ul>
 			</div> 
 			<!-- FlexSlider js -->
-			<script defer src="js/jquery.flexslider.js"></script>
+			<script defer src="public/js/jquery.flexslider.js"></script>
 			<script type="text/javascript">
 				$(window).load(function(){
 				  $('.flexslider').flexslider({
@@ -290,7 +268,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
             <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
             <div class="blog-agileinfo">
-                <img src="images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
+                <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
             </div>
         </div>
     </div>
@@ -324,8 +302,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="gallery-w3lsrow">
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g1.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g1.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -335,8 +313,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g2.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g2.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g2.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -346,8 +324,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g3.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g3.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g3.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g3.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -357,8 +335,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g4.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g4.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g4.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g4.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -368,8 +346,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g5.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g5.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g5.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g5.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -379,8 +357,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g6.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g6.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g6.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -390,8 +368,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g7.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g7.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g7.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g7.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -401,8 +379,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-3 col-xs-4 gallery-grids">
 					<div class="w3ls-hover">
-						<a href="images/g8.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
-							<img src="images/g8.jpg" class="img-responsive zoom-img" alt=""/>
+						<a href="public/images/g8.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+							<img src="public/images/g8.jpg" class="img-responsive zoom-img" alt=""/>
 							<div class="view-caption">
 								<h5>Latest Gallery</h5>
 								<span class="glyphicon glyphicon-search"></span>
@@ -413,7 +391,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="clearfix"> </div> 
 			</div>
 			<!--  light box js -->
-			<script src="js/lightbox-plus-jquery.min.js"> </script> 
+			<script src="public/js/lightbox-plus-jquery.min.js"> </script> 
 			<!-- //light box js--> 
 		</div> 
 	</div>
@@ -441,7 +419,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Mail Us</h5>
-							<p><a href="mailto:divhumas.pmk.its@gmail.com"> divhumas.pmk.its@gmail.com</a></p>
+							<p><a href="mailto:tpkk.its@gmail.com"> tpkk.its@gmail.com</a></p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -451,7 +429,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-xs-10 address-right">
 							<h5>Call Us</h5>
-							<p>+62813 9663 7328</p>
+							<p>+62878 5444 4653</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div> 
@@ -467,6 +445,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //contact --> 
 	<!-- features -->
+<!--
 	<div class="features">
 		<div class="container">   
 			<div class="wthree-features-row">
@@ -514,6 +493,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
+-->
 	<!-- //features -->
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">
@@ -525,7 +505,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
 				</ul>
 			</div>
-			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2017 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 
@@ -683,7 +663,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //modal -->  		 
 	<!-- fireworks scripts --> 
-	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
+	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
@@ -691,13 +671,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //fireworks scripts -->
 	<!-- timer scripts --> 
-	<script type="text/javascript" src=" js/moment.js"></script>
-	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
-	<script type="text/javascript" src="js/timer.js"></script>
+	<script type="text/javascript" src="public/js/moment.js"></script>
+	<script type="text/javascript" src="public/js/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="public/js/timer.js"></script>
 	<!-- //scripts -->  
 	<!-- jarallax -->
-	<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="public/js/jarallax.js"></script>
+	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -708,7 +688,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //jarallax --> 
 	<!-- ResponsiveTabs js -->
-	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="public/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#horizontalTab').easyResponsiveTabs({
@@ -720,10 +700,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //ResponsiveTabs js --> 
 	<!-- Scrolling Nav JavaScript --> 
-    <script src="js/scrolling-nav.js"></script>  
+    <script src="public/js/scrolling-nav.js"></script>  
 	<!-- //fixed-scroll-nav-js --> 
 	<!-- pop-up-box -->    
-	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="public/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({
@@ -742,8 +722,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script> 
 	<!-- //pop-up-box -->
 	<!-- start-smooth-scrolling --> 
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript" src="public/js/move-top.js"></script>
+	<script type="text/javascript" src="public/js/easing.js"></script>	
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -774,6 +754,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
 </body>
 </html>

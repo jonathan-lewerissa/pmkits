@@ -24,7 +24,7 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$mhs}}</h3>
 
               <p>Jumlah Mahasiswa</p>
             </div>
@@ -38,7 +38,7 @@
           <!-- small box -->
           <div class="small-box bg-orange">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$alumni}}</h3>
 
               <p>Jumlah Alumni</p>
             </div>
@@ -52,7 +52,7 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$doskar}}</h3>
 
               <p>Jumlah Dosen & Karyawan</p>
             </div>
@@ -66,7 +66,7 @@
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$pengurus}}</h3>
 
               <p>Jumlah Pengurus</p>
             </div>
@@ -81,7 +81,7 @@
           <!-- small box -->
           <div class="small-box bg-red">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$event}}</h3>
 
               <p>Jumlah Event</p>
             </div>
@@ -96,7 +96,7 @@
           <!-- small box -->
           <div class="small-box bg-blue">
             <div class="inner">
-              <h3>XXX</h3>
+              <h3>{{$pd}}</h3>
 
               <p>Jumlah PD</p>
             </div>
@@ -123,7 +123,7 @@
 @stop
 
 <!-- jQuery 2.2.3 -->
-<script src="Admin-LTE/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="public/Admin-LTE/plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -131,31 +131,31 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.6 -->
-<script src="Admin-LTE/bootstrap/js/bootstrap.min.js"></script>
+<script src="public/Admin-LTE/bootstrap/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="Admin-LTE/plugins/morris/morris.min.js"></script>
+<script src="public/Admin-LTE/plugins/morris/morris.min.js"></script>
 <!-- Sparkline -->
-<script src="Admin-LTE/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="public/Admin-LTE/plugins/sparkline/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
-<script src="Admin-LTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="Admin-LTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- jQuery Knob Chart -->
-<script src="Admin-LTE/plugins/knob/jquery.knob.js"></script>
+<script src="public/Admin-LTE/plugins/knob/jquery.knob.js"></script>
 <!-- daterangepicker -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="Admin-LTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="public/Admin-LTE/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- datepicker -->
-<script src="Admin-LTE/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="public/Admin-LTE/plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
-<script src="Admin-LTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="public/Admin-LTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <!-- Slimscroll -->
-<script src="Admin-LTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="public/Admin-LTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="Admin-LTE/plugins/fastclick/fastclick.js"></script>
+<script src="public/Admin-LTE/plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="Admin-LTE/dist/js/app.min.js"></script>
+<script src="public/Admin-LTE/dist/js/app.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="Admin-LTE/dist/js/pages/dashboard.js"></script>
+<script src="public/Admin-LTE/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="Admin-LTE/dist/js/demo.js"></script>
+<script src="public/Admin-LTE/dist/js/demo.js"></script>

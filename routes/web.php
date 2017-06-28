@@ -17,15 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('/home', 'HomeController@index');
-
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
 
 Route::get('/about', function() {
     return view('about');
+});
+
+Route::get('/renungan', function() {
+    return view('renungan');
 });
 
 Route::get('logout', 'Auth\LoginController@logout');
@@ -35,4 +36,3 @@ Route::resource('doskar','DosenkaryawanController');
 Route::resource('alumni','AlumniController');
 Route::resource('event','EventController');
 Route::resource('renungan','RenunganController');
-    
