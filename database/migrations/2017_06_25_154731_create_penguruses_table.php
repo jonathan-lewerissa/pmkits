@@ -18,6 +18,7 @@ class CreatePengurusesTable extends Migration
             $table->string('nrp', 20);
             $table->string('name', 20);
             $table->string('divisi', 20);
+            $table->string('role', 20);
             $table->timestamps();
         });
     }

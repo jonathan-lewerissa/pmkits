@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Alumni;
 
@@ -18,8 +18,9 @@ class AlumniController extends Controller
      */
     public function index()
     {
+        $user = Auth::user();
         $alumni = Alumni::paginate(10);
-        return view('alumni.index',compact('alumni'));
+        return view('alumni.index',compact('alumni'))->with('user',$user);
 //        return view('alumni.index')->with('alumni',$alumni);
     }
 

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Dosenkaryawan;
 
@@ -18,8 +18,9 @@ class DosenkaryawanController extends Controller
      */
     public function index()
     {
+        $user = Auth::user();
         $dsn = Dosenkaryawan::paginate(10);
-        return view('dosenkaryawan.index',compact('dsn'));
+        return view('dosenkaryawan.index',compact('dsn'))->with('user',$user);
     }
 
     /**

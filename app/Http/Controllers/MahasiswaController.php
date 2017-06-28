@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Mahasiswa;
 
@@ -18,8 +18,9 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
+        $user = Auth::user();
         $mhs = Mahasiswa::paginate(10);
-        return view('mahasiswa.index', compact('mhs'));
+        return view('mahasiswa.index', compact('mhs'))->with('user',$user);
     }
 
     /**

@@ -28,7 +28,8 @@ Route::get('/about', function() {
     return view('about');
 });
     
-Route::resource('dashboard', 'DashboardController');
+Route::get('/dashboard', 'DashboardController@index');
+Route::get('/logout', 'DashboardController@logout');
 Route::resource('mahasiswa','MahasiswaController');
 Route::resource('doskar','DosenkaryawanController');
 Route::resource('alumni','AlumniController');
