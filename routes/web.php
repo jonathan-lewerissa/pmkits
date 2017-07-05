@@ -36,3 +36,11 @@ Route::resource('doskar','DosenkaryawanController');
 Route::resource('alumni','AlumniController');
 Route::resource('event','EventController');
 Route::resource('renungan','RenunganController');
+
+Route::any('pengurus', ['as'=>'pengurus', 'uses'=>'PengurusController@index ']);
+Route::any('pengurus/ksb', ['as'=>'ksb', 'uses'=>'PengurusController@divisi']);
+Route::get('medfo', 'PengurusController@divisi');
+Route::get('dpk', 'PengurusController@divisi');
+
+Route::resource('pj','PJController');
+Route::resource('pd','PDController');

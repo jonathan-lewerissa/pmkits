@@ -63,7 +63,7 @@
           <li class="dropdown user user-menu">
             <a>
               <img src="public/Admin-LTE/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">{{$user->email}}</span>
+              <span class="hidden-xs">{{Auth::user()->email}}</span>
             </a>
           </li>
         </ul>
@@ -80,7 +80,7 @@
           <img src="public/Admin-LTE/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>{{$user->name}}</p>
+          <p>{{Auth::user()->name}}</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -130,7 +130,8 @@
           </a>
 
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> KSB</a></li>
+            <li><a href="{{route('pengurus')}}"><i class="fa fa-circle-o"></i> Index</a></li>
+            <li><a href="{{route('ksb')}}"><i class="fa fa-circle-o"></i> KSB</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Media Informasi</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Doa, Pemerhati, Konseling</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Pemuridan</a></li>
