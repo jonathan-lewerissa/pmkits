@@ -20,17 +20,65 @@ class PengurusController extends Controller
     {
         $pengurus = Pengurus::paginate(10);
         $divisi = "Pengurus";
-        return view('pengurus', compact('pengurus'))->with('divisi',$divisi);
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
     }
 
-    public function divisi()
+    public function ksb()
     {
         $pengurus = Pengurus::paginate(10);
-//        if($div==1) 
-        $divisi="KSB";
+        $divisi = "KSB";
         
-        return view('pengurus', compact('pengurus'))->with('divisi',$divisi);
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
     }
+
+    public function dpk()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "DPK";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+
+    public function medfo()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "Medfo";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+
+    public function pemuridan()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "Pemuridan";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+
+    public function persekutuan()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "Persekutuan";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+
+    public function pkmbk()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "PKMBK";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+
+    public function napas()
+    {
+        $pengurus = Pengurus::paginate(10);
+        $divisi = "NaPas";
+        
+        return view('pengurus/pengurus', compact('pengurus'))->with('divisi',$divisi);
+    }
+    
     /**
      * Show the form for creating a new resource.
      *
