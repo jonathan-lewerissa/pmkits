@@ -38,9 +38,13 @@ Route::resource('event','EventController');
 Route::resource('renungan','RenunganController');
 
 Route::any('pengurus', ['as'=>'pengurus', 'uses'=>'PengurusController@index ']);
-Route::any('pengurus/ksb', ['as'=>'ksb', 'uses'=>'PengurusController@divisi']);
-Route::get('medfo', 'PengurusController@divisi');
-Route::get('dpk', 'PengurusController@divisi');
+Route::any('pengurus/ksb', ['as'=>'ksb', 'uses'=>'PengurusController@ksb']);
+Route::any('pengurus/medfo', ['as'=>'medfo', 'uses'=>'PengurusController@medfo']);
+Route::any('pengurus/dpk', ['as'=>'dpk', 'uses'=>'PengurusController@dpk']);
+Route::any('pengurus/pemuridan', ['as'=>'pemuridan', 'uses'=>'PengurusController@pemuridan']);
+Route::any('pengurus/persekutuan', ['as'=>'persekutuan', 'uses'=>'PengurusController@persekutuan']);
+Route::any('pengurus/pkmbk', ['as'=>'pkmbk', 'uses'=>'PengurusController@pkmbk']);
+Route::any('pengurus/napas', ['as'=>'napas', 'uses'=>'PengurusController@napas']);
 
 Route::resource('pj','PJController');
 Route::resource('pd','PDController');
