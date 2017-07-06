@@ -155,13 +155,13 @@
 
         <li class="header">PERSEKUTUAN</li>
         <li class="treeview">
-          <a href="#">
+          <a href="{{route('pj.index')}}">
             <i class="fa fa-users"></i> <span>Persekutuan Jumat</span>
           </a>
         </li>
         
         <li class="treeview">
-          <a href="#">
+          <a href="{{route('pd.index')}}">
             <i class="fa fa-users"></i> <span>Persekutuan Doa Jurusan</span>
           </a>
         </li>

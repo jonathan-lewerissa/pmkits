@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\PJ;
+use App\PersekutuanJumat;
 
 class PJController extends Controller
 {
@@ -19,8 +19,8 @@ class PJController extends Controller
     public function index()
     {
         //
-        $pj = PJ::paginate(10);
-//        return view('pj.index', compact('pj'));
+        $pj = PersekutuanJumat::paginate(10);
+        return view('pj', compact('pj'));
     }
 
     /**

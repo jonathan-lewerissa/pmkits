@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\PD;
+use App\PersekutuanDoa;
 
 class PDController extends Controller
 {
@@ -19,8 +19,8 @@ class PDController extends Controller
     public function index()
     {
         //
-        $pd = PD::paginate(10);
-//        return view('pd.index', compact('pd'));
+        $pd = PersekutuanDoa::paginate(10);
+        return view('pd', compact('pd'));
     }
 
     /**
