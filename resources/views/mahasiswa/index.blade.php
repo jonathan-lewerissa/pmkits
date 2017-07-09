@@ -17,6 +17,7 @@
       </ol>
     </section>
 
+      
     <!-- Main content -->
     <br><br>
     <section class="content">
@@ -63,10 +64,10 @@
                                 <td>{{$m->no_hp}}</td>
                                 <td>{{$m->line_id}}</td>
                                 <td>
-                                    <a class="btn btn-primary" type="submit" href="./mahasiswa?id={{$m->ID}}">Edit</a>
+                                    <a class="btn btn-primary" type="submit" href="./mahasiswa?id={{$m->nrp}}">Edit</a>
                                 </td>
                                 <td>
-                                    {{ Form::open(array('url' => 'mahasiswa/' . $m->ID)) }}
+                                    {{ Form::open(array('url' => 'mahasiswa/' . $m->nrp)) }}
                                         {{ Form::hidden('_method', 'DELETE') }}
                                         {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
                                     {{ Form::close() }}
@@ -84,9 +85,7 @@
           </div>
         </section>
     <!-- /.Main content -->
-    
-  </div>
-
+    </div>
     @stop
 
 <!-- jQuery 2.2.3 -->
@@ -111,7 +110,7 @@
 <script src="public/Admin-LTE/plugins/knob/jquery.knob.js"></script>
 <!-- daterangepicker -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="Admin-LTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="public/Admin-LTE/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- datepicker -->
 <script src="public/Admin-LTE/plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
