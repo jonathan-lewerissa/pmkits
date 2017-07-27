@@ -63,10 +63,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="welcome">Beranda</a></li>
+                            <li><a href="./welcome">Beranda</a></li>
                             <li><a href="#" data-hover="Tentang">Tentang</a></li>
-                            <li><a href="renungan">Renungan Harian</a></li>
-                            <li><a href="#" >Aktivitas</a></li>
+                            <li><a href="./renungan">Renungan Harian</a></li>
+                            <li><a href="./activity" >Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -120,12 +120,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
             <div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#pemuridan" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-                    <h4><a href="#myModal" data-toggle="modal">Pemuridan</a></h4><br>
+                    <h4><a href="#pemuridan" data-toggle="modal">Pemuridan</a></h4><br>
 					<p><b>Discipleship Development</b></p>
                     <p><b>Kelompok Kecil (KK)</b></p>
                     <p><b>Kelompok Besar (KB)</b></p> 
@@ -140,12 +140,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Media Informasi</a></h4>
+					<h4><a href="#medfo" data-toggle="modal">Media Informasi</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
 				</div> 
@@ -158,12 +158,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="w3stitle">PMK-ITS <span> Persekutuan</span></h3>     
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#persekutuan" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Persekutuan</a></h4><br>
+					<h4><a href="#persekutuan" data-toggle="modal">Persekutuan</a></h4><br>
 					<p><b>Acara</b></p>
                     <p><b>Ministry</b></p>
                     <p><b>Maintenance</b></p>
@@ -178,12 +178,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container">
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#dpk" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Doa Pemerhati dan Konseling</a></h4><br>
+					<h4><a href="#dpk" data-toggle="modal">Doa Pemerhati dan Konseling</a></h4><br>
 					<p><b>Menara Doa</b></p>
                     <p><b>Persekutuan Doa</b></p>
                     <p><b>Konseling Doa</b></p>
@@ -198,12 +198,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="w3stitle">PMK-ITS <span> PKMBK</span></h3>     
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#pkmbk" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
+					<h4><a href="#pkmbk" data-toggle="modal">PKMBK</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
 				</div> 
@@ -217,12 +217,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container">
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#napas" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Natal Paskah</a></h4>
+					<h4><a href="#napas" data-toggle="modal">Natal Paskah</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
 				</div> 
@@ -241,9 +241,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">PKMBK</a></h4>
+					<h4><a href="#myModal" data-toggle="modal">Nama Divisi</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
+					<p>Deskripsikan detail mengenai divisi anda di sini. </p>
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
@@ -362,8 +362,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //copy right end here --> 
 	
-	<!-- modal -->
-	<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
+	<!-- pemuridan -->
+	<div class="modal about-modal w3-agileits fade" id="pemuridan" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -371,14 +371,99 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="modal-body">
 					<img src="images/img2.jpg" alt=""> 
-					<h5>Cras rutrum iaculis enim</h5>
+					<h5>Pemuridan</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
 			</div>
 		</div>
 	</div>
-	<!-- //modal -->
+	<!-- //pemuridan -->
 	
+    <!-- medfo -->
+	<div class="modal about-modal w3-agileits fade" id="medfo" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body">
+					<img src="images/img2.jpg" alt=""> 
+					<h5>Media Informasi</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //medfo -->
+    
+    <!-- persekutuan -->
+	<div class="modal about-modal w3-agileits fade" id="persekutuan" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body">
+					<img src="images/img2.jpg" alt=""> 
+					<h5>Persekutuan</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //persekutuan -->
+    
+    <!-- dpk -->
+	<div class="modal about-modal w3-agileits fade" id="dpk" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body">
+					<img src="images/img2.jpg" alt=""> 
+					<h5>Doa Pemerhati dan Konseling</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //dpk -->
+    
+    <!-- pkmbk -->
+	<div class="modal about-modal w3-agileits fade" id="pkmbk" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body">
+					<img src="images/img2.jpg" alt=""> 
+					<h5>Pembinaan Kerohanian Mahasiswa Baru Kristen</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //pkmbk -->
+    
+    <!-- napas -->
+	<div class="modal about-modal w3-agileits fade" id="napas" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body">
+					<img src="images/img2.jpg" alt=""> 
+					<h5>Natal dan Paskah</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //napas -->
+    
 	<!-- fireworks scripts --> 
 	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
