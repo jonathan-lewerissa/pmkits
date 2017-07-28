@@ -53,16 +53,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
-							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-<!--
-							<li class="dropdown">
-                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
-                                    <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
-                                </ul>
-                            </li>
--->
                             <li><a href="./welcome" data-hover="Beranda">Beranda</a></li>
                             <li><a href="./about" data-hover="Tentang">Tentang</a></li>
                             <li><a href="./renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
@@ -82,8 +72,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner -->
+    
     <div id="activity" class="activity">
-	<!-- blog -->
+	
+    <!-- blog -->
 	<div id="blog" class="blog gallery">
 		<div class="container">  
 			<h3 class="w3stitle">Today's<span> Info</span></h3>     

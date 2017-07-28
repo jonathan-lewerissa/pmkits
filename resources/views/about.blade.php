@@ -53,16 +53,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
-							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-<!--
-							<li class="dropdown">
-                                <a href="home" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
-                                    <li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
-                                </ul>
-                            </li>
--->
                             <li><a href="./welcome" data-hover="Beranda">Beranda</a></li>
                             <li><a class="page-scroll" href="#tentang" data-hover="Tentang">Tentang</a></li>
                             <li><a href="./renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
@@ -83,40 +73,62 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner -->
+    
     <div id="tentang" class="tentang">
-	<!-- about -->
-    <div class="about-container">
-        <h3 style="font-size: 3em; padding: 10px;" align="center">Visi dan Misi</h3><br>
-        <div class="row">
-            <div class="col-sm-3 col-xs-3 about-detail">
-                <h3 class="w3stitle w3stitle1">Visi</h3>
+	
+    <!-- about -->
+    <div class="contact">
+        <div class="container">
+        <h3 class="w3stitle"><span>Visi dan Misi</span></h3>  
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+            <div class="col-md-3 agileits-w3layouts">
+                <h3 class="w3stitle">Visi</h3>
             </div>
-            <div class="col-sm-9 col-xs-9 about-detail">
-            <ol style="margin:0 10px 0 0">
-                <li>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</li>
-                <li>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</li>
-                <li>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</li>
-                <li>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</li>
+            <div class="col-md-9 agileits-w3layouts">
+            <ol>
+                <li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
+                <li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
+                <li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</p></li>
+                <li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
             </ol>
             </div>
+            <div class="col-sm-9 agileits-w3layouts"> 
+            <ol>
+                <li><p>Melaksanakan persekutuan mahasiwa yang hidup,    berkualitas, dan penuh kasih persaudaraan.</p></li>
+                <li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>
+                <li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>
+                <li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
+            </ol>
+            </div>
+            <div class="col-md-3 agileits-w3layouts">
+                <h3 class="w3stitle">Misi</h3>
+            </div>
+            <div class="clearfix"> </div>
+            </div>
         </div>
-        <div class="col-sm-9 col-xs-9 about-detail" height="100%"> 
-        <ol>
-            <li>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</li>
-            <li>Melaksanakan pola pemuridan yang berkelanjutan.</li>
-            <li>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</li>
-            <li>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</li>
-        </ol>
-        </div>
-        <div class="col-sm-3 col-xs-3 about-detail" height="100%">
-            <h3 class="w3stitle w3stitle1">Misi</h3>
-        </div>
-        <div class="clearfix"> </div> 
     </div>
 	<!-- //about --> 
     
     <!-- divisi -->
-	<div class="contact">
+    <div class="gallery">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#medfo" data-toggle="modal">Media Informasi</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+	</div>
+    <div class="contact">
 		<div class="container">
 			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
             <div class="blog-agileinfo">
@@ -135,24 +147,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
-		</div>
-	</div>
-    <div class="gallery">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
-						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#medfo" data-toggle="modal">Media Informasi</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div> 
 		</div>
 	</div>
     <div class="contact">
@@ -233,25 +227,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		</div>
 	</div>
-     <div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">TEST</h3>     
-			<div class="blog-agileinfo">
-				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Nama Divisi</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
-					<p>Deskripsikan detail mengenai divisi anda di sini. </p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
 	<!-- //divisi -->
+        
 	<!-- contact -->
 	<div id="contact" class="contact">
 		<div class="container"> 
@@ -300,47 +277,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 	</div>
 	<!-- //contact --> 
+        
 	<!-- features -->
 	<div class="features">
 		<div class="container">   
-			<div class="wthree-features-row">
-				<div class="col-md-3 col-xs-6 features-w3grid">
+			<div class="col-md-offset-3 col-md-6 wthree-features-row">
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-map-marker" aria-hidden="true"></i>
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>LOCATION</p>
-						<h4>LONDON, UK</h4>
+						<h4>SURABAYA</h4>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-ticket" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>REMAINING</p>
-						<h4>50 Tickets</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
+                </div>
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>EVENTS</p>
-						<h4>20+ Events</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-users" aria-hidden="true"></i> 
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>CUSTOMERS</p>
-						<h4>12,000+</h4>
+						<h4>NATAL PMK</h4>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -349,6 +307,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //features -->
+        
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">
 		<div class="container"> 
@@ -504,6 +463,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //fireworks scripts -->
+        
 	<!-- timer scripts --> 
 	<script type="text/javascript" src=" public/js/moment.js"></script>
 	<script type="text/javascript" src=" public/js/moment-timezone-with-data.js"></script>
@@ -521,6 +481,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		})
 	</script>
 	<!-- //jarallax --> 
+        
 	<!-- ResponsiveTabs js -->
 	<script src="public/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
@@ -533,9 +494,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //ResponsiveTabs js --> 
+        
 	<!-- Scrolling Nav JavaScript --> 
     <script src="public/js/scrolling-nav.js"></script>  
 	<!-- //fixed-scroll-nav-js --> 
+        
 	<!-- pop-up-box -->    
 	<script src="public/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
@@ -551,10 +514,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			removalDelay: 300,
 			mainClass: 'my-mfp-zoom-in'
 		});
-																		
 		});
 	</script> 
 	<!-- //pop-up-box -->
+        
 	<!-- start-smooth-scrolling --> 
 	<script type="text/javascript" src="public/js/move-top.js"></script>
 	<script type="text/javascript" src="public/js/easing.js"></script>	
@@ -568,6 +531,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 	<!-- //end-smooth-scrolling -->	 
+        
 	<!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -585,6 +549,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //smooth-scrolling-of-move-up -->
+        
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

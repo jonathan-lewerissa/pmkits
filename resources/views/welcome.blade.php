@@ -54,8 +54,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-<!--
-							<li class="dropdown">
+
+                            <!-- Untuk Menu Dropdown -->
+<!--							<li class="dropdown">
                                 <a href="welcome" class="dropdown-toggle" data-toggle="dropdown">Beranda <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="page-scroll" href="#callendar" data-hover="Callendar">Callendar</a></li>
@@ -63,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a class="page-scroll" href="#beranda"  data-hover="Beranda">Beranda</a></li>
+                            <li><a class="page-scroll" href="#beranda" data-hover="Beranda">Beranda</a></li>
                             <li><a href="./about" data-hover="Tentang">Tentang</a></li>
                             <li><a href="./renungan" hover="Renungan Harian">Renungan Harian</a></li>
                             <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
@@ -116,6 +117,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //banner --> 
     
     <div id="beranda" class="beranda">
+    <div id="contact" class="contact" align="center">
+		<div class="container"> 
+            <img src="public/images/pmk-its.png" class="img-responsive" alt=" " />
+            <div class="clearfix"> </div>
+        </div>	
+    </div>	
+	    
 	<!-- event -->
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
@@ -168,7 +176,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
 					<h4>Theater B</h4>
-                    <a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>klik di sini untuk lokasinya</a>
+                    <h6><a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>klik di sini untuk lokasinya</a></h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -186,8 +194,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container"> 
 				<div class="col-md-6 video-left">
 					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
-					<h4>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut </h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. <a href="#">Lihat di sini</a></p>
+					<h4>Efesus 5:22-33</h4> 
+					<p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. Sudah tidak lagi saling mengasihi, begitu alasan yang sering dipakai. Lalu ke manakah kasih yang dahulu ketika memulai pernikahan? Sudah habis? Luntur? Ataukah memang kasihnya hanya berkualitas palsu?<a href="#">Lihat di sini</a></p>
 				</div> 
 				<div class="col-md-6 video-right"> 
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">
@@ -203,6 +211,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //renungan -->
+        
     <!-- testimonials -->
 	<div class="testimonials team">
 		<div class="container">
@@ -397,6 +406,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div> 
 	</div>
 	<!-- //gallery -->
+        
 	<!-- contact -->
 	<div id="contact" class="contact">
 		<div class="container"> 
@@ -444,13 +454,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>	
 		</div>	
 	</div>
-	<!-- //contact --> 
+	<!-- //contact -->
+        
 	<!-- features -->
-<!--
 	<div class="features">
 		<div class="container">   
-			<div class="wthree-features-row">
-				<div class="col-md-3 col-xs-6 features-w3grid">
+			<div class="col-md-offset-3 col-md-6 wthree-features-row">
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-map-marker" aria-hidden="true"></i>
 					</div>
@@ -459,34 +469,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4>SURABAYA</h4>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-ticket" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>REMAINING</p>
-						<h4>50 Tickets</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
+                </div>
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>EVENTS</p>
-						<h4>20+ Events</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-users" aria-hidden="true"></i> 
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>CUSTOMERS</p>
-						<h4>12,000+</h4>
+						<h4>NATAL PMK</h4>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -494,9 +484,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
--->
 	<!-- //features -->
-	<!-- copy rights start here -->
+	
+    <!-- copy rights start here -->
 	<div class="copyw3-agile">
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
@@ -510,12 +500,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //copy right end here --> 
+        
 	<!-- pop-up-grid -->
 	<div id="small-dialog" class="mfp-hide">
 		<div class="pop_up w3-agile">
 			<div class="payment-online-form-left">
 				<form action="#" method="post"> 
 					<h4>Share Now</h4>
+                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=large&mobile_iframe=true&width=106&height=28&appId" width="106" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+<!-- Place this tag where you want the share button to render. -->
+
 <!--
 					<ul>
 						<li><input class="text-box-dark" placeholder="Nama" type="text" required=""></li>
@@ -581,6 +576,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //pop-up-grid --> 
+        
 	<!-- modal -->
 	<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -597,72 +593,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //modal -->
-	<!-- modal -->
-	<div class="modal about-modal w3-agileits fade" id="myModal2" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div> 
-				<div class="modal-body login-page "><!-- login-page -->      
-					<div class="sap_tabs">
-						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-							<ul class="resp-tabs-list">
-								<li class="resp-tab-item" aria-controls="tab_item-0"><span>Login</span></li>
-								<li class="resp-tab-item" aria-controls="tab_item-1"><span>Register</span></li> 
-							</ul>	 
-							<div class="clearfix"> </div>	
-							<div class="resp-tabs-container">
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-									<div class="agileits-login">
-										<form action="#" method="post">
-											<input type="text" class="email" name="Email" placeholder="Email" required=""/>
-											<input type="password" class="password" name="Password" placeholder="Password" required=""/>
-											<div class="wthree-text"> 
-												<ul> 
-													<li>
-														<label class="anim">
-															<input type="checkbox" class="checkbox">
-															<span> Remember me ?</span> 
-														</label> 
-													</li>
-													<li> <a href="#">Forgot password?</a> </li>
-												</ul>
-												<div class="clearfix"> </div>
-											</div>  
-											<div class="w3ls-submit"> 
-												<input type="submit" value="LOGIN">  	
-											</div>	
-										</form>
-									</div> 
-								</div>
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="login-top sign-top">
-										<div class="agileits-login">
-											<form action="#" method="post">
-												<input type="text" name="Username" placeholder="Username" required="">
-												<input type="text" class="email" name="Email" placeholder="Email" required=""/>
-												<input type="password" class="password" name="Password" placeholder="Password" required=""/>	
-												<label class="anim">
-													<input type="checkbox" class="checkbox">
-													<span> I accept the terms of use</span> 
-												</label> 
-												<div class="w3ls-submit"> 
-													<input class="register" type="submit" value="REGISTER">  
-												</div>
-											</form> 
-										</div>  
-									</div>
-								</div>
-							</div>	
-						</div>
-						<div class="clearfix"> </div>
-					</div>   
-				</div> <!-- //login-page -->
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->  		 
+	 		 
 	<!-- fireworks scripts --> 
 	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
@@ -671,12 +602,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //fireworks scripts -->
-	<!-- timer scripts --> 
+	
+    <!-- timer scripts --> 
 	<script type="text/javascript" src="public/js/moment.js"></script>
 	<script type="text/javascript" src="public/js/moment-timezone-with-data.js"></script>
 	<script type="text/javascript" src="public/js/timer.js"></script>
 	<!-- //scripts -->  
-	<!-- jarallax -->
+	
+    <!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
 	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
@@ -688,7 +621,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		})
 	</script>
 	<!-- //jarallax --> 
-	<!-- ResponsiveTabs js -->
+	
+    <!-- ResponsiveTabs js -->
 	<script src="public/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
@@ -700,10 +634,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //ResponsiveTabs js --> 
-	<!-- Scrolling Nav JavaScript --> 
+	
+    <!-- Scrolling Nav JavaScript --> 
     <script src="public/js/scrolling-nav.js"></script>  
 	<!-- //fixed-scroll-nav-js --> 
-	<!-- pop-up-box -->    
+	
+    <!-- pop-up-box -->    
 	<script src="public/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function() {
@@ -717,12 +653,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			midClick: true,
 			removalDelay: 300,
 			mainClass: 'my-mfp-zoom-in'
-		});
-																		
+		});												
 		});
 	</script> 
 	<!-- //pop-up-box -->
-	<!-- start-smooth-scrolling --> 
+	
+    <!-- start-smooth-scrolling --> 
 	<script type="text/javascript" src="public/js/move-top.js"></script>
 	<script type="text/javascript" src="public/js/easing.js"></script>	
 	<script type="text/javascript">
@@ -735,7 +671,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 	<!-- //end-smooth-scrolling -->	 
-	<!-- smooth-scrolling-of-move-up -->
+	
+    <!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
@@ -751,8 +688,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			
 		});
 	</script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
 	<!-- //smooth-scrolling-of-move-up -->
-	<!-- Bootstrap core JavaScript
+	
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="public/js/bootstrap.js"></script>
