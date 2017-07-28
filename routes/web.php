@@ -29,6 +29,10 @@ Route::get('/renungan', function() {
     return view('renungan');
 });
 
+Route::get('/activity', function() {
+    return view('activity');
+});
+
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('dashboard', 'DashboardController@index');
 Route::resource('mahasiswa','MahasiswaController');

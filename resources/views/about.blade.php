@@ -33,7 +33,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //web-fonts -->
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 	<!-- banner -->
 	<div id="home" class="w3ls-banner w3-agilefireworks jarallax"> 
 		<!-- header -->
@@ -63,10 +63,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="./welcome">Beranda</a></li>
-                            <li><a href="#" data-hover="Tentang">Tentang</a></li>
-                            <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a href="./activity" >Aktivitas</a></li>
+                            <li><a href="./welcome" data-hover="Beranda">Beranda</a></li>
+                            <li><a class="page-scroll" href="#tentang" data-hover="Tentang">Tentang</a></li>
+                            <li><a href="./renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -77,12 +77,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>About PMK ITS</h2>
-			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
+			<h2>About Us - PMK ITS</h2>
+			<p>Persekutan Mahasiswa Kristen Institut Teknologi Sepuluh November</p>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner -->
+    <div id="tentang" class="tentang">
 	<!-- about -->
     <div class="about-container">
         <h3 style="font-size: 3em; padding: 10px;" align="center">Visi dan Misi</h3><br>
@@ -126,6 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
                     <h4><a href="#pemuridan" data-toggle="modal">Pemuridan</a></h4><br>
+                    <h6>Divisi :</h6>
 					<p><b>Discipleship Development</b></p>
                     <p><b>Kelompok Kecil (KK)</b></p>
                     <p><b>Kelompok Besar (KB)</b></p> 
@@ -203,7 +205,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#pkmbk" data-toggle="modal">PKMBK</a></h4>
+					<h4><a href="#pkmbk" data-toggle="modal">Pembinaan Kerohanian Mahasiswa Baru Kristen</a></h4>
 					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
 				</div> 
@@ -367,12 +369,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>			
 				</div> 
-				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+				<div class="modal-body" align="justify">
+					<img src="public/images/img3.jpg" alt=""> 
 					<h5>Pemuridan</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+					<p>Memiliki 4 sub.divisi :</p>
+                    <ol>
+                        <li><b>DISCIPLESHIP DEVELOPMENT :</b></li><br>
+                            <ul>
+                                <li>Mengevaluasi materi-materi dalam setiap proses pemuridan (KK, KB, KPA)</li>
+                                <li>Membuat statistik Proses Pemuridan (KK, KB, KPA) PMK selama satu tahun</li>
+                                <li>Mengevaluasi dan menyeleksi Pembicara-pembicara yang akan diundang dalam setiap proses pemuridan (KK, KB, KPA)</li>
+                                <li>Membuat data base pembicara-pembicara yang akan diundang dalam dalam setiap proses pemuridan (KK, KB, KPA)</li>
+                                <li>Membuat dan mengevaluasi Grand design setiap proses pemuridan (KK, KB, KPA) berkoordinasi dengan setiap sub divisi</li>
+                            </ul><br>
+                        <li><b>KELOMPOK KECIL (KK):</b></li><br>
+                            <ul>
+                                <li>Berkoordinasi dengan PKMBK dalam membentuk kelompok kecil baru yang telah melaksanakan PIK.</li>
+                                <li>Memonitoring setiap kelompok kecil di PMK</li>
+                                <li>Mengevalusi pelaksanaan Kelompok Kecil</li>
+                                <li>Mempersiapkan CPKK menjadi PKK (Intensif, Live in dan recruitment PKK).</li>
+                                <li>Membuat dan memanage data Kelompok Kecil (PKK, AKK, CPKK)</li>
+                            </ul><br>
+                        <li><b>KELOMPOK BESAR (KB):</b></li><br>
+                            <ul>
+                                <li>Membuat materi PJ selama satu tahun dan menentukan pembicara yang akan diundang.</li>
+                                <li>Berkoordinasi dengan Div.Persekutuan (Acara) dalam mengkonsep dan menyusun PJ.</li>
+                                <li>Mengevaluasi pelaksanaan PJ.</li>
+                            </ul><br>
+                        <li><b> KELOMPOK PRA ALUMNI (KPA):</b></li><br>
+                            <ul>
+                                <li>Membuat dan mengevaluasi materi dalam Pra-Alumni serta menentukan pembicara yang akan diundang.</li>
+                                <li>Membuat data base mahasiswa Pra alumni.</li>
+                                <li>Mengevaluasi proses pemuridan pra alumni.</li>
+                            </ul><br>
+                    </ol>
 				</div> 
 			</div>
 		</div>
@@ -387,7 +419,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img2.jpg" alt=""> 
 					<h5>Media Informasi</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
@@ -404,7 +436,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img3.jpg" alt=""> 
 					<h5>Persekutuan</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
@@ -421,7 +453,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img2.jpg" alt=""> 
 					<h5>Doa Pemerhati dan Konseling</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
@@ -438,7 +470,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img3.jpg" alt=""> 
 					<h5>Pembinaan Kerohanian Mahasiswa Baru Kristen</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
@@ -455,7 +487,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img2.jpg" alt=""> 
 					<h5>Natal dan Paskah</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
 				</div> 
@@ -557,5 +589,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="public/js/bootstrap.js"></script>
+    </div>
 </body>
 </html>

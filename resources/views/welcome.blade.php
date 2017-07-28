@@ -63,10 +63,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="#" data-hover="Beranda">Beranda</a></li>
-                            <li><a href="./about">Tentang</a></li>
-                            <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a href="./activity" >Aktivitas</a></li>
+                            <li><a class="page-scroll" href="#beranda"  data-hover="Beranda">Beranda</a></li>
+                            <li><a href="./about" data-hover="Tentang">Tentang</a></li>
+                            <li><a href="./renungan" hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -115,6 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	
 	<!-- //banner --> 
     
+    <div id="beranda" class="beranda">
 	<!-- event -->
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
@@ -152,7 +153,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h4>"Kasih yang Sempurna"</h4>
         </div>
 		<div class="welcome-agileinfo">
-			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
+			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#0077b3">
                 <div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 				</div>
@@ -163,11 +164,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
+			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#66c2ff;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
 					<h4>Theater B</h4>
-                    <h6><a href="https://maps.google.com" target=_blank>Alamat</a></h6>
+                    <a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>klik di sini untuk lokasinya</a>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -755,5 +756,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="public/js/bootstrap.js"></script>
+    </div>
 </body>
 </html>
