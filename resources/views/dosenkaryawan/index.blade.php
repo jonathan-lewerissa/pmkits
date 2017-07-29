@@ -25,7 +25,7 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                        <h3>Data Dosen Karyawan <a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
+                        <h3>Data Dosen Karyawan <a href="{{route('doskar.create')}}" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
                         <div class="table-responsive" style="overflow: auto">
                         <table id="doskar" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
@@ -64,13 +64,14 @@
                                 <td>{{$d->gereja}}</td>
                                 <td>{{$d->no_hp}}</td>
                                 <td>
-                                    <a class="btn btn-primary" type="submit" href="./doskar?id={{$d->ID}}">Edit</a>
+                                    <a class="btn btn-primary" type="submit" href="./doskar/{{$d->id    }}/edit">Edit</a>
                                 </td>
-                                <td>
-                                    {{ Form::open(array('url' => 'doskar/' . $d->ID)) }}
-                                        {{ Form::hidden('_method', 'DELETE') }}
-                                        {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
-                                    {{ Form::close() }}
+                                <td>                                
+                                    {!! Form::open(array('route' => array('doskar.destroy', $d->id),
+                                                         'method' => 'delete',
+                                                         'style' => 'display:inline')) !!}
+                                    {!! Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) !!}
+                                    {!! Form::close() !!}
                                 </td>
                               </tr>
                               @endforeach

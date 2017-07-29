@@ -7,13 +7,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        List Alumni
+        List Mahasiswa
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">List Alumni</li>
+        <li class="active">List Mahasiswa</li>
       </ol>
       <br>
       <br>
@@ -22,85 +22,97 @@
     <!-- Main content -->
     <br><br>
     <div class="container">
-        {!! Form::open(array('url' => '/alumni')) !!}
+        {!! Form::model($mhs,['method'=>'PATCH','action'=>['MahasiswaController@update',$mhs->id]]) !!}
             {{csrf_field()}}
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" placeholder="Name" required>
+                        <input name="name" type="text" value="{{$mhs->name}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">NRP</label>
+                        <input name="nrp" type="text" value="{{$mhs->nrp}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" placeholder="Email" required>
+                        <input name="email" type="email" value="{{$mhs->email}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" placeholder="JK" required>
+                        <input name="jk" type="text" value="{{$mhs->jk}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" placeholder="Asal" required>
+                        <input name="asal" type="text" value="{{$mhs->asal}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" required>
+                        <input name="tgl_lahir" type="date" value="{{$mhs->tgl_lahir}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" placeholder="Alamat" required>
+                        <label for="message-text" class="form-control-label">Alamat Surabaya</label>
+                        <input name="alamat_sby" type="text" value="{{$mhs->alamat_sby}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">Alamat Asal</label>
+                        <input name="alamat_asal" type="text" value="{{$mhs->alamat_asal}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" placeholder="Gereja" required>
+                        <input name="gereja" type="text" value="{{$mhs->gereja}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" placeholder="No. HP" required>
+                        <input name="no_hp" type="number" value="{{$mhs->no_hp}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" placeholder="Pekerjaan" required>
+                        <label for="message-text" class="form-control-label">Line ID</label>
+                        <input name="line_id" type="text" value="{{$mhs->line_id}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tempat Kerja</label>
-                        <input name="tempat_kerja" type="text" placeholder="Tempat Kerja" required>
+                        <label for="message-text" class="form-control-label">Talenta</label>
+                        <input name="talenta" type="text" value="{{$mhs->talenta}}">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Fakultas</label>
-                        <input name="asal_fakultas" type="text" placeholder="Asal Fakultas" required>
+                        <label for="message-text" class="form-control-label">Kehadiran PJ</label>
+                        <input name="kehadiran_pj" type="number" value="{{$mhs->kehadiran_pj}}">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Departemen</label>
-                        <input name="asal_departemen" type="text" placeholder="Asal Departemen" required>
+                        <label for="message-text" class="form-control-label">Kehadiran PD</label>
+                        <input name="kehadiran_pd" type="number" value="{{$mhs->kehadiran_pd}}">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Angkatan</label>
-                        <input name="angkatan" type="number" placeholder="Angkatan" required>
+                        <label for="message-text" class="form-control-label">Kehadiran Rapat</label>
+                        <input name="kehadiran_rapat" type="number" value="{{$mhs->kehadiran_rapat}}">
                     </div>
                 </div>
                 {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}

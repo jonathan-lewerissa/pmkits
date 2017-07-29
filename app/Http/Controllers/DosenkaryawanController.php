@@ -30,7 +30,7 @@ class DosenkaryawanController extends Controller
      */
     public function create()
     {
-        //
+        return view('dosenkaryawan.create');
     }
 
     /**
@@ -41,7 +41,20 @@ class DosenkaryawanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $dsn = new Dosenkaryawan();
+        $dsn['name'] = $request->name;
+        $dsn['pekerjaan'] = $request->pekerjaan;
+        $dsn['fakultas'] = $request->fakultas;
+        $dsn['departemen'] = $request->departemen;
+        $dsn['email'] = $request->email;
+        $dsn['jk'] = $request->jk;
+        $dsn['asal'] = $request->asal;
+        $dsn['tgl_lahir'] = $request->tgl_lahir;
+        $dsn['alamat'] = $request->alamat;
+        $dsn['gereja'] = $request->gereja;
+        $dsn['no_hp'] = $request->no_hp;
+        $dsn->save();
+        return redirect('doskar');
     }
 
     /**
@@ -63,7 +76,8 @@ class DosenkaryawanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $dsn = Dosenkaryawan::findorfail($id);
+        return view('dosenkaryawan.edit',compact('dsn'));
     }
 
     /**
@@ -75,7 +89,20 @@ class DosenkaryawanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $dsn = Dosenkaryawan::findorfail($id);
+        $dsn['name'] = $request->name;
+        $dsn['pekerjaan'] = $request->pekerjaan;
+        $dsn['fakultas'] = $request->fakultas;
+        $dsn['departemen'] = $request->departemen;
+        $dsn['email'] = $request->email;
+        $dsn['jk'] = $request->jk;
+        $dsn['asal'] = $request->asal;
+        $dsn['tgl_lahir'] = $request->tgl_lahir;
+        $dsn['alamat'] = $request->alamat;
+        $dsn['gereja'] = $request->gereja;
+        $dsn['no_hp'] = $request->no_hp;
+        $dsn->save();
+        return view('dosenkaryawan.edit',compact('dsn'));
     }
 
     /**
@@ -86,6 +113,9 @@ class DosenkaryawanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $doskar=Dosenkaryawan::findorfail($id);
+        $doskar->delete();
+        return redirect('dosenkaryawan');
+        
     }
 }

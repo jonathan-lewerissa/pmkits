@@ -7,13 +7,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        List Alumni
+        List Mahasiswa
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">List Alumni</li>
+        <li class="active">List Mahasiswa</li>
       </ol>
       <br>
       <br>
@@ -22,85 +22,73 @@
     <!-- Main content -->
     <br><br>
     <div class="container">
-        {!! Form::open(array('url' => '/alumni')) !!}
+        {!! Form::model($dsn,['method'=>'PATCH','action'=>['DosenkaryawanController@update',$dsn->id]]) !!}
             {{csrf_field()}}
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" placeholder="Name" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" placeholder="Email" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" placeholder="JK" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" placeholder="Asal" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" placeholder="Alamat" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" placeholder="Gereja" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" placeholder="No. HP" required>
+                        <input name="name" type="text" value="{{$dsn->name}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" placeholder="Pekerjaan" required>
+                        <input name="pekerjaan" type="text" value="{{$dsn->pekerjaan}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tempat Kerja</label>
-                        <input name="tempat_kerja" type="text" placeholder="Tempat Kerja" required>
+                        <label for="message-text" class="form-control-label">Fakultas</label>
+                        <input name="fakultas" type="text" value="{{$dsn->fakultas}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Fakultas</label>
-                        <input name="asal_fakultas" type="text" placeholder="Asal Fakultas" required>
+                        <label for="message-text" class="form-control-label">Departemen</label>
+                        <input name="departemen" type="text" value="{{$dsn->departemen}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Departemen</label>
-                        <input name="asal_departemen" type="text" placeholder="Asal Departemen" required>
+                        <label for="message-text" class="form-control-label">Email</label>
+                        <input name="email" type="email" value="{{$dsn->email}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Angkatan</label>
-                        <input name="angkatan" type="number" placeholder="Angkatan" required>
+                        <label for="message-text" class="form-control-label">JK</label>
+                        <input name="jk" type="text" value="{{$dsn->jk}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">Asal</label>
+                        <input name="asal" type="text" value="{{$dsn->asal}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
+                        <input name="tgl_lahir" type="date" value="{{$dsn->tgl_lahir}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">Alamat</label>
+                        <input name="alamat" type="text" value="{{$dsn->alamat}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">Gereja</label>
+                        <input name="gereja" type="text" value="{{$dsn->gereja}}" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label">No. HP</label>
+                        <input name="no_hp" type="number" value="{{$dsn->no_hp}}" required>
                     </div>
                 </div>
                 {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}

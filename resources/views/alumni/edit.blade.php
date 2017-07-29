@@ -22,85 +22,85 @@
     <!-- Main content -->
     <br><br>
     <div class="container">
-        {!! Form::open(array('url' => '/alumni')) !!}
+        {!! Form::model($alumni,['method'=>'PATCH','action'=>['AlumniController@update',$alumni->id]]) !!}
             {{csrf_field()}}
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" placeholder="Name" required>
+                        <input name="name" type="text" value="{{$alumni->name}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" placeholder="Email" required>
+                        <input name="email" type="email" value="{{$alumni->email}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" placeholder="JK" required>
+                        <input name="jk" type="text" value="{{$alumni->jk}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" placeholder="Asal" required>
+                        <input name="asal" type="text" value="{{$alumni->asal}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" required>
+                        <input name="tgl_lahir" type="date" value="{{$alumni->tgl_lahir}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" placeholder="Alamat" required>
+                        <input name="alamat" type="text" value="{{$alumni->alamat}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" placeholder="Gereja" required>
+                        <input name="gereja" type="text" value="{{$alumni->gereja}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" placeholder="No. HP" required>
+                        <input name="no_hp" type="number" value="{{$alumni->no_hp}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" placeholder="Pekerjaan" required>
+                        <input name="pekerjaan" type="text" value="{{$alumni->pekerjaan}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Tempat Kerja</label>
-                        <input name="tempat_kerja" type="text" placeholder="Tempat Kerja" required>
+                        <input name="tempat_kerja" type="text" value="{{$alumni->tempat_kerja}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Asal Fakultas</label>
-                        <input name="asal_fakultas" type="text" placeholder="Asal Fakultas" required>
+                        <input name="asal_fakultas" type="text" value="{{$alumni->asal_fakultas}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Asal Departemen</label>
-                        <input name="asal_departemen" type="text" placeholder="Asal Departemen" required>
+                        <input name="asal_departemen" type="text" value="{{$alumni->asal_departemen}}" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Angkatan</label>
-                        <input name="angkatan" type="number" placeholder="Angkatan" required>
+                        <input name="angkatan" type="number" value="{{$alumni->angkatan}}" required>
                     </div>
                 </div>
                 {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}

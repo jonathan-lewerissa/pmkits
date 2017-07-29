@@ -24,7 +24,7 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                        <h3>Data Mahasiswa <a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
+                        <h3>Data Mahasiswa <a href="{{route('mahasiswa.create')}}" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
                         <div class="table-responsive" style="overflow: auto">
                         <table id="alumni" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
@@ -42,6 +42,10 @@
                                 <th>Gereja</th>
                                 <th>No. HP</th>
                                 <th>Line ID</th>
+                                <th>Talenta</th>
+                                <th>Kehadiran PJ</th>
+                                <th>Kehadiran PD</th>
+                                <th>Kehadiran Rapat</th>
                                 <th>Update</th>
                                 <th>Delete</th>
                               </tr>
@@ -62,14 +66,19 @@
                                 <td>{{$m->gereja}}</td>
                                 <td>{{$m->no_hp}}</td>
                                 <td>{{$m->line_id}}</td>
+                                <td>{{$m->talenta}}</td>
+                                <td>{{$m->kehadiran_pj}}</td>
+                                <td>{{$m->kehadiran_pd}}</td>
+                                <td>{{$m->kehadiran_rapat}}</td>
                                 <td>
-                                    <a class="btn btn-primary" type="submit" href="./mahasiswa?id={{$m->ID}}">Edit</a>
+                                    <a class="btn btn-primary" type="submit" href="./mahasiswa/{{$m->id    }}/edit">Edit</a>
                                 </td>
                                 <td>
-                                    {{ Form::open(array('url' => 'mahasiswa/' . $m->ID)) }}
-                                        {{ Form::hidden('_method', 'DELETE') }}
-                                        {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
-                                    {{ Form::close() }}
+                                    {!! Form::open(array('route' => array('mahasiswa.destroy', $m->id),
+                                                         'method' => 'delete',
+                                                         'style' => 'display:inline')) !!}
+                                    {!! Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) !!}
+                                    {!! Form::close() !!}
                                 </td>
                               </tr>
                               @endforeach

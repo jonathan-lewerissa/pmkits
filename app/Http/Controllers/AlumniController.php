@@ -31,7 +31,7 @@ class AlumniController extends Controller
      */
     public function create()
     {
-        //
+        return view('alumni.create');
     }
 
     /**
@@ -42,7 +42,22 @@ class AlumniController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $alumni = new Alumni();
+        $alumni['name'] = $request->name;
+        $alumni['email'] = $request->email;
+        $alumni['jk'] = $request->jk;
+        $alumni['asal'] = $request->asal;
+        $alumni['tgl_lahir'] = $request->tgl_lahir;
+        $alumni['alamat'] = $request->alamat;
+        $alumni['gereja'] = $request->gereja;
+        $alumni['no_hp'] = $request->no_hp;
+        $alumni['pekerjaan'] = $request->pekerjaan;
+        $alumni['tempat_kerja'] = $request->tempat_kerja;
+        $alumni['asal_fakultas'] = $request->asal_fakultas;
+        $alumni['asal_departemen'] = $request->asal_departemen;
+        $alumni['angkatan'] = $request->angkatan;
+        $alumni->save();
+        return redirect('alumni');
     }
 
     /**
@@ -64,7 +79,8 @@ class AlumniController extends Controller
      */
     public function edit($id)
     {
-        //
+        $alumni = Alumni::findorfail($id);
+        return view('alumni.edit',compact('alumni'));
     }
 
     /**
@@ -76,7 +92,22 @@ class AlumniController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $alumni = Alumni::findorfail($id);
+        $alumni['name'] = $request->name;
+        $alumni['email'] = $request->email;
+        $alumni['jk'] = $request->jk;
+        $alumni['asal'] = $request->asal;
+        $alumni['tgl_lahir'] = $request->tgl_lahir;
+        $alumni['alamat'] = $request->alamat;
+        $alumni['gereja'] = $request->gereja;
+        $alumni['no_hp'] = $request->no_hp;
+        $alumni['pekerjaan'] = $request->pekerjaan;
+        $alumni['tempat_kerja'] = $request->tempat_kerja;
+        $alumni['asal_fakultas'] = $request->asal_fakultas;
+        $alumni['asal_departemen'] = $request->asal_departemen;
+        $alumni['angkatan'] = $request->angkatan;
+        $alumni->save();
+        return view('alumni.edit',compact('alumni'));
     }
 
     /**
@@ -87,6 +118,8 @@ class AlumniController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $alumni = Alumni::findorfail($id);
+        $alumni->delete();
+        return redirect('alumni');
     }
 }

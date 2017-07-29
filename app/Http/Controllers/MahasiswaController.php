@@ -30,7 +30,7 @@ class MahasiswaController extends Controller
      */
     public function create()
     {
-        //
+        return view('mahasiswa.create');
     }
 
     /**
@@ -41,7 +41,24 @@ class MahasiswaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $mhs = new Mahasiswa();
+        $mhs['name'] = $request->name;
+        $mhs['nrp'] = $request->nrp;
+        $mhs['email'] = $request->email;
+        $mhs['jk'] = $request->jk;
+        $mhs['asal'] = $request->asal;
+        $mhs['tgl_lahir'] = $request->tgl_lahir;
+        $mhs['alamat_sby'] = $request->alamat_sby;
+        $mhs['alamat_asal'] = $request->alamat_asal;
+        $mhs['gereja'] = $request->gereja;
+        $mhs['no_hp'] = $request->no_hp;
+        $mhs['line_id'] = $request->line_id;
+        $mhs['talenta'] = $request->talenta;
+        $mhs['kehadiran_pj'] = $request->kehadiran_pj;
+        $mhs['kehadiran_pd'] = $request->kehadiran_pd;
+        $mhs['kehadiran_rapat'] = $request->kehadiran_rapat;
+        $mhs->save();
+        return redirect('mahasiswa');
     }
 
     /**
@@ -63,7 +80,8 @@ class MahasiswaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $mhs = Mahasiswa::findorfail($id);
+        return view('mahasiswa.edit', compact('mhs'));
     }
 
     /**
@@ -75,9 +93,25 @@ class MahasiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $mhs = Mahasiswa::findorfail($id);
+        $mhs['name'] = $request->name;
+        $mhs['nrp'] = $request->nrp;
+        $mhs['email'] = $request->email;
+        $mhs['jk'] = $request->jk;
+        $mhs['asal'] = $request->asal;
+        $mhs['tgl_lahir'] = $request->tgl_lahir;
+        $mhs['alamat_sby'] = $request->alamat_sby;
+        $mhs['alamat_asal'] = $request->alamat_asal;
+        $mhs['gereja'] = $request->gereja;
+        $mhs['no_hp'] = $request->no_hp;
+        $mhs['line_id'] = $request->line_id;
+        $mhs['talenta'] = $request->talenta;
+        $mhs['kehadiran_pj'] = $request->kehadiran_pj;
+        $mhs['kehadiran_pd'] = $request->kehadiran_pd;
+        $mhs['kehadiran_rapat'] = $request->kehadiran_rapat;
+        $mhs->save();
+        return view('mahasiswa.edit', compact('mhs'));
     }
-
     /**
      * Remove the specified resource from storage.
      *
@@ -86,6 +120,8 @@ class MahasiswaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $mhs = Mahasiswa::findorfail($id);
+        $mhs->delete();
+        return redirect('mahasiswa');
     }
 }
