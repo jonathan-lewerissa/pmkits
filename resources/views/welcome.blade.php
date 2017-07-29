@@ -63,10 +63,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </ul>
                             </li>
 -->
-                            <li><a href="#" data-hover="Beranda">Beranda</a></li>
-                            <li><a href="./about">Tentang</a></li>
-                            <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a href="#" >Aktivitas</a></li>
+                            <li><a class="page-scroll" href="#beranda"  data-hover="Beranda">Beranda</a></li>
+                            <li><a href="./about" data-hover="Tentang">Tentang</a></li>
+                            <li><a href="./renungan" hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -78,7 +78,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- banner-text -->
 		<div class="banner-text"> 
 			<h2>Natal PMK ITS</h2>
-			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
+			<p><b>Yesaya 7:14</b> <i>"Sebab itu Tuhan sendiri akan memberikan Anda tanda. Sesungguhnya, seorang perempuan muda mengandung dan melahirkan seorang putra, dan ia akan menamakan Dia Imanuel."</i></p>
 			<!-- timer -->
 			<div class="agileits-timer"> 
 				<div class="clock">
@@ -109,12 +109,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	 
 			</div>
 			<!-- //timer --> 
-<!--			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">daftar di sini </a> -->
+			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Share Now</a>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
 	<!-- //banner --> 
     
+    <div id="beranda" class="beranda">
 	<!-- event -->
 	<div class="welcome">    
 		<div class="welcome-agileinfo">
@@ -152,7 +153,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h4>"Kasih yang Sempurna"</h4>
         </div>
 		<div class="welcome-agileinfo">
-			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#66c2ff">
+			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#0077b3">
                 <div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 				</div>
@@ -163,11 +164,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#0077b3;">
+			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#66c2ff;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
 					<h4>Theater B</h4>
-					<h6>Alamat</h6>
+                    <a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>klik di sini untuk lokasinya</a>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -500,9 +501,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
 				<ul>
-					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
+					<li><a href="https://www.facebook.com/peemka.itees.7" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/pmk_its/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/PMK_ITS" target="_blank"><i class="fa fa-twitter"></i></a></li> 
 				</ul>
 			</div>
 			<p>© 2017 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
@@ -514,7 +515,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="pop_up w3-agile">
 			<div class="payment-online-form-left">
 				<form action="#" method="post"> 
-					<h4>Identitasmu</h4>
+					<h4>Share Now</h4>
+<!--
 					<ul>
 						<li><input class="text-box-dark" placeholder="Nama" type="text" required=""></li>
 						<li><input class="text-box-dark" placeholder="NRP" type="text" required=""></li>
@@ -541,17 +543,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</select>
 						</li> 
 					</ul>	
-<!--					<ul> 
+					<ul> 
 						<li class="w3ls-address"><input class="text-box-dark" placeholder="Address" type="text" required=""></li> 
-					</ul>	-->
+					</ul>	
 					<div class="clearfix"> </div>
-<!--
 					<h4>Payment Method</h4> 
 					<ul class="payment-type w3-agile"> 
 						<li><span class="col_checkbox">
 							<input type="radio" name="payment-method" id="paypal" value="paypal"> 
 							<a class="visa" href="#"> </a>
-							</span>												
+							</span>	
 						</li>
 						<li>
 							<span class="col_checkbox">
@@ -569,11 +570,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><input class="text-box-dark" placeholder="Expiration Date" type="text" required=""></li>
 						<li><input class="text-box-dark" placeholder="Security Code" type="text" required=""></li>
 					</ul> 
--->
 					<ul class="payment-sendbtns">
 						<li><input type="reset" value="Reset"></li>
 						<li><input type="submit" value="Absen"></li>
 					</ul>
+-->
 					<div class="clearfix"> </div>
 				</form>
 			</div>
@@ -755,5 +756,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="public/js/bootstrap.js"></script>
+    </div>
 </body>
 </html>

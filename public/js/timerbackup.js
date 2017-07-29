@@ -1,9 +1,8 @@
 $(function(){
     function timer(settings){
         var config = {
-            endDate: '2017-12-25 17:30',
+            endDate: '2050-12-31 10:00',
             timeZone: 'Europe/Dublin',
-            days: $('#days'),
             hours: $('#hours'),
             minutes: $('#minutes'),
             seconds: $('#seconds'),
@@ -17,7 +16,7 @@ $(function(){
         var endDate = moment.tz(config.endDate, config.timeZone);
         var diffTime = endDate.valueOf() - currentTime.valueOf();
         var duration = moment.duration(diffTime, 'milliseconds');
-        var months = duration.months();
+        var days = duration.days();
         var interval = 1000;
         var subMessage = $('.sub-message');
         var clock = $('.clock');
@@ -25,27 +24,25 @@ $(function(){
             endEvent(subMessage, config.newSubMessage, clock);
             return;
         }
-        if(months > 0){
-            $('#months').text(prependZero(months));
-            $('.months').css('display', 'inline-block');
+        if(days > 0){
+            $('#days').text(prependZero(days));
+            $('.days').css('display', 'inline-block');
         }
         var intervalID = setInterval(function(){
             duration = moment.duration(duration - interval, 'milliseconds');
-            var days = duration.days(),
-                hours = duration.hours(),
+            var hours = duration.hours(),
                 minutes = duration.minutes(),
                 seconds = duration.seconds();
             days = duration.days();
-            if(months <= 0 && hours  <= 0 && minutes <= 0 && seconds  <= 0 && days <= 0){
+            if(hours  <= 0 && minutes <= 0 && seconds  <= 0 && days <= 0){
                 clearInterval(intervalID);
                 endEvent(subMessage, config.newSubMessage, clock);
                 window.location.reload();
             }
-            if(months === 0){
-                $('.months').hide();
+            if(days === 0){
+                $('.days').hide();
             }
-            $('#months').text(prependZero(months));
-            config.days.text(prependZero(days));
+            $('#days').text(prependZero(days));
             config.hours.text(prependZero(hours));
             config.minutes.text(prependZero(minutes));
             config.seconds.text(prependZero(seconds));

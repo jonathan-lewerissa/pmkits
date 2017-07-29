@@ -18,9 +18,8 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        $user = Auth::user();
         $mhs = Mahasiswa::paginate(10);
-        return view('mahasiswa.index', compact('mhs'))->with('user',$user);
+        return view('mahasiswa.index', compact('mhs'));
     }
 
     /**

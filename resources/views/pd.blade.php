@@ -74,7 +74,7 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                        <h3>Data Absensi Persekutuan Doa Jurusan<a href="#" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
+                        <h3>Data Absensi Persekutuan Doa Jurusan<a href="#" class="pull-right">
                         <div class="table-responsive" style="overflow: auto">
                         <table id="absenpd" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
