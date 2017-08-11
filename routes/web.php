@@ -25,10 +25,6 @@ Route::get('/about', function() {
     return view('about');
 });
 
-Route::get('/renungan', function() {
-    return view('renungan');
-});
-
 Route::get('/activity', function() {
     return view('activity');
 });

@@ -67,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>About Us - PMK ITS</h2>
+			<h2>About Us</h2>
 			<p>Persekutan Mahasiswa Kristen Institut Teknologi Sepuluh November</p>
 		</div> 
 		<!-- //banner-text -->   
@@ -77,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="tentang" class="tentang">
 	
     <!-- about -->
-    <div class="contact">
+    <div class="gallery">
         <div class="container">
         <h3 class="w3stitle"><span>Visi dan Misi</span></h3>  
 			<div class="blog-agileinfo blog-agileinfo-mdl">
@@ -110,7 +110,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //about --> 
     
     <!-- divisi -->
-    <div class="gallery">
+    <div class="contact">
 		<div class="container">
 			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
 			<div class="blog-agileinfo blog-agileinfo-mdl">
@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div> 
 		</div>
 	</div>
-    <div class="contact">
+    <div class="gallery">
 		<div class="container">
 			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
             <div class="blog-agileinfo">

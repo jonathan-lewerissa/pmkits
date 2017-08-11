@@ -20,7 +20,7 @@ class RenunganController extends Controller
     {
         //
         $renungan = Renungan::paginate(10);
-//        return view('renungan.index', compact('renungan'));
+        return view('renungan', compact('renungan'));
     }
 
     /**

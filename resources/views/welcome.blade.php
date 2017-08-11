@@ -175,8 +175,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#66c2ff;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>Theater B</h4>
-                    <h6><a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>klik di sini untuk lokasinya</a></h6>
+					<h4>Theater <strong>B</strong> ITS</h4>
+                    <h6>klik <a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>DI SINI</a> untuk lokasinya</h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
 					<i class="fa fa-street-view" aria-hidden="true"></i>
@@ -277,7 +277,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="callendar" class="blog gallery">
 		<div class="container"> 
             <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
-            <div class="blog-agileinfo">
+            <div class="blog-agileinfo responsive-iframe-container" align="center">
+                <iframe src="http://www.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uk__en_gb%40holiday.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>
                 <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
             </div>
         </div>

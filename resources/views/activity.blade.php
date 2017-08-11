@@ -67,7 +67,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>NEWS</h2>
+            <h2>NEWS</h2>
+            <p>Informasi Penting</p>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
@@ -78,7 +79,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- blog -->
 	<div id="blog" class="blog gallery">
 		<div class="container">  
-			<h3 class="w3stitle">Today's<span> Info</span></h3>     
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#kabarkita" data-toggle="modal" class="wthree-blogimg">  
@@ -173,44 +173,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- features -->
 	<div class="features">
 		<div class="container">   
-			<div class="wthree-features-row">
-				<div class="col-md-3 col-xs-6 features-w3grid">
+			<div class="col-md-offset-3 col-md-6 wthree-features-row">
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-map-marker" aria-hidden="true"></i>
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>LOCATION</p>
-						<h4>LONDON, UK</h4>
+						<h4>SURABAYA</h4>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-ticket" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>REMAINING</p>
-						<h4>50 Tickets</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
+                </div>
+				<div class="col-md-6 col-xs-6 features-w3grid">
 					<div class="col-xs-4 features-w3lleft">
 						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
 					</div>
 					<div class="col-xs-8 features-w3lright"> 
 						<p>EVENTS</p>
-						<h4>20+ Events</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-users" aria-hidden="true"></i> 
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>CUSTOMERS</p>
-						<h4>12,000+</h4>
+						<h4>NATAL PMK</h4>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -219,6 +199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //features -->
+        
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">
 		<div class="container"> 

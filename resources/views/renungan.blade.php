@@ -14,17 +14,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
+    
     <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
-    <link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
-    <link rel="stylesheet" href="css/lightbox.css">    
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
-
+    <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="public/css/style.css" type="text/css" rel="stylesheet" media="all">   
+    <link href="public/css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
+    <link rel="stylesheet" href="public/css/lightbox.css"> 
+    <link rel="stylesheet" href="public/css/flexslider.css" type="text/css" media="screen" /> 
     <!-- //Custom Theme files --> 
+    
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>  
+    <script src="public/js/jquery-2.2.3.min.js"></script>  
     <!-- //js -->
 
     <!-- web-fonts -->   
