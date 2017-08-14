@@ -170,35 +170,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 	</div>
 	<!-- //contact --> 
-	<!-- features -->
-	<div class="features">
-		<div class="container">   
-			<div class="col-md-offset-3 col-md-6 wthree-features-row">
-				<div class="col-md-6 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>LOCATION</p>
-						<h4>SURABAYA</h4>
-					</div>
-					<div class="clearfix"> </div>
-                </div>
-				<div class="col-md-6 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>EVENTS</p>
-						<h4>NATAL PMK</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //features -->
         
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">

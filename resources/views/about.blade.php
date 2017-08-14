@@ -77,58 +77,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="tentang" class="tentang">
 	
     <!-- about -->
+    <div class="contact">
+        <div class="container">
+        <h3 class="w3stitle"><span>Visi</span></h3>  
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+                <div class="agileits-w3layouts">
+                    <ol style="text-align: center; margin : 10px">
+                        <li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
+                        <li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
+                        <li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>                        
+                        <li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
+                    </ol>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
     <div class="gallery">
         <div class="container">
-        <h3 class="w3stitle"><span>Visi dan Misi</span></h3>  
+        <h3 class="w3stitle"><span>Misi</span></h3>  
 			<div class="blog-agileinfo blog-agileinfo-mdl">
-            <div class="col-md-3 agileits-w3layouts">
-                <h3 class="w3stitle">Visi</h3>
-            </div>
-            <div class="col-md-9 agileits-w3layouts">
-            <ol>
-                <li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
-                <li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
-                <li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus (Matius 28:18-20).</p></li>
-                <li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
-            </ol>
-            </div>
-            <div class="col-sm-9 agileits-w3layouts"> 
-            <ol>
-                <li><p>Melaksanakan persekutuan mahasiwa yang hidup,    berkualitas, dan penuh kasih persaudaraan.</p></li>
-                <li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>
-                <li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>
+                <div class="agileits-w3layouts">
+                <ol style="text-align: center; margin : 10px">
+                <li><p>Melaksanakan persekutuan mahasiwa yang hidup,    berkualitas, dan penuh kasih persaudaraan.</p></li>    
+                <li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
+                <li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
                 <li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
-            </ol>
-            </div>
-            <div class="col-md-3 agileits-w3layouts">
-                <h3 class="w3stitle">Misi</h3>
-            </div>
-            <div class="clearfix"> </div>
+                </ol>
+                </div>
+                <div class="clearfix"> </div>
             </div>
         </div>
     </div>
 	<!-- //about --> 
-    
+        
     <!-- divisi -->
     <div class="contact">
-		<div class="container">
-			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
-						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
-					</a>  
-				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#medfo" data-toggle="modal">Media Informasi</a></h4>
-					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
-					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
-				</div> 
-				<div class="clearfix"> </div>
-			</div> 
-		</div>
-	</div>
-    <div class="gallery">
 		<div class="container">
 			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
             <div class="blog-agileinfo">
@@ -147,6 +131,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
+		</div>
+	</div>
+    <div class="gallery">
+		<div class="container">
+			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#medfo" data-toggle="modal">Media Informasi</a></h4>
+					<h6>By <a href="#"> Admin</a> - Dec 31st, 2015 </h6>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante in mattis earum rerum hic a sapiente delectus. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
 		</div>
 	</div>
     <div class="contact">
@@ -277,36 +279,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 	</div>
 	<!-- //contact --> 
-        
-	<!-- features -->
-	<div class="features">
-		<div class="container">   
-			<div class="col-md-offset-3 col-md-6 wthree-features-row">
-				<div class="col-md-6 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>LOCATION</p>
-						<h4>SURABAYA</h4>
-					</div>
-					<div class="clearfix"> </div>
-                </div>
-				<div class="col-md-6 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>EVENTS</p>
-						<h4>NATAL PMK</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //features -->
         
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">

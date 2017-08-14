@@ -55,9 +55,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 							<li><a href="welcome">Beranda</a></li>
-                            <li><a href="#">Tentang</a></li>
+                            <li><a href="about">Tentang</a></li>
                             <li><a href="renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
-                            <li><a href="#" >Aktivitas</a></li>
+                            <li><a href="activity" >Aktivitas</a></li>
                         </ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -68,35 +68,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>Happy New Year</h2>
-			<p>Mauris ex nulla aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet.</p>
-			<!-- timer -->
-			<div class="agileits-timer"> 
-				<div class="clock">
-					<div class="column days">
-						<div class="timer" id="days"></div>
-						<div class="text">Days</div>
-					</div>
-					<div class="timer days"></div>
-					<div class="column">
-						<div class="timer" id="hours"></div>
-						<div class="text">Hours</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="minutes"></div>
-						<div class="text">Minutes</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="seconds"></div>
-						<div class="text">Seconds</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>	 
-			</div>
-			<!-- //timer --> 
-			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">Get Your Entry Ticket </a> 
+			<h2>Renungan Harian</h2>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
@@ -153,7 +125,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="subscribe-agileinfo">  
 			<div class="container"> 
 				<div class="col-sm-6 sub-w3lsleft"> 
-					<h3 class="w3stitle">Subscribe <span> Newsletter</span></h3>   
+					<h3 class="w3stitle">Subscribe <span> Now</span></h3>   
 					<p>Sed tincidunt lorem sed velit lacus ornare <a href="">Privacy policy</a>.</p>			
 				</div>
 				<div class="col-sm-6 sub-w3lsright">
@@ -216,67 +188,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 	</div>
 	<!-- //contact --> 
-	<!-- features -->
-	<div class="features">
-		<div class="container">   
-			<div class="wthree-features-row">
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>LOCATION</p>
-						<h4>LONDON, UK</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-ticket" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>REMAINING</p>
-						<h4>50 Tickets</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>EVENTS</p>
-						<h4>20+ Events</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 col-xs-6 features-w3grid">
-					<div class="col-xs-4 features-w3lleft">
-						<i class="fa fa-users" aria-hidden="true"></i> 
-					</div>
-					<div class="col-xs-8 features-w3lright"> 
-						<p>CUSTOMERS</p>
-						<h4>12,000+</h4>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //features -->
+	
 	<!-- copy rights start here -->
 	<div class="copyw3-agile">
 		<div class="container"> 
 			<div class="w3social-icons footer-w3icons"> 
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
 				</ul>
 			</div>
-			<p>© 2016 Let's Party. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copy right end here --> 

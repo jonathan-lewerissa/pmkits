@@ -117,12 +117,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //banner --> 
     
     <div id="beranda" class="beranda">
-    <div id="contact" class="contact" align="center">
-		<div class="container"> 
-            <img src="public/images/pmk-its.png" class="img-responsive" alt=" " />
-            <div class="clearfix"> </div>
-        </div>	
-    </div>	
 	    
 	<!-- event -->
 	<div class="welcome">    
@@ -279,7 +273,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
             <div class="blog-agileinfo responsive-iframe-container" align="center">
                 <iframe src="http://www.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uk__en_gb%40holiday.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>
-                <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>
+<!--                <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>-->
             </div>
         </div>
     </div>
