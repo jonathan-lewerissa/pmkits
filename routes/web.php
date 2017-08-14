@@ -29,13 +29,17 @@ Route::get('/activity', function() {
     return view('activity');
 });
 
+Route::get('/renungan', function() {
+    return view('renungan');
+});
+
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('dashboard', 'DashboardController@index');
 Route::resource('admin/mahasiswa','MahasiswaController');
-Route::resource('doskar','DosenkaryawanController');
-Route::resource('alumni','AlumniController');
-Route::resource('event','EventController');
-Route::resource('renungan','RenunganController');
+Route::resource('admin/doskar','DosenkaryawanController');
+Route::resource('admin/alumni','AlumniController');
+Route::resource('admin/event','EventController');
+Route::resource('admin/renungan','RenunganController');
 
 Route::any('admin/index', ['as'=>'pengurus', 'uses'=>'PengurusController@index']);
 Route::any('admin/ksb', ['as'=>'ksb', 'uses'=>'PengurusController@ksb']);

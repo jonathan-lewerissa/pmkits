@@ -17,7 +17,7 @@ class CreateMahasiswasTable extends Migration
             $table->increments('id');
             $table->string('name', 100);
             $table->string('nrp', 10);
-            $table->string('email', 50)->unique();
+            $table->string('email', 50);
             $table->string('jk', 1);
             $table->string('asal', 20);
             $table->date('tgl_lahir');
