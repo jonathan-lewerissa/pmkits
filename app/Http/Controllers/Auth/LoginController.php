@@ -22,6 +22,8 @@ class LoginController extends Controller
     use AuthenticatesUsers {
         logout as performLogout;
     }
+    
+    protected $username = 'username';
 
     /**
      * Where to redirect users after login.

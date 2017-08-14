@@ -19,8 +19,36 @@
     <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-2 col-xs-4">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>UPDATED</strong> <p class="pull-right">{{number_format((float)100*($update/$mhss->count()),2) }} %</p></div>
+
+                <div class="panel-body">
+                    {{'All: '.$mhss->count()}}
+                    <br>
+                    {{'Updated: '.$update}}
+                    <br>
+                    Not Yet Updated: {{$mhss->count()-$update}}
+                </div>
+            </div>
+        </div>
+        @for($i=2013; $i<=2017; $i++)
+        <div class="col-md-2">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>{{$i}}</strong> <p class="pull-right">{{ number_format((float)100*(${'up'.$i}/${'all'.$i}),2) }} %</p></div>
+                
+                <div class="panel-body">
+                    All: @php echo ${'all'.$i}; @endphp
+                    <br>
+                    Updated: @php echo ${'up'.$i}; @endphp
+                    <br>
+                    Not Yet Updated: @php echo ${'all'.$i}-${'up'.$i}; @endphp
+                </div>
+            </div>
+        </div>
+        @endfor
+        <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
@@ -34,7 +62,7 @@
             <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-        <div class="col-lg-2 col-xs-4">
+        <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-orange">
             <div class="inner">
@@ -48,7 +76,7 @@
             <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-          <div class="col-lg-2 col-xs-4">
+          <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
@@ -62,7 +90,7 @@
             <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-          <div class="col-lg-2 col-xs-4">
+          <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
@@ -77,7 +105,7 @@
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-2 col-xs-4">
+        <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-red">
             <div class="inner">
@@ -92,7 +120,7 @@
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-2 col-xs-4">
+        <div class="col-lg-4 col-xs-4">
           <!-- small box -->
           <div class="small-box bg-blue">
             <div class="inner">

@@ -33,6 +33,12 @@ Route::get('/renungan', function() {
     return view('renungan');
 });
 
+
+Route::any('search', 'DashboardController@search')->name('search');
+Route::any('change_password', 'DashboardController@change_password')->name('change_password');
+
+Route::resource('mhs', 'MhsController');
+
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('dashboard', 'DashboardController@index');
 Route::resource('admin/mahasiswa','MahasiswaController');
