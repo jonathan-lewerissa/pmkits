@@ -72,24 +72,13 @@
                                 <td>{{$m->kehadiran_pd}}</td>
                                 <td>{{$m->kehadiran_rapat}}</td>
                                 <td>
-<<<<<<< HEAD
                                     <a class="btn btn-primary" type="submit" href="./mahasiswa/{{$m->id    }}/edit">Edit</a>
                                 </td>
                                 <td>
-                                    {!! Form::open(array('route' => array('mahasiswa.destroy', $m->id),
-                                                         'method' => 'delete',
-                                                         'style' => 'display:inline')) !!}
-                                    {!! Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) !!}
-                                    {!! Form::close() !!}
-=======
-                                    <a class="btn btn-primary" type="submit" href="./mahasiswa?id={{$m->nrp}}">Edit</a>
-                                </td>
-                                <td>
-                                    {{ Form::open(array('url' => 'mahasiswa/' . $m->nrp)) }}
+                                    {{ Form::open(array('url' => 'admin/mahasiswa/'.$m->nrp)) }}
                                         {{ Form::hidden('_method', 'DELETE') }}
                                         {{ Form::submit('Delete', array('onclick'=>"return confirm('Anda yakin akan menghapus data ?');", 'class' => 'btn btn-danger')) }}
                                     {{ Form::close() }}
->>>>>>> 5b8cdb21d99003b558279ce09755add954b3d625
                                 </td>
                               </tr>
                               @endforeach
@@ -108,7 +97,7 @@
     @stop
 
 <!-- jQuery 2.2.3 -->
-<script src="public/Admin-LTE/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -116,31 +105,34 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.6 -->
-<script src="public/Admin-LTE/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/bootstrap/js/bootstrap.min.js')}}"></script>
+<!-- DataTables -->
+<script src="{{URL::asset('public/Admin-LTE/plugins/datatables/jquery.dataTables.min.js')}}"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/datatables/dataTables.bootstrap.min.js')}}"></script>
 <!-- Morris.js charts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="public/Admin-LTE/plugins/morris/morris.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/morris/morris.min.js')}}"></script>
 <!-- Sparkline -->
-<script src="public/Admin-LTE/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/sparkline/jquery.sparkline.min.js')}}"></script>
 <!-- jvectormap -->
-<script src="public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')}}"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
 <!-- jQuery Knob Chart -->
-<script src="public/Admin-LTE/plugins/knob/jquery.knob.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/knob/jquery.knob.js')}}"></script>
 <!-- daterangepicker -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="public/Admin-LTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/daterangepicker/daterangepicker.js')}}"></script>
 <!-- datepicker -->
-<script src="public/Admin-LTE/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/datepicker/bootstrap-datepicker.js')}}"></script>
 <!-- Bootstrap WYSIHTML5 -->
-<script src="public/Admin-LTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')}}"></script>
 <!-- Slimscroll -->
-<script src="public/Admin-LTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/slimScroll/jquery.slimscroll.min.js')}}"></script>
 <!-- FastClick -->
-<script src="public/Admin-LTE/plugins/fastclick/fastclick.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/plugins/fastclick/fastclick.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="public/Admin-LTE/dist/js/app.min.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/dist/js/app.min.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="public/Admin-LTE/dist/js/pages/dashboard.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/dist/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="public/Admin-LTE/dist/js/demo.js"></script>
+<script src="{{URL::asset('public/Admin-LTE/dist/js/demo.js')}}"></script>

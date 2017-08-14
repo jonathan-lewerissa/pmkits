@@ -121,6 +121,6 @@ class MahasiswaController extends Controller
     {
         $mhs = Mahasiswa::findorfail($id);
         $mhs->delete();
-        return redirect('mahasiswa');
+        return redirect()->back();
     }
 }
