@@ -70,7 +70,7 @@
             <div class="col-md-12">
                 <div class="box box-primary">
                     <div class="box-body">
-                        <h3>Data Absensi Persekutuan Jumat<a href="#" class="pull-right">
+                        <h3>Data Absensi Persekutuan Jumat</h3>
                         <div class="table-responsive" style="overflow: auto">
                         <table id="absenpj" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
