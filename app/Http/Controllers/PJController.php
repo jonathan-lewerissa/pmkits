@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\PersekutuanJumat;
+use App\Absensi;
 
 class PJController extends Controller
 {
@@ -19,8 +20,10 @@ class PJController extends Controller
     public function index()
     {
         //
-        $pj = PersekutuanJumat::paginate(10);
-        return view('pj', compact('pj'));
+        $pj = PersekutuanJumat::paginate(20, ['*'], 'pj_page');
+        $absensi = Absensi::where('id_event','LIKE','pj%')->paginate(10, ['*'], 'absensi_page');
+        $absensi->setPageName('absensi_page');
+        return view('pj', compact('pj'))->with('absensi', $absensi);
     }
 
     /**
@@ -53,6 +56,13 @@ class PJController extends Controller
     public function show($id)
     {
         //
+        $pj = PersekutuanJumat::paginate(20, ['*'], 'pj_page');
+        $ids = 'pj'.$id;
+//        echo $ids;
+        $absensi = Absensi::where('id_event','LIKE',$ids)->paginate(10, ['*'], 'absensi_page');
+        $absensi->setPageName('absensi_page');
+//        dd($absensi);
+        return view('pj', compact('pj'))->with('absensi', $absensi);
     }
 
     /**

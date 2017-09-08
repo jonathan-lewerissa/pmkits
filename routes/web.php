@@ -56,5 +56,5 @@ Route::any('admin/persekutuan', ['as'=>'persekutuan', 'uses'=>'PengurusControlle
 Route::any('admin/pkmbk', ['as'=>'pkmbk', 'uses'=>'PengurusController@pkmbk']);
 Route::any('admin/napas', ['as'=>'napas', 'uses'=>'PengurusController@napas']);
 
-Route::resource('pj','PJController');
-Route::resource('pd','PDController');
+Route::resource('admin/pj','PJController');
+Route::resource('admin/pd','PDController');

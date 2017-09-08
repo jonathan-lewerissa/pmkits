@@ -1,4 +1,4 @@
-@extends('pengurus.layout')
+@extends('layouts.backend')
 
 @section('content')
 
