@@ -65,9 +65,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </li>
 -->
                             <li><a class="page-scroll" href="#beranda" data-hover="Beranda">Beranda</a></li>
-                            <li><a href="./about">Tentang</a></li>
-                            <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a href="./activity">Berita Penting</a></li>
+                            <li><a href="./about" data-hover="Tentang">Tentang</a></li>
+                            <li><a href="./renungan" hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="welcome">  
         <div class="welcome-w3center">
             <h3 class="w3stitle w3stitle1">Persekutuan Jumat PMK ITS</h3>
-            <h4>TEMA : "FRIENDS"</h4>
+            <h4>"Kasih yang Sempurna"</h4>
         </div>
 		<div class="welcome-agileinfo">
 			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#0077b3">
@@ -161,7 +161,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>When</p>
-					<h4>22nd SEPT 2017</h4>
+					<h4>1st SEPT 2017</h4>
 					<h6>Starting at : 11:15 am </h6>
 				</div>
 				<div class="clearfix"> </div>
@@ -205,19 +205,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //renungan -->
-    
-    <!-- callendar -->
-    <div id="callendar" class="blog gallery">
-		<div class="container"> 
-            <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
-            <div class="blog-agileinfo responsive-iframe-container" align="center">
-                <iframe src="http://www.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uk__en_gb%40holiday.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>
-<!--                <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>-->
-            </div>
-        </div>
-    </div>
-    <!-- //callendar -->
-
+        
     <!-- testimonials -->
 	<div class="testimonials team">
 		<div class="container">
@@ -279,9 +267,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //testimonials -->
 
-        
+    <!-- callendar -->
+    <div id="callendar" class="blog gallery">
+		<div class="container"> 
+            <h3 class="w3stitle">Kalendar <span> Kegiatan</span></h3>  
+            <div class="blog-agileinfo responsive-iframe-container" align="center">
+                <iframe src="http://www.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uk__en_gb%40holiday.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>
+<!--                <img src="public/images/calendar.jpg" class="img-responsive zoom-img" alt=""/>-->
+            </div>
+        </div>
+    </div>
+    <!-- //callendar -->
+    
     <!-- subscribe -->
-<!--
 	<div class="subscribe wthree-sub jarallax">  
 		<div class="subscribe-agileinfo">  
 			<div class="container"> 
@@ -300,7 +298,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
--->
 	<!-- //subscribe -->
     
 	<!-- gallery -->
@@ -609,7 +606,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
     <!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({

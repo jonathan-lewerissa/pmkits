@@ -53,10 +53,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
-                            <li><a href="./welcome">Beranda</a></li>
-                            <li><a href="./about">Tentang</a></li>
-                            <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a class="page-scroll" href="#activity" data-hover="Berita Penting">Berita Penting</a></li>
+                            <li><a href="./welcome" data-hover="Beranda">Beranda</a></li>
+                            <li><a href="./about" data-hover="Tentang">Tentang</a></li>
+                            <li><a href="./renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a class="page-scroll" href="#activity" data-hover="Aktivitas">Aktivitas</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -66,9 +66,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text" style="background:black;"> 
-            <h2>Berita Penting</h2>
-            <p>Informasi Untuk <span>Para Sobat PMK</span> </p>
+		<div class="banner-text"> 
+            <h2>NEWS</h2>
+            <p>Informasi Penting</p>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
@@ -87,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
 					<h4><a href="#kabarkita" data-toggle="modal">Kabar Kita</a></h4>
-					<h6>EVENT By <a href="#"> peemkaitees</a> - May 5th, 2017 </h6>
+					<h6>By <a href="#"> peemkaitees</a> - May 5th, 2017 </h6>
 					<p>Syalom sobat PMK! untuk pertama kalinya Humas PMK menerbitkan buletin “Kabar Kita” secara online.</p>
 				</div> 
 				<div class="clearfix"> </div>
@@ -113,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
 					<h4><a href="#myModal" data-toggle="modal">Mattis earum rerum</a></h4>
-					<h6>ARTICLE By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
+					<h6>By <a href="#"> Admin</a> - Dec 25th, 2016 </h6>
 					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien. </p>
 				</div> 
 				<div class="clearfix"> </div>
@@ -240,7 +240,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //scripts -->  
 	<!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
