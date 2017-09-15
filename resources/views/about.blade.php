@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ABOUT PMK ITS</title>
+    <title>ABOUT - PMK ITS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Let's Party Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -53,10 +53,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
-                            <li><a href="./welcome" data-hover="Beranda">Beranda</a></li>
+                            <li><a href="./welcome">Beranda</a></li>
                             <li><a class="page-scroll" href="#tentang" data-hover="Tentang">Tentang</a></li>
-                            <li><a href="./renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
-                            <li><a href="./activity" data-hover="Aktivitas">Aktivitas</a></li>
+                            <li><a href="./renungan">Renungan Harian</a></li>
+                            <li><a href="./activity">Berita Penting</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -66,7 +66,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text"> 
+		<div class="banner-text" style="background:black;"> 
+<!--            background:url(../images/2.jpg)no-repeat right 0px;-->
 			<h2>About Us</h2>
 			<p>Persekutan Mahasiswa Kristen Institut Teknologi Sepuluh November</p>
 		</div> 
@@ -443,7 +444,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //scripts -->  
 	<!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
-	<script src="public/js/SmoothScroll.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({

@@ -57,7 +57,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li><a href="welcome">Beranda</a></li>
                             <li><a href="about">Tentang</a></li>
                             <li><a href="renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
-                            <li><a href="activity" >Aktivitas</a></li>
+                            <li><a href="activity" >Berita Penting</a></li>
                         </ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -67,8 +67,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text"> 
-			<h2>Renungan Harian</h2>
+		<div class="banner-text" style="background:black;"> 
+            <h2>Renungan<span> Hari Ini</span></h2>
+            <p>Matius 26:41 "Berjaga-jagalah dan berdoalah, supaya kamu jangan jatuh ke dalam pencobaan: roh memang penurut, tetapi daging lemah."</p>
 		</div> 
 		<!-- //banner-text -->   
 	</div>	
@@ -77,28 +78,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- blog -->
 	<div id="blog" class="blog gallery">
 		<div class="container">  
-			<h3 class="w3stitle">Renungan<span> Hari Ini</span></h3>     
+<!--			<h3 class="w3stitle">Renungan<span> Hari Ini</span></h3>     -->
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#efesus5" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img1.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Efesus 5 : 22 - 23</a></h4>
+					<h4><a href="#efesus5" data-toggle="modal">Efesus 5 : 22 - 23</a></h4>
 					<h6>By <a href="#"> peemkaitees</a> - Feb 25th, 2017 </h6>
 					<p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. </p>
+                    <h6>read about 2 times</h6>     <!-- dihitung berapa kali dibaca oleh user -->
+                    <!-- Penambahan rating kah ? -->
 				</div> 
 				<div class="clearfix"> </div>
 			</div> 
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
-					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
+					<a href="#amsal31" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
-					<h4><a href="#myModal" data-toggle="modal">Amsal 31:10-31</a></h4>
+					<h4><a href="#amsal31" data-toggle="modal">Amsal 31:10-31</a></h4>
 					<h6>By <a href="#"> peemkaitees</a> - Feb 26th, 2017 </h6>
 					<p>Pada Desember 2015, Litbang Kompas mengadakan survei dengan responden 1.640 siswa SMA di 12 kota di Indonesia. Mereka diminta menyebutkan sosok pahlawan dalam kehidupan mereka. Sebagian besar responden menyebutkan ibu masing-masing. </p>
 				</div> 
@@ -121,6 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //blog --> 
 	<!-- subscribe -->
+<!--
 	<div class="subscribe wthree-sub jarallax">  
 		<div class="subscribe-agileinfo">  
 			<div class="container"> 
@@ -139,6 +143,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
+-->
 	<!-- //subscribe -->
 	<!-- contact -->
 	<div id="contact" class="contact">
@@ -197,6 +202,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
+                    <li><a href="https://twitter.com/PMK_ITS"><i class="fa "></i></a></li>     
 				</ul>
 			</div>
 			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
@@ -277,7 +283,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //pop-up-grid --> 
 	<!-- modal -->
-	<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal about-modal w3-agileits fade" id="efesus5" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -291,11 +297,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <p>Firman Allah memerintahkan pasangan suami-istri untuk membangun hubungan pernikahan di atas dasar kasih Kristus. Suami dipanggil untuk mengasihi istrinya seperti Kristus mengasihi jemaat (ay. 25), ada pun istri dipanggil untuk menundukkan diri pada suami seperti kepada Tuhan (ay. 22). Hubungan kasih antara Kristus dan jemaat menjadi tolok ukur hubungan kasih suami-istri (ay. 32). Kasih Kristus yang kekal adalah dasar yang teguh untuk membangun hubungan pernikahan di tengah dunia yang berubah-ubah dan penuh tantangan ini.</p>
 
                     <p>Jika Allah tidak hadir dalam hidup seseorang, mustahil baginya untuk mengalirkan kasih yang sejati kepada pasangannya. Ia tidak memiliki sumber kasih yang sejati. Sumber kasihnya hanyalah perasaan yang bisa memudar, ketertarikan fisik, atau hal-hal lain yang fana, bukan kasih Kristus yang kekal. Sebaliknya, ketika kita tinggal di dalam kasih Kristus, kasih-Nya itu akan mengalir dari hati kita kepada pasangan kita. Kasih-Nya yang sempurna akan memampukan kita mengasihi dan menghormati pasangan kita yang tidak sempurna.</p>
+                    <p align="right">PMK ITS 2017</p>          <!-- Ditambahkan ini ? -->
 				</div> 
 			</div>
 		</div>
 	</div>
 	<!-- //modal -->
+    
+    <!-- modal -->
+	<div class="modal about-modal w3-agileits fade" id="amsal31" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		
+				</div> 
+				<div class="modal-body">
+					<img src="public/images/img3.jpg" alt=""> 
+					<h5>Amsal 31:10-31</h5>
+                    <p>Pada Desember 2015, Litbang Kompas mengadakan survei dengan responden 1.640 siswa SMA di 12 kota di Indonesia. Mereka diminta menyebutkan sosok pahlawan dalam kehidupan mereka. Sebagian besar responden menyebutkan ibu masing-masing. Dalam benak mereka, pahlawan adalah orang yang melindungi saat diperlukan, suka menolong orang lain, dan menentang kejahatan. Ibu pula yang menjadi tempat berkomunikasi paling utama bagi para remaja.</p>
+
+                    <p>Amsal 31:10-31 menggambarkan ibu sebagai pahlawan. Ibu berbuat baik sepanjang umurnya (ay. 12), senang bekerja keras (ay. 13, 16, 19, 27), menyiapkan makanan untuk keluarga (ay. 14, 15), menolong orang yang tertindas dan miskin (ay. 20), melindungi seisi rumahnya (ay. 21), berbicara dengan hikmat dan lemah lembut (ay. 26). Semua itu buah dari takut akan Tuhan (ay. 30).</p>
+
+                    <p>Seminggu menjelang saya menikah, Ibu berbicara dari hati ke hati dengan pacar saya, “Mama tahu anak ini sangat sensitif dan perasa. Tolong kamu jaga dia, jangan kamu sakiti dia.” Ternyata perkataan ibu ini sangat membekas dalam hati pacar saya sehingga ia menjadi suami yang menjaga dan menyayangi saya sampai sekarang.</p>
+                    
+                    <p>Bersyukurlah para ibu yang mendapat kepercayaan untuk mendampingi suami dan anak-anak. Kiranya para ibu dikaruniai hikmat dan pimpinan Tuhan, agar menjadi istri dan ibu yang cakap. Istri dan ibu yang cakap akan mendatangkan keberhasilan dan kebahagiaan bagi suami dan anak-anak. Dan keluarga yang berbahagia dapat menjadi berkat bagi masyarakat sekitarnya.</p>
+                    
+                    <p align="center"> PEREMPUAN YANG MENGANDALKAN TUHAN AKAN MENJADI PAHLAWAN BAGI SUAMI DAN ANAK-ANAKNYA</p>
+                    <p align="right">PMK ITS 2017</p>          <!-- Ditambahkan ini ? -->
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+    
 	<!-- modal -->
 	<div class="modal about-modal w3-agileits fade" id="myModal2" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -377,7 +411,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //scripts -->  
 	<!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
-	<script src="public/js/SmoothScroll.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
