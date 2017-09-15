@@ -81,7 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img1.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img1.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -94,7 +94,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img2.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -107,7 +107,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#myModal" data-toggle="modal" class="wthree-blogimg">  
-						<img src="images/img3.jpg" class="img-responsive" alt=""/>
+						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
@@ -284,7 +284,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
 				</div> 
 				<div class="modal-body">
-					<img src="images/img2.jpg" alt=""> 
+					<img src="public/images/img2.jpg" alt=""> 
 					<h5>Efesus 5:22-33</h5>
                     <p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. Sudah tidak lagi saling mengasihi, begitu alasan yang sering dipakai. Lalu ke manakah kasih yang dahulu ketika memulai pernikahan? Sudah habis? Luntur? Ataukah memang kasihnya hanya berkualitas palsu?</p>
 
@@ -360,24 +360,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> <!-- //login-page -->
 			</div>
 		</div>
-	</div>
 	<!-- //modal -->  		 
 	<!-- fireworks scripts --> 
-	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
+	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
 		});
 	</script>
 	<!-- //fireworks scripts -->
+    
 	<!-- timer scripts --> 
-	<script type="text/javascript" src=" js/moment.js"></script>
-	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
-	<script type="text/javascript" src="js/timer.js"></script>
+	<script type="text/javascript" src="public/js/moment.js"></script>
+	<script type="text/javascript" src="public/js/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="public/js/timer.js"></script>
 	<!-- //scripts -->  
 	<!-- jarallax -->
-	<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="public/js/jarallax.js"></script>
+	<script src="public/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -387,8 +387,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		})
 	</script>
 	<!-- //jarallax --> 
+    
 	<!-- ResponsiveTabs js -->
-	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="public/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#horizontalTab').easyResponsiveTabs({
@@ -399,11 +400,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //ResponsiveTabs js --> 
+    
 	<!-- Scrolling Nav JavaScript --> 
-    <script src="js/scrolling-nav.js"></script>  
+    <script src="public/js/scrolling-nav.js"></script>  
 	<!-- //fixed-scroll-nav-js --> 
+    
 	<!-- pop-up-box -->    
-	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="public/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({
@@ -416,14 +419,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			midClick: true,
 			removalDelay: 300,
 			mainClass: 'my-mfp-zoom-in'
-		});
-																		
+		});												
 		});
 	</script> 
 	<!-- //pop-up-box -->
+    
 	<!-- start-smooth-scrolling --> 
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript" src="public/js/move-top.js"></script>
+	<script type="text/javascript" src="public/js/easing.js"></script>	
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -434,6 +437,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 	<!-- //end-smooth-scrolling -->	 
+    
 	<!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -451,9 +455,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	</script>
 	<!-- //smooth-scrolling-of-move-up -->
+    
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
+    </div>
 </body>
 </html>
