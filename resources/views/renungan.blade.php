@@ -48,7 +48,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.html">Let's <span>Party</span></a></h1>
+						<h1><a class="navbar-brand" href="index.html">PMK <span>ITS</span></a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -67,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text" style="background:black;"> 
+		<div class="banner-text" style="background:url(public/images/397.jpg)no-repeat center center;"> 
             <h2>Renungan<span> Hari Ini</span></h2>
             <p>Matius 26:41 "Berjaga-jagalah dan berdoalah, supaya kamu jangan jatuh ke dalam pencobaan: roh memang penurut, tetapi daging lemah."</p>
 		</div> 
@@ -202,7 +202,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
-                    <li><a href="https://twitter.com/PMK_ITS"><i class="fa "></i></a></li>     
 				</ul>
 			</div>
 			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
@@ -396,12 +395,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	<!-- //modal -->  		 
 	<!-- fireworks scripts --> 
+<!--
 	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
 		});
 	</script>
+-->
 	<!-- //fireworks scripts -->
     
 	<!-- timer scripts --> 
