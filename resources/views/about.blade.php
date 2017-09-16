@@ -78,38 +78,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="tentang" class="tentang">
 	
     <!-- about -->
-    <div class="contact">
-        <div class="container">
-        <h3 class="w3stitle"><span>Visi</span></h3>  
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-                <div class="agileits-w3layouts">
-                    <ol style="text-align: center; margin : 10px">
-                        <li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
-                        <li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
-                        <li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>                        
-                        <li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
-                    </ol>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
     <div class="gallery">
-        <div class="container">
-        <h3 class="w3stitle"><span>Misi</span></h3>  
-			<div class="blog-agileinfo blog-agileinfo-mdl">
-                <div class="agileits-w3layouts">
-                <ol style="text-align: center; margin : 10px">
-                <li><p>Melaksanakan persekutuan mahasiwa yang hidup,    berkualitas, dan penuh kasih persaudaraan.</p></li>    
-                <li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
-                <li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
-                <li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
-                </ol>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
+    	<div class="container">	
+    		<div class="col-md-6">
+    			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Visi</span></h3>  
+    			<div class="blog-agileinfo blog-agileinfo-mdl">
+    				<div class="agileits-w3layouts">
+    					<ul style="text-align: left; margin : 10px;">
+    						<li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
+    						<li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
+    						<li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>                        
+    						<li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
+    					</ul>
+    				</div>
+    				<div class="clearfix"> </div>
+    			</div>
+    		</div>
+    		<div class="col-md-6">
+    			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Misi</span></h3>  
+    			<div class="blog-agileinfo blog-agileinfo-mdl">
+    				<div class="agileits-w3layouts">
+    					<ul style="text-align: left; margin : 10px">
+    						<li><p>Melaksanakan persekutuan mahasiwa yang hidup,`berkualitas, dan penuh kasih persaudaraan.</p></li>    
+    						<li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
+    						<li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
+    						<li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
+    					</ul>
+    				</div>
+    				<div class="clearfix"> </div>
+    			</div>
+    		</div>
+    	</div>
     </div>
+
+
 	<!-- //about --> 
         
     <!-- divisi -->
