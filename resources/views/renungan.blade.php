@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 							<li><a href="welcome">Beranda</a></li>
                             <li><a href="about">Tentang</a></li>
-                            <li><a href="renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
+                            <li><a class="page-scroll" href="#renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
                             <li><a href="activity" >Berita Penting</a></li>
                         </ul>
 					</div>
@@ -67,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text" style="background:url(public/images/397.jpg)no-repeat center center;"> 
+		<div class="banner-text" style="background:url(public/images/397.jpg)no-repeat center center;background-size:cover;"> 
             <h2>Renungan<span> Hari Ini</span></h2>
             <p>Matius 26:41 "Berjaga-jagalah dan berdoalah, supaya kamu jangan jatuh ke dalam pencobaan: roh memang penurut, tetapi daging lemah."</p>
 		</div> 
@@ -75,11 +75,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	
 	<!-- //banner --> 
 	
+    <div id="renungan" class="renungan">
+    
 	<!-- blog -->
 	<div id="blog" class="blog gallery">
 		<div class="container">  
 <!--			<h3 class="w3stitle">Renungan<span> Hari Ini</span></h3>     -->
-			<div class="blog-agileinfo">
+			<div class="blog-agileinfo blog-agileinfo-mdl">
+				<div class="col-md-7 blog-w3grid-img blog-img-rght">
+					<a href="#amsal31" data-toggle="modal" class="wthree-blogimg">  
+						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
+					</a>  
+				</div>
+				<div class="col-md-5 blog-w3grid-text"> 
+					<h4><a href="#amsal31" data-toggle="modal">Amsal 31:10-31</a></h4>
+					<h6>By <a href="#"> peemkaitees</a> - Feb 26th, 2017 </h6>
+					<p>Pada Desember 2015, Litbang Kompas mengadakan survei dengan responden 1.640 siswa SMA di 12 kota di Indonesia. Mereka diminta menyebutkan sosok pahlawan dalam kehidupan mereka. Sebagian besar responden menyebutkan ibu masing-masing. </p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+            <div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#efesus5" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img1.jpg" class="img-responsive" alt=""/>

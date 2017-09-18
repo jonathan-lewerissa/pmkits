@@ -449,12 +449,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //napas -->
     
 	<!-- fireworks scripts --> 
+<!--
 	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
 		});
 	</script>
+-->
 	<!-- //fireworks scripts -->
         
 	<!-- timer scripts --> 

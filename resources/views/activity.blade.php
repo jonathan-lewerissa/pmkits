@@ -66,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text" style="background:url(public/images/news.jpg);"> 
+		<div class="banner-text" style="background:url(public/images/news.jpg);background-size:cover;"> 
 <!--            background:url(../images/1.jpg)no-repeat right 0px;-->
             <h2>Berita Penting</h2>
             <p>Informasi Untuk <span>Para Sobat PMK</span> </p>
