@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <li><a href="./welcome">Beranda</a></li>
                             <li><a class="page-scroll" href="#tentang" data-hover="Tentang">Tentang</a></li>
                             <li><a href="./renungan">Renungan Harian</a></li>
-                            <li><a href="./activity">Berita Penting</a></li>
+                            <li><a href="./news">Berita Penting</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -84,12 +84,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Visi</span></h3>  
     			<div class="blog-agileinfo blog-agileinfo-mdl">
     				<div class="agileits-w3layouts">
-    					<ul style="text-align: left; margin : 10px;">
+    					<ol style="text-align: left; margin : 10px;">
     						<li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
     						<li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
     						<li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>                        
     						<li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
-    					</ul>
+    					</ol>
     				</div>
     				<div class="clearfix"> </div>
     			</div>
@@ -98,12 +98,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Misi</span></h3>  
     			<div class="blog-agileinfo blog-agileinfo-mdl">
     				<div class="agileits-w3layouts">
-    					<ul style="text-align: left; margin : 10px">
-    						<li><p>Melaksanakan persekutuan mahasiwa yang hidup,`berkualitas, dan penuh kasih persaudaraan.</p></li>    
+    					<ol style="text-align: left; margin : 10px">
+    						<li><p>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</p></li>    
     						<li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
     						<li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
     						<li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
-    					</ul>
+    					</ol>
     				</div>
     				<div class="clearfix"> </div>
     			</div>
@@ -234,69 +234,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //divisi -->
         
-	<!-- contact -->
-	<div id="contact" class="contact">
-		<div class="container"> 
-			<h3 class="w3stitle">Contact <span> us</span></h3>
-			<div class="contact-row agileits-w3layouts">  
-                <div class="col-md-12 col-sm-12 contact-w3lsright" align="center">
-					<h6><span>Sed interdum </span>interdum accumsan nec purus ac orci finibus facilisis.</h6>
-					<div class="col-md-4 col-sm-4 address-row">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Visit Us</h5>
-							<p>SCC Lantai 2 - Institut Teknologi Sepuluh Nopember</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 col-sm-4 address-row w3-agileits">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Mail Us</h5>
-							<p><a href="mailto:divhumas.pmk.its@gmail.com"> divhumas.pmk.its@gmail.com</a></p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 col-sm-4 address-row">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Call Us</h5>
-							<p>+62813 9663 7328</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div> 
-					<!-- map -->
-					<div class="col-md-12 col-sm-12 map agileits">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.8754084025924!2d112.79344346601461!3d-7.283335575481929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa13437afe8b%3A0x2639580c16508b90!2sSCC+ITS!5e0!3m2!1sen!2s!4v1497280389964"></iframe>
-					</div>
-					<!-- //map --> 
-				</div>
-				<div class="clearfix"> </div>
-			</div>	
-		</div>	
-	</div>
-	<!-- //contact --> 
-        
-	<!-- copy rights start here -->
-	<div class="copyw3-agile">
-		<div class="container"> 
-			<div class="w3social-icons footer-w3icons"> 
-				<ul>
-					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
-				</ul>
-			</div>
-			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-		</div>
-	</div>
-	<!-- //copy right end here --> 
+	@include('user.footer') 
 	
 	<!-- pemuridan -->
 	<div class="modal about-modal w3-agileits fade" id="pemuridan" tabindex="-1" role="dialog">

@@ -54,10 +54,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right cl-effect-15">
 							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-							<li><a href="welcome">Beranda</a></li>
-                            <li><a href="about">Tentang</a></li>
+							<li><a href="./welcome">Beranda</a></li>
+                            <li><a href="./about">Tentang</a></li>
                             <li><a class="page-scroll" href="#renungan" data-hover="Renungan Harian">Renungan Harian</a></li>
-                            <li><a href="activity" >Berita Penting</a></li>
+                            <li><a href="./news" >Berita Penting</a></li>
                         </ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -160,69 +160,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 -->
 	<!-- //subscribe -->
-	<!-- contact -->
-	<div id="contact" class="contact">
-		<div class="container"> 
-			<h3 class="w3stitle">Contact <span> us</span></h3>
-			<div class="contact-row agileits-w3layouts">  
-                <div class="col-md-12 col-sm-12 contact-w3lsright" align="center">
-					<h6><span>Sed interdum </span>interdum accumsan nec purus ac orci finibus facilisis.</h6>
-					<div class="col-md-4 col-sm-4 address-row">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Visit Us</h5>
-							<p>SCC Lantai 2 - Institut Teknologi Sepuluh Nopember</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 col-sm-4 address-row w3-agileits">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Mail Us</h5>
-							<p><a href="mailto:divhumas.pmk.its@gmail.com"> divhumas.pmk.its@gmail.com</a></p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 col-sm-4 address-row">
-						<div class="col-xs-2 address-left">
-							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-10 address-right">
-							<h5>Call Us</h5>
-							<p>+62813 9663 7328</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div> 
-					<!-- map -->
-					<div class="col-md-12 col-sm-12 map agileits">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.8754084025924!2d112.79344346601461!3d-7.283335575481929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa13437afe8b%3A0x2639580c16508b90!2sSCC+ITS!5e0!3m2!1sen!2s!4v1497280389964"></iframe>
-					</div>
-					<!-- //map --> 
-				</div>
-				<div class="clearfix"> </div>
-			</div>	
-		</div>	
-	</div>
-	<!-- //contact --> 
 	
-	<!-- copy rights start here -->
-	<div class="copyw3-agile">
-		<div class="container"> 
-			<div class="w3social-icons footer-w3icons"> 
-				<ul>
-					<li><a href="https://www.facebook.com/peemka.itees.7"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/pmk_its/?hl=en"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://twitter.com/PMK_ITS"><i class="fa fa-twitter"></i></a></li> 
-				</ul>
-			</div>
-			<p>© 2016 PMK-ITS. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-		</div>
-	</div>
-	<!-- //copy right end here --> 
+	@include('user.footer')
+
 	<!-- pop-up-grid -->
 	<div id="small-dialog" class="mfp-hide">
 		<div class="pop_up w3-agile">

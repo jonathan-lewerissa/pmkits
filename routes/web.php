@@ -25,8 +25,8 @@ Route::get('/about', function() {
     return view('about');
 });
 
-Route::get('/activity', function() {
-    return view('activity');
+Route::get('/news', function() {
+    return view('news');
 });
 
 Route::get('/renungan', function() {
