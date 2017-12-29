@@ -33,7 +33,8 @@
                 </div>
             </div>
         </div>
-        @for($i=2013; $i<=2017; $i++)
+        <!-- Sementara 2014 dan 2015, krn jumlah data > 0 -->
+        @for($i=2014; $i<=2015; $i++)
         <div class="col-md-2">
             <div class="panel panel-default">
                 <div class="panel-heading"><strong>{{$i}}</strong> <p class="pull-right">{{ number_format((float)100*(${'up'.$i}/${'all'.$i}),2) }} %</p></div>
