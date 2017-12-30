@@ -75,50 +75,83 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	
 	<!-- //banner -->
     
+    <!-- about.blade.php -->
     <div id="tentang" class="tentang">
 	
-    <!-- about -->
-    <div class="gallery">
+    <!-- visi-misi -->
+    <div class="contact">
     	<div class="container">	
-    		<div class="col-md-6">
-    			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Visi</span></h3>  
-    			<div class="blog-agileinfo blog-agileinfo-mdl">
-    				<div class="agileits-w3layouts">
-    					<ol style="text-align: left; margin : 10px;">
-    						<li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
-    						<li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
-    						<li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>                        
-    						<li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
-    					</ol>
-    				</div>
-    				<div class="clearfix"> </div>
+    		<div class="row">
+    			<div class="col-md-8">
+	    			<h3 class="w3stitle">	<span>Visi</span>	</h3>  
+	    			<div class="blog-agileinfo blog-agileinfo-mdl">
+	    				<div class="agileits-w3layouts">
+	    					<h4 align="center">"Sebagai alat Tuhan untuk memperkenalkan Kristus kepada mahasiswa ITS agar:"</h4><br>
+	    					<ol style="text-align: left">
+	    						<li><p>Percaya dan menerima Yesus Kristus sebagai Tuhan dan Juruselamat pribadinya.</p></li>
+	    						<li><p>Memiliki dasar-dasar iman Kristen yang mantap serta kehidupan yang berkenan kepada Kristus.</p></li>
+	    						<li><p>Memiliki visi yang kuat untuk melaksanakan amanat agung Yesus Kristus <b><i>(Matius 28:18-20)</i></b>.</p></li>               
+	    						<li><p>Menerapkan iman Kristen dalam kehidupannya sebagai ilmuwan dan dalam profesinya.</p></li>
+	    					</ol>
+	    				</div>
+	    				<div class="clearfix"> </div>
+	    			</div>
     			</div>
-    		</div>
-    		<div class="col-md-6">
-    			<h3 class="w3stitle" style="text-align: left; margin-left: 230px"><span>Misi</span></h3>  
-    			<div class="blog-agileinfo blog-agileinfo-mdl">
-    				<div class="agileits-w3layouts">
-    					<ol style="text-align: left; margin : 10px">
-    						<li><p>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</p></li>    
-    						<li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
-    						<li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
-    						<li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
-    					</ol>
-    				</div>
-    				<div class="clearfix"> </div>
-    			</div>
-    		</div>
+	    		<div class="col-md-4">
+	    			<h3 class="w3stitle">	<span>Misi</span>	</h3>  
+	    			<div class="blog-agileinfo blog-agileinfo-mdl">
+	    				<div class="agileits-w3layouts">
+	    					<ul style="text-align: left">
+	    						<li><p>Melaksanakan persekutuan mahasiwa yang hidup, berkualitas, dan penuh kasih persaudaraan.</p></li>    
+	    						<li><p>Melaksanakan pola pemuridan yang berkelanjutan.</p></li>    
+	    						<li><p>Meningkatkan profesionalitas Kristen ITS dari segi hardskill dan softskill.</p></li>    
+	    						<li><p>Mengimplementasikan peran dan fungsi mahasiswa Kristen ITS dalam bidang pengabdian masyarakat.</p></li>
+	    					</ul>
+	    				</div>
+	    				<div class="clearfix"> </div>
+	    			</div>
+	    		</div>
+	    	</div>
     	</div>
     </div>
+	<!-- //visi-misi --> 
 
-
-	<!-- //about --> 
+	<!-- divisi-main -->
+    <div class="gallery">
+    	<div class="container">
+    		<h3 class="w3stitle">	<span>Divisi</span>	</h3><br>
+    		<div class="row blog-agileinfo"> 
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#1"><h3 class="w3stitle">1 Pemuridan</h3></a> 
+	    		</div>
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#2"><h3 class="w3stitle">2 Medfo</h3></a>
+	    		</div>
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#3"><h3 class="w3stitle">3 Persekutuan</h3></a> 
+	    		</div>
+    		</div>
+	    	<div class="row blog-agileinfo">
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#4"><h3 class="w3stitle">4 DPK</h3></a>
+	    		</div>
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#5"><h3 class="w3stitle">5 PKMBK</h3></a> 
+	    		</div>
+	    		<div class="col-md-4">
+		    		<a class="page-scroll" href="#6"><h3 class="w3stitle">6 NAPAS</h3></a>
+	    		</div>
+		    </div>
+    	</div>
+    </div>
+	<!-- //divisi-main --> 
         
     <!-- divisi -->
-    <div class="contact">
+    <div id="1" class="contact">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 1</h4>
 			<h3 class="w3stitle">PMK-ITS <span> Pemuridan</span></h3>
-            <div class="blog-agileinfo">
+            <div class="row blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#pemuridan" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
@@ -127,19 +160,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-5 blog-w3grid-text"> 
                     <h4><a href="#pemuridan" data-toggle="modal">Pemuridan</a></h4><br>
                     <h6>Divisi :</h6>
-					<p><b>Discipleship Development</b></p>
-                    <p><b>Kelompok Kecil (KK)</b></p>
-                    <p><b>Kelompok Besar (KB)</b></p> 
-                    <p><b>Kelompok Pra Alumni (KPA)</b></p> 
+                    <div class="col-md-6">
+						<p><b>Discipleship Development</b></p>
+	                    <p><b>Kelompok Kecil (KK)</b></p>
+                    </div>
+                    <div class="col">
+	                    <p><b>Kelompok Besar (KB)</b></p> 
+	                    <p><b>Kelompok Pra Alumni (KPA)</b></p> 
+					</div>
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-    <div class="gallery">
+
+
+    <div id="2" class="gallery">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 2</h4>
 			<h3 class="w3stitle">PMK-ITS <span> Medfo</span></h3>     
-			<div class="blog-agileinfo blog-agileinfo-mdl">
+			<div class="row blog-agileinfo blog-agileinfo-mdl">
 				<div class="col-md-7 blog-w3grid-img blog-img-rght">
 					<a href="#medfo" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img2.jpg" class="img-responsive" alt=""/>
@@ -154,27 +194,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div> 
 		</div>
 	</div>
-    <div class="contact">
+
+
+    <div id="3" class="contact">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 3</h4>
 			<h3 class="w3stitle">PMK-ITS <span> Persekutuan</span></h3>     
-			<div class="blog-agileinfo">
+			<div class="row blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
 					<a href="#persekutuan" data-toggle="modal" class="wthree-blogimg">  
 						<img src="public/images/img3.jpg" class="img-responsive" alt=""/>
 					</a>  
 				</div>
-				<div class="col-md-5 blog-w3grid-text"> 
+				<div class="col-md-5 blog-w3grid-text" align="center"> 
 					<h4><a href="#persekutuan" data-toggle="modal">Persekutuan</a></h4><br>
-					<p><b>Acara</b></p>
-                    <p><b>Ministry</b></p>
-                    <p><b>Maintenance</b></p>
+					<p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis. In sit amet placerat nisl, in auctor sapien. Donec ultricies faucibus ante rerum hic a sapiente delectus in auctor sapien.</p><br>
+					<div class="row">
+						<div class="col-md-4">
+							<button class="btn btn-danger"><b>Acara</b></button>
+						</div>
+						<div class="col-md-4">
+							<button class="btn btn-danger"><b>Ministry</b></button>
+						</div>
+						<div class="col-md-4">
+							<button class="btn btn-danger"><b>Maintenance</b></button>
+						</div>
+					</div>
+					
+					
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-    <div class="gallery">
+
+
+    <div id="4" class="gallery">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 4</h4>
 			<h3 class="w3stitle">PMK-ITS <span> DPK</span></h3>     
 			<div class="container">
 			<div class="blog-agileinfo blog-agileinfo-mdl">
@@ -185,17 +242,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-5 blog-w3grid-text"> 
 					<h4><a href="#dpk" data-toggle="modal">Doa Pemerhati dan Konseling</a></h4><br>
-					<p><b>Menara Doa</b></p>
-                    <p><b>Persekutuan Doa</b></p>
-                    <p><b>Konseling Doa</b></p>
+					<div class="col-md-4 btn">	<p><b>Menara Doa</b></p>		</div>
+					<div class="col-md-4 btn">	<p><b>Persekutuan Doa</b></p>	</div>
+					<div class="col-md-4 btn">	<p><b>Konseling Doa</b></p>		</div>
 				</div> 
 				<div class="clearfix"> </div>
 			</div> 
 		</div>
 		</div>
 	</div>
-    <div class="contact">
+
+
+    <div id="5" class="contact">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 5</h4>
 			<h3 class="w3stitle">PMK-ITS <span> PKMBK</span></h3>     
 			<div class="blog-agileinfo">
 				<div class="col-md-7 blog-w3grid-img">
@@ -212,8 +272,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-    <div class="gallery">
+
+
+    <div id="6" class="gallery">
 		<div class="container">
+			<h4 align="center" style="line-height: 200%">Divisi 6</h4>
 			<h3 class="w3stitle">PMK-ITS <span> NAPAS</span></h3>     
 			<div class="container">
 			<div class="blog-agileinfo blog-agileinfo-mdl">
@@ -364,44 +427,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. </p>
 					</div> 
 				</div>
-=======
-	</div>
-	<!-- //pkmbk -->
-    
-    <!-- napas -->
-	<div class="modal about-modal w3-agileits fade" id="napas" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div> 
-				<div class="modal-body">
-					<img src="public/images/img2.jpg" alt=""> 
-					<h5>Natal dan Paskah</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
-				</div> 
->>>>>>> 8cc19a39a4540cc9ccea228f8f1b19bd17f5b60d
 			</div>
-		</div>
-	</div>
+=======
 	<!-- //napas -->
+>>>>>>> 8cc19a39a4540cc9ccea228f8f1b19bd17f5b60d
     
 	<!-- fireworks scripts --> 
-<!--
+
 	<script type="text/javascript" src="public/js/jquery.fireworks.js"></script>
 	<script>	
 		setTimeout(function() {
 			$('.w3-agilefireworks').fireworks();   
 		});
 	</script>
--->
+
 	<!-- //fireworks scripts -->
         
 	<!-- timer scripts --> 
 	<script type="text/javascript" src=" public/js/moment.js"></script>
 	<script type="text/javascript" src=" public/js/moment-timezone-with-data.js"></script>
 	<script type="text/javascript" src="public/js/timer.js"></script>
-	<!-- //scripts -->  
+	<!-- //scripts --> 
+
 	<!-- jarallax -->
 	<script src="public/js/jarallax.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>
@@ -488,5 +535,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="public/js/bootstrap.js"></script>
     </div>
+
 </body>
 </html>

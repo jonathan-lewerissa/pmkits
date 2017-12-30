@@ -67,7 +67,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 		<!-- //header -->
 		<!-- banner-text -->
-		<div class="banner-text" style="background:url(public/images/397.jpg)no-repeat center center;background-size:cover;"> 
+		<div class="banner-text" style="background:black"> 
+			<!-- background:url(public/images/397.jpg)no-repeat center center;background-size:cover; -->
             <h2>Renungan<span> Hari Ini</span></h2>
             <p>Matius 26:41 "Berjaga-jagalah dan berdoalah, supaya kamu jangan jatuh ke dalam pencobaan: roh memang penurut, tetapi daging lemah."</p>
 		</div> 
