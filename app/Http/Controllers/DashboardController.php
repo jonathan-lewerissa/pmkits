@@ -63,6 +63,7 @@ class DashboardController extends Controller
             }
             else{
                 $mhs = mahasiswa::where('NRP','=',Auth::user()->username)->first();
+                // dd(bcrypt('12345'));
                 return view('user/mhs')->with('mhs',$mhs);
             }
         }    
@@ -76,7 +77,7 @@ class DashboardController extends Controller
 //        dd($request);
         $user = User::where('username',$id)->update(['password' => bcrypt($pass)]);
                 
-        return redirect()->route('home')->with('alert', 'Password Updated!');
+        return redirect()->route('dashboard')->with('alert', 'Password Updated!');
     }
     
     public function search(Request $request)
@@ -107,6 +108,6 @@ class DashboardController extends Controller
         $all2017 = mahasiswa::where('nrp','LIKE','____17%')->get();
         $up2017 = $all2017->where('updated_at','!=',null)->count();
         
-        return view('home')->with('alumni',$alumni)->with('mhs',$mhs)->with('mhss',$mhss)->with('update',$update)->with('up2013',$up2013)->with('all2013',$all2013->count())->with('up2014',$up2014)->with('all2014',$all2014->count())->with('up2015',$up2015)->with('all2015',$all2015->count())->with('up2016',$up2016)->with('all2016',$all2016->count())->with('up2017',$up2017)->with('all2017',$all2017->count());
+        return view('dashboard')->with('alumni',$alumni)->with('mhs',$mhs)->with('mhss',$mhss)->with('update',$update)->with('up2013',$up2013)->with('all2013',$all2013->count())->with('up2014',$up2014)->with('all2014',$all2014->count())->with('up2015',$up2015)->with('all2015',$all2015->count())->with('up2016',$up2016)->with('all2016',$all2016->count())->with('up2017',$up2017)->with('all2017',$all2017->count());
     }
 }

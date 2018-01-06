@@ -44,7 +44,7 @@ class MahasiswaController extends Controller
         $mhs = new Mahasiswa();
         $mhs['name'] = $request->name;
         $mhs['nrp'] = $request->nrp;
-        $mhs['email'] = $request->email;
+        $mhs['username'] = $request->username;
         $mhs['jk'] = $request->jk;
         $mhs['asal'] = $request->asal;
         $mhs['tgl_lahir'] = $request->tgl_lahir;
@@ -96,7 +96,7 @@ class MahasiswaController extends Controller
         $mhs = Mahasiswa::findorfail($id);
         $mhs['name'] = $request->name;
         $mhs['nrp'] = $request->nrp;
-        $mhs['email'] = $request->email;
+        $mhs['username'] = $request->username;
         $mhs['jk'] = $request->jk;
         $mhs['asal'] = $request->asal;
         $mhs['tgl_lahir'] = $request->tgl_lahir;
