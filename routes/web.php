@@ -37,7 +37,7 @@ Route::get('/renungan', function() {
 Route::any('search', 'DashboardController@search')->name('search');
 Route::any('change_password', 'DashboardController@change_password')->name('change_password');
 
-Route::resource('mhs', 'MhsController');
+Route::resource('mhs', 'MahasiswaController');
 
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('dashboard', 'DashboardController@index');

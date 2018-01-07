@@ -63,7 +63,7 @@
           <li class="dropdown user user-menu">
             <a>
               <img src="{{URL::asset('public/Admin-LTE/dist/img/user2-160x160.jpg')}}" class="user-image" alt="User Image">
-              <span class="hidden-xs">{{Auth::user()->email}}</span>
+              <span class="hidden-xs">{{Auth::user()->username}}</span>
             </a>
           </li>
         </ul>
