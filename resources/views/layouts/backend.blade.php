@@ -168,7 +168,7 @@
           
         <li class="header">DLL</li>
         <li class="treeview">
-          <a href="/pmkits/renungan">
+          <a href="{{route('renungan.index')}}">
             <!-- <a href="{{route('renungan.index')}}"> -->
             <i class="fa fa-book"></i> <span>Renungan</span>
           </a>
