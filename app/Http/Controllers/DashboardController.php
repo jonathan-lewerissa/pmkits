@@ -55,7 +55,7 @@ class DashboardController extends Controller
                 $up2017 = $all2017->where('updated_at','!=',null)->count();
 
                 $user = Auth::user();
-                return view("/dashboard")->with('user',$user)->with('mhs',$mhs)->with('alumni',$alumni)->with('doskar',$doskar)->with('pengurus',$pengurus)->with('event',$event)->with('pd',$pd)->with('mhss',$mhss)->with('update',$update)->with('up2013',$up2013)->with('all2013',$all2013->count())->with('up2014',$up2014)->with('all2014',$all2014->count())->with('up2015',$up2015)->with('all2015',$all2015->count())->with('up2016',$up2016)->with('all2016',$all2016->count())->with('up2017',$up2017)->with('all2017',$all2017->count());
+                return view("dashboard")->with('user',$user)->with('mhs',$mhs)->with('alumni',$alumni)->with('doskar',$doskar)->with('pengurus',$pengurus)->with('event',$event)->with('pd',$pd)->with('mhss',$mhss)->with('update',$update)->with('up2013',$up2013)->with('all2013',$all2013->count())->with('up2014',$up2014)->with('all2014',$all2014->count())->with('up2015',$up2015)->with('all2015',$all2015->count())->with('up2016',$up2016)->with('all2016',$all2016->count())->with('up2017',$up2017)->with('all2017',$all2017->count());
             }
             else if($user=='alumni'){
                 $alumni = alumni::paginate(10);

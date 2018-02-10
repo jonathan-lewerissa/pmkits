@@ -20,6 +20,7 @@ class MahasiswaController extends Controller
     public function index()
     {
         $mhs = Mahasiswa::orderBy('nrp', 'asc')->paginate(10);
+//        $mhs = Mahasiswa::all();
         return view('mahasiswa.index', compact('mhs'));
     }
 

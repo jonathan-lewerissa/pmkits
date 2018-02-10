@@ -27,7 +27,7 @@
                     <div class="box-body">
                         <h3>Data Mahasiswa <a href="{{route('mahasiswa.create')}}" class="pull-right"> <i class="fa fa-plus"></i></a></h3>
                         <div class="table-responsive" style="overflow: auto">
-                        <table id="alumni" class="table table-bordered table-striped">
+                        <table id="mahasiswa" class="table table-bordered table-striped">
                         @php $count = 1 @endphp
                             <thead>
                               <tr>
@@ -136,3 +136,15 @@
 <script src="{{URL::asset('public/Admin-LTE/dist/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{URL::asset('public/Admin-LTE/dist/js/demo.js')}}"></script>
+<script>
+$(function() {
+    $('#mahasiswa').DataTable({
+          "paging": true,
+          "lengthChange": true,
+          "searching": true,
+          "ordering": true,
+          "info": true,
+          "autoWidth": true
+    });
+});
+</script>
