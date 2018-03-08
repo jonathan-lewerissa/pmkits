@@ -54,7 +54,7 @@ class DosenkaryawanController extends Controller
         $dsn['gereja'] = $request->gereja;
         $dsn['no_hp'] = $request->no_hp;
         $dsn->save();
-        return redirect('doskar');
+        return view('dosenkaryawan.index',compact('dsn'))->with('user',$user);
     }
 
     /**
@@ -115,7 +115,7 @@ class DosenkaryawanController extends Controller
     {
         $doskar=Dosenkaryawan::findorfail($id);
         $doskar->delete();
-        return redirect('dosenkaryawan');
+        return redirect()->back();
         
     }
 }

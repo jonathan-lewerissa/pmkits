@@ -57,7 +57,7 @@ class AlumniController extends Controller
         $alumni['asal_departemen'] = $request->asal_departemen;
         $alumni['angkatan'] = $request->angkatan;
         $alumni->save();
-        return redirect('alumni');
+        return view('alumni.index',compact('alumni'))->with('user',$user);
     }
 
     /**
@@ -120,6 +120,6 @@ class AlumniController extends Controller
     {
         $alumni = Alumni::findorfail($id);
         $alumni->delete();
-        return redirect('alumni');
+        return redirect()->back();
     }
 }

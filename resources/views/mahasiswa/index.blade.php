@@ -36,6 +36,7 @@
                                 <th>NRP</th>
                                 <th>Email</th>
                                 <th>JK</th>
+                                <th>PKK</th>
                                 <th>Asal</th>
                                 <th>Tanggal Lahir</th>
                                 <th>Alamat Surabaya</th>
@@ -61,6 +62,7 @@
                                 <td>{{$m->email}}</td>
                                 <td>{{$m->jk}}</td>
                                 <td>{{$m->asal}}</td>
+                                <td>{{$m->pkk}}</td>
                                 <td>{{$m->tgl_lahir}}</td>
                                 <td>{{$m->alamat_sby}}</td>
                                 <td>{{$m->alamat_asal}}</td>

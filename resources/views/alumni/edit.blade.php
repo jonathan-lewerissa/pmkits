@@ -27,83 +27,87 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" value="{{$alumni->name}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Name</label>
+                        <input name="name" type="text" value="{{$alumni->name}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" value="{{$alumni->email}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Email</label>
+                        <input name="email" type="email" value="{{$alumni->email}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" value="{{$alumni->jk}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">JK</label>
+                        <input name="jk" type="text" value="{{$alumni->jk}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" value="{{$alumni->asal}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Asal</label>
+                        <input name="asal" type="text" value="{{$alumni->asal}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" value="{{$alumni->tgl_lahir}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Tanggal Lahir</label>
+                        <input name="tgl_lahir" type="date" value="{{$alumni->tgl_lahir}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" value="{{$alumni->alamat}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Alamat</label>
+                        <input name="alamat" type="text" value="{{$alumni->alamat}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" value="{{$alumni->gereja}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Gereja</label>
+                        <input name="gereja" type="text" value="{{$alumni->gereja}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" value="{{$alumni->no_hp}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">No. HP</label>
+                        <input name="no_hp" type="number" value="{{$alumni->no_hp}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" value="{{$alumni->pekerjaan}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Pekerjaan</label>
+                        <input name="pekerjaan" type="text" value="{{$alumni->pekerjaan}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tempat Kerja</label>
-                        <input name="tempat_kerja" type="text" value="{{$alumni->tempat_kerja}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Tempat Kerja</label>
+                        <input name="tempat_kerja" type="text" value="{{$alumni->tempat_kerja}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Fakultas</label>
-                        <input name="asal_fakultas" type="text" value="{{$alumni->asal_fakultas}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Asal Fakultas</label>
+                        <input name="asal_fakultas" type="text" value="{{$alumni->asal_fakultas}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal Departemen</label>
-                        <input name="asal_departemen" type="text" value="{{$alumni->asal_departemen}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Asal Departemen</label>
+                        <input name="asal_departemen" type="text" value="{{$alumni->asal_departemen}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Angkatan</label>
-                        <input name="angkatan" type="number" value="{{$alumni->angkatan}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Angkatan</label>
+                        <input name="angkatan" type="number" value="{{$alumni->angkatan}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
-                {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                <div class="col-sm-12"></div>
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6" style="text-align: right">
+                    {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                </div>
             </div>
         {{!! Form::close() !!}}
     </div>

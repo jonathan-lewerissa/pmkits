@@ -41,8 +41,8 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label for="message-text" class="form-control-label col-sm-4">Email</label>
-                                <input name="email" type="email" class="form-control col-sm-8"  value="{{$mhs->email}}" required>
+                                <label for="message-text" class="form-control-label col-sm-4">Username(Email)</label>
+                                <input name="username" type="email" class="form-control col-sm-8"  value="{{$mhs->username}}" required>
                             </div>
                             
                             <div class="form-group">
@@ -52,43 +52,50 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
+                                <label for="message-text" class="form-control-label col-sm-4">PKK</label>
+                                <input name="pkk" type="text" class="form-control col-sm-8"  value="{{$mhs->pkk}}" required>
+                            </div>
+
+                            <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Asal</label>
                                 <input name="asal" type="text" class="form-control col-sm-8"  value="{{$mhs->asal}}" required>
                             </div>
                             
+                        </div>
+                        <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Tanggal Lahir</label>
                                 <input name="tgl_lahir" class="form-control col-sm-8"  type="date" value="{{$mhs->tgl_lahir}}" required>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
+
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Alamat Surabaya</label>
                                 <input name="alamat_sby" type="text" class="form-control col-sm-8"  value="{{$mhs->alamat_sby}}" required>
                             </div>
-                            
+                        </div>
+                        <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Alamat Asal</label>
                                 <input name="alamat_asal" type="text" class="form-control col-sm-8"  value="{{$mhs->alamat_asal}}" required>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
+
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Gereja</label>
                                 <input name="gereja" type="text" class="form-control col-sm-8"  value="{{$mhs->gereja}}" required>
                             </div>
-                            
+                        </div>
+                        <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">No. HP</label>
                                 <input name="no_hp" type="number" class="form-control col-sm-8"  value="{{$mhs->no_hp}}" required>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
+
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Line ID</label>
                                 <input name="line_id" type="text" class="form-control col-sm-8"  value="{{$mhs->line_id}}" required>
                             </div>
-                            
+                        </div>
+                        <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label col-sm-4">Talenta</label>
                                 <input name="talenta" type="text" class="form-control col-sm-8"  value="{{$mhs->talenta}}">

@@ -22,76 +22,83 @@
     <!-- Main content -->
     <br><br>
     <div class="container">
-        {!! Form::open(array('url' => '/doskar')) !!}
+        {!! Form::open(['method'=>'POST','action'=>['DosenkaryawanController@store']]) !!}
             {{csrf_field()}}
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" placeholder="Name" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Name</label>
+                        <input name="name" type="text" placeholder="Name" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" placeholder="Pekerjaan" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Pekerjaan</label>
+                        <input name="pekerjaan" type="text" placeholder="Pekerjaan" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Fakultas</label>
-                        <input name="fakultas" type="text" placeholder="Fakultas" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Fakultas</label>
+                        <input name="fakultas" type="text" placeholder="Fakultas" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Departemen</label>
-                        <input name="departemen" type="text" placeholder="Departemen" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Departemen</label>
+                        <input name="departemen" type="text" placeholder="Departemen" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" placeholder="Email" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Email</label>
+                        <input name="email" type="email" placeholder="Email" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" placeholder="JK" required>
+                        <label for="message-text" class="form-control-label col-sm-4">JK</label>
+                        <select name="jk" class="form-control col-sm-8" required>
+                          <option value="L">L</option>
+                          <option value="P">P</option>
+                        </select>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" placeholder="Asal" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Asal</label>
+                        <input name="asal" type="text" placeholder="Asal" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Tanggal Lahir</label>
+                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" valplaceholderue="Alamat" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Alamat</label>
+                        <input name="alamat" type="text" placeholder="Alamat" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" placeholder="Gereja" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Gereja</label>
+                        <input name="gereja" type="text" placeholder="Gereja" class="form-control col-sm-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" placeholder="No. HP" required>
+                        <label for="message-text" class="form-control-label col-sm-4">No. HP</label>
+                        <input name="no_hp" type="number" placeholder="No. HP" class="form-control col-sm-8" required>
                     </div>
                 </div>
-                {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                <div class="col-sm-12"></div>
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6" style ="margin-top:10px; text-align: right">
+                    {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                </div>  
             </div>
         {{!! Form::close() !!}}
     </div>

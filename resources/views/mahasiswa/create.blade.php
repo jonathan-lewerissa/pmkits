@@ -22,100 +22,103 @@
     <!-- Main content -->
     <br><br>
     <div class="container">
-        {!! Form::open(array('url' => '/mahasiswa')) !!}
+        {!! Form::open(['method'=>'POST','action'=>['MahasiswaController@store']]) !!}
             {{csrf_field()}}
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" placeholder="Name" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Name</label>
+                        <input name="name" type="text" class="form-control col-lg-8" placeholder="Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">NRP</label>
+                        <input name="nrp" type="text" class="form-control col-sm-8" placeholder="NRP" required>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Username(Email)</label>
+                        <input name="username" type="email" class="form-control col-sm-8" placeholder="Email"required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">JK</label>
+                        <select name="jk" class="form-control col-sm-8" required>
+                          <option value="L">L</option>
+                          <option value="P">P</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">PKK</label>
+                        <input name="pkk" type="text" class="form-control col-sm-8" placeholder="NRP PKK" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Asal</label>
+                        <input name="asal" type="text" class="form-control col-sm-8" placeholder="Asal" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Tanggal Lahir</label>
+                        <input name="tgl_lahir" class="form-control col-sm-8"  type="date" placeholder="Tanggal Lahir" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Alamat Surabaya</label>
+                        <input name="alamat_sby" type="text" class="form-control col-sm-8" placeholder="Alamat Surabaya" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Alamat Asal</label>
+                        <input name="alamat_asal" type="text" class="form-control col-sm-8" placeholder="Alamat Asal" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Gereja</label>
+                        <input name="gereja" type="text" class="form-control col-sm-8" placeholder="Gereja" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">No. HP</label>
+                        <input name="no_hp" type="number" class="form-control col-sm-8" placeholder="No. HP" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Line ID</label>
+                        <input name="line_id" type="text" class="form-control col-sm-8" placeholder="Line ID" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Talenta</label>
+                        <input name="talenta" type="text" class="form-control col-sm-8" placeholder="Talenta" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="form-control-label col-sm-4">Kehadiran PJ</label>
+                        <input name="kehadiran_pj" type="number" placeholder="Kehadiran PJ" class="form-control col-sm-8">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">NRP</label>
-                        <input name="nrp" type="text" placeholder="NRP" required>
+                        <label for="message-text" class="form-control-label col-sm-4">Kehadiran PD</label>
+                        <input name="kehadiran_pd" type="number" placeholder="Kehadiran PD" class="form-control col-sm-8">
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" placeholder="Email" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" placeholder="JK" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" placeholder="Asal" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" placeholder="Tanggal Lahir" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat Surabaya</label>
-                        <input name="alamat_sby" type="text" placeholder="Alamat Surabaya" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat Asal</label>
-                        <input name="alamat_asal" type="text" placeholder="Alamat Asal" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" placeholder="Gereja" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" placeholder="No. HP" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Line ID</label>
-                        <input name="line_id" type="text" placeholder="Line ID" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Talenta</label>
-                        <input name="talenta" type="text" placeholder="Talenta">
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Kehadiran PJ</label>
-                        <input name="kehadiran_pj" type="number" placeholder="Kehadiran PJ">
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="message-text" class="form-control-label">Kehadiran PD</label>
-                        <input name="kehadiran_pd" type="number" placeholder="Kehadiran PD">
-                    </div>
-                </div>
-                <div class="col-sm-6">
                     <div class="form-group">
                         <label for="message-text" class="form-control-label">Kehadiran Rapat</label>
-                        <input name="kehadiran_rapat" type="number" placeholder="Kehadiran Rapat">
+                        <input name="kehadiran_rapat" type="number" placeholder="Kehadiran Rapat" class="form-control col-sm-8">
                     </div>
                 </div>
-                {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6" style ="margin-top:10px; text-align: right">
+                    {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                </div>
             </div>
         {{!! Form::close() !!}}
     </div>

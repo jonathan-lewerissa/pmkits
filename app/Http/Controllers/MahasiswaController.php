@@ -48,6 +48,7 @@ class MahasiswaController extends Controller
         $mhs['username'] = $request->username;
         $mhs['jk'] = $request->jk;
         $mhs['asal'] = $request->asal;
+        $mhs['pkk'] = $request->pkk;
         $mhs['tgl_lahir'] = $request->tgl_lahir;
         $mhs['alamat_sby'] = $request->alamat_sby;
         $mhs['alamat_asal'] = $request->alamat_asal;
@@ -59,7 +60,7 @@ class MahasiswaController extends Controller
         $mhs['kehadiran_pd'] = 0;
         $mhs['kehadiran_rapat'] = 0;
         $mhs->save();
-        return redirect('mahasiswa');
+        return view('mahasiswa.index', compact('mhs'));
     }
 
     /**
@@ -99,6 +100,7 @@ class MahasiswaController extends Controller
         $mhs['nrp'] = $request->nrp;
         $mhs['username'] = $request->username;
         $mhs['jk'] = $request->jk;
+        $mhs['pkk'] = $request->pkk;
         $mhs['asal'] = $request->asal;
         $mhs['tgl_lahir'] = $request->tgl_lahir;
         $mhs['alamat_sby'] = $request->alamat_sby;
@@ -106,7 +108,7 @@ class MahasiswaController extends Controller
         $mhs['gereja'] = $request->gereja;
         $mhs['no_hp'] = $request->no_hp;
         $mhs['line_id'] = $request->line_id;
-//        $mhs['talenta'] = $request->talenta;
+        $mhs['talenta'] = $request->talenta;
         $mhs->save();
         return view('mahasiswa.edit', compact('mhs'));
     }

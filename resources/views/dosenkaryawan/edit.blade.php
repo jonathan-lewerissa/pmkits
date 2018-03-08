@@ -27,71 +27,75 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Name</label>
-                        <input name="name" type="text" value="{{$dsn->name}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Name</label>
+                        <input name="name" type="text" value="{{$dsn->name}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Pekerjaan</label>
-                        <input name="pekerjaan" type="text" value="{{$dsn->pekerjaan}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Pekerjaan</label>
+                        <input name="pekerjaan" type="text" value="{{$dsn->pekerjaan}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Fakultas</label>
-                        <input name="fakultas" type="text" value="{{$dsn->fakultas}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Fakultas</label>
+                        <input name="fakultas" type="text" value="{{$dsn->fakultas}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Departemen</label>
-                        <input name="departemen" type="text" value="{{$dsn->departemen}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Departemen</label>
+                        <input name="departemen" type="text" value="{{$dsn->departemen}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Email</label>
-                        <input name="email" type="email" value="{{$dsn->email}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Email</label>
+                        <input name="email" type="email" value="{{$dsn->email}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">JK</label>
-                        <input name="jk" type="text" value="{{$dsn->jk}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">JK</label>
+                        <input name="jk" type="text" value="{{$dsn->jk}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Asal</label>
-                        <input name="asal" type="text" value="{{$dsn->asal}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Asal</label>
+                        <input name="asal" type="text" value="{{$dsn->asal}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Tanggal Lahir</label>
-                        <input name="tgl_lahir" type="date" value="{{$dsn->tgl_lahir}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Tanggal Lahir</label>
+                        <input name="tgl_lahir" type="date" value="{{$dsn->tgl_lahir}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Alamat</label>
-                        <input name="alamat" type="text" value="{{$dsn->alamat}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Alamat</label>
+                        <input name="alamat" type="text" value="{{$dsn->alamat}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">Gereja</label>
-                        <input name="gereja" type="text" value="{{$dsn->gereja}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">Gereja</label>
+                        <input name="gereja" type="text" value="{{$dsn->gereja}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="message-text" class="form-control-label">No. HP</label>
-                        <input name="no_hp" type="number" value="{{$dsn->no_hp}}" required>
+                        <label for="message-text" class="form-control-label col-lg-4">No. HP</label>
+                        <input name="no_hp" type="number" value="{{$dsn->no_hp}}" class="form-control col-lg-8" required>
                     </div>
                 </div>
-                {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                <div class="col-sm-12"></div>
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6" align="right">
+                    {!! Form::button('<i class="fa fa-plus-square"></i>'.' Simpan', array('type' => 'submit', 'class' => 'btn btn-primary'))!!}
+                </div>
             </div>
         {{!! Form::close() !!}}
     </div>
