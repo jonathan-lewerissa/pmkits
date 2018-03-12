@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="welcome">  
         <div class="welcome-w3center">
             <h3 class="w3stitle w3stitle1">Persekutuan Jumat PMK ITS</h3>
-            <h4>TEMA : "FRIENDS"</h4>
+            <h4>TEMA : "{{$pj->theme}}"</h4>
         </div>
 		<div class="welcome-agileinfo">
 			<div class="col-sm-6 col-xs-6 welcome-w3left" style="background:#0077b3">
@@ -161,15 +161,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>When</p>
-					<h4>22nd SEPT 2017</h4>
-					<h6>Starting at : 11:15 am </h6>
+					<h4>{{$pj->date}}</h4>
+					<h6>Starting at : {{$pj->time}} </h6>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-sm-6 col-xs-6 welcome-w3right" style="background:#66c2ff;">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>Theater <strong>B</strong> ITS</h4>
+					<h4><strong>{{$pj->location}}</strong></h4>
                     <h6>klik <a href="https://www.google.com/maps/place/Theater+B/@-7.2845415,112.7952519,20z/data=!4m8!1m2!2m1!1steater+B+its!3m4!1s0x0:0x57571de063f866b2!8m2!3d-7.284267!4d112.7950971" target=_blank>DI SINI</a> untuk lokasinya</h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
@@ -188,8 +188,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container"> 
 				<div class="col-md-6 video-left">
 					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
-					<h4>Efesus 5:22-33</h4> 
-					<p>“Kita cerai!” Teriakan disertai kemarahan seperti ini biasa menghiasi sinetron yang ditayangkan televisi kita. Sayangnya, hal ini juga mulai biasa terjadi dalam kehidupan nyata, tidak terkecuali di tengah orang Kristen. Sudah tidak lagi saling mengasihi, begitu alasan yang sering dipakai. Lalu ke manakah kasih yang dahulu ketika memulai pernikahan? Sudah habis? Luntur? Ataukah memang kasihnya hanya berkualitas palsu?<a href="#">Lihat di sini</a></p>
+					<h4>{{$renungan->title}} - {{$renungan->verse}}</h4> 
+					<p>{{$renungan->content}}<br><a href="/renungan">Lihat di sini</a></p>
 				</div> 
 				<div class="col-md-6 video-right"> 
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">
@@ -197,7 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</a> 
 					<div id="small-dialog2" class="mfp-hide">
 						<div class="pop_up w3-agile">
-							<iframe src="https://www.youtube.com/embed/9JX4hCTuiEw"></iframe>
+							<img src="{{$renungan->photo}}" class="img-responsive" alt=""/>
 						</div>   
 					</div> 
 				</div>

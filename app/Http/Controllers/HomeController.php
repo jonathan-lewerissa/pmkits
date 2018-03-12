@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $renungan = DB::table('Renungans')->orderBy('date', 'DESC')->first();
+        $pj = DB::table('Persekutuan_jumats')->orderBy('date','ASC')->first();
+        return view('welcome', compact('renungan','pj'));
     }
 }

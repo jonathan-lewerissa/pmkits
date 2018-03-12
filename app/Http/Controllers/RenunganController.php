@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Renungan;
+use DB;
 
 class RenunganController extends Controller
 {
@@ -19,8 +19,9 @@ class RenunganController extends Controller
     public function index()
     {
         //
-        $renungan = Renungan::paginate(10);
-        return view('renungan.renungan', compact('renungan'));
+        $renungan = DB::table('Renungans')->orderBy('date', 'DESC')->paginate(10);
+        $today = DB::table('Renungans')->orderBy('date', 'DESC')->first();
+        return view('renungan', compact('renungan','today'));
     }
 
     /**

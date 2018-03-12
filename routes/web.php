@@ -13,13 +13,8 @@
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+Route::resource('/', 'HomeController');
+Route::resource('welcome', 'HomeController');
 
 Route::get('/about', function() {
     return view('about');
@@ -29,9 +24,9 @@ Route::get('/news', function() {
     return view('news');
 });
 
-Route::get('/renungan', function() {
-    return view('renungan');
-});
+// Route::get('/renungan', function() {
+//     return view('renungan');
+// });
 
 
 Route::any('search', 'DashboardController@search')->name('search');
@@ -41,6 +36,8 @@ Route::resource('mhs', 'MahasiswaController');
 
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('dashboard', 'DashboardController@index');
+Route::resource('renungan', 'RenunganController');
+
 Route::resource('admin/mahasiswa','MahasiswaController');
 Route::resource('admin/doskar','DosenkaryawanController');
 Route::resource('admin/alumni','AlumniController');
