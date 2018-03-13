@@ -78,8 +78,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>Natal PMK ITS</h2>
-			<p><b>Yesaya 7:14</b> <i>"Sebab itu Tuhan sendiri akan memberikan Anda tanda. Sesungguhnya, seorang perempuan muda mengandung dan melahirkan seorang putra, dan ia akan menamakan Dia Imanuel."</i></p>
+			<h2>{{$event->name}}</h2>
+			<p><b>{{$event->verse}}</b> <i>"{{$event->verse_content}}"</i></p>
 			<!-- timer -->
 			<div class="agileits-timer"> 
 				<div class="clock">
@@ -127,15 +127,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>When</p>
-					<h4>25th DEC 2017</h4>
-					<h6>Starting at : 17:30 pm </h6>
+					<h4>{{date('d F Y', strtotime($event->date))}}</h4>
+					<h6>Starting at : {{$event->time}} </h6>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-sm-6 col-xs-6 welcome-w3right">
 				<div class="col-xs-9 welcome-w3ltext"> 
 					<p>Where</p>
-					<h4>Graha ITS</h4>
+					<h4>{{$event->location}}</h4>
 					<h6>Kampus ITS Sukolilo, Surabaya </h6>
 				</div>
 				<div class="col-xs-3 welcome-w3limg">
@@ -189,7 +189,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-6 video-left">
 					<h3 class="w3stitle w3stitle1">Renungan Hari Ini</h3>
 					<h4>{{$renungan->title}} - {{$renungan->verse}}</h4> 
-					<p>{{$renungan->content}}<br><a href="/renungan">Lihat di sini</a></p>
+					<p>{{str_limit($renungan->content, 200)}}<br><a href="renungan">Lihat di sini</a></p>
 				</div> 
 				<div class="col-md-6 video-right"> 
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">

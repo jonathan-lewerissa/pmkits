@@ -24,8 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $event = DB::table('Events')->orderBy('date','ASC')->first();
         $renungan = DB::table('Renungans')->orderBy('date', 'DESC')->first();
         $pj = DB::table('Persekutuan_jumats')->orderBy('date','ASC')->first();
-        return view('welcome', compact('renungan','pj'));
+        return view('welcome', compact('renungan','pj','event'));
     }
 }
