@@ -11,8 +11,6 @@
 |
 */
 
-Auth::routes();
-
 Route::resource('/', 'HomeController');
 Route::resource('welcome', 'HomeController');
 
@@ -35,7 +33,6 @@ Route::any('change_password', 'DashboardController@change_password')->name('chan
 Route::resource('mhs', 'MahasiswaController');
 
 Route::get('logout', 'Auth\LoginController@logout');
-Route::get('dashboard', 'DashboardController@index');
 Route::resource('renungan', 'RenunganController');
 
 Route::resource('admin/mahasiswa','MahasiswaController');
@@ -55,3 +52,9 @@ Route::any('admin/napas', ['as'=>'napas', 'uses'=>'PengurusController@napas']);
 
 Route::resource('admin/pj','PJController');
 Route::resource('admin/pd','PDController');
+
+Auth::routes();
+
+
+Route::get('dashboard', 'DashboardController@index');
+Route::get('/home', 'HomeController@index')->name('home');

@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -20,11 +18,18 @@ class LoginController extends Controller
     |
     */
 
-    use AuthenticatesUsers {
-        logout as performLogout;
+    use AuthenticatesUsers;
+
+    /**
+     * Create a new controller instance.
+     *
+     * 
+     */
+
+    public function username()
+    {
+        return 'username';
     }
-    
-    protected $username = 'username';
 
     /**
      * Where to redirect users after login.
@@ -32,25 +37,9 @@ class LoginController extends Controller
      * @var string
      */
     protected $redirectTo = '/dashboard';
-    
-//    public function username()
-//    {
-//        return 'username';
-//    }
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'logout']);
-    }
-    
-    public function logout(Request $request)
-    {
-        $this->performLogout($request);
-        return redirect()->route('login');
+        $this->middleware('guest')->except('logout');
     }
 }
