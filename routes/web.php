@@ -11,6 +11,8 @@
 |
 */
 
+Route::post('/uploadfile','FileUploadController@upload');
+
 Route::resource('/', 'HomeController');
 Route::resource('welcome', 'HomeController');
 
