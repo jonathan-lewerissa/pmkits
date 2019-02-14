@@ -19,6 +19,9 @@ class CreateUsersTable extends Migration
             $table->string('username', 50)->unique();
             $table->string('password', 200);
             $table->rememberToken();
+            
+            $table->unsignedInteger('divisi_id')->nullable();
+            
             $table->timestamps();
         });
     }

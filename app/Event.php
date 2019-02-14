@@ -12,4 +12,9 @@ class Event extends Model
      * @var string
      */
     protected $connection = 'frontdb';
+
+    public function presensis()
+    {
+        return $this->hasMany('App\Presensi');
+    }
 }

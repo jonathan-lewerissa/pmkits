@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Absensi extends Model
+class Presensi extends Model
 {
     /**
      * The connection name for the model.
@@ -12,4 +12,9 @@ class Absensi extends Model
      * @var string
      */
     protected $connection = 'frontdb';
+
+    public function event()
+    {
+        return $this->belongsTo('App\Event');
+    }
 }

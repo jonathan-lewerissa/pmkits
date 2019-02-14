@@ -13,13 +13,14 @@ class CreateAbsensisTable extends Migration
      */
     public function up()
     {
-        Schema::create('absensis', function (Blueprint $table) {
+        Schema::create('presensis', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nrp', 20);
             $table->string('name', 20);
-            $table->bigInteger('id_event')->unsigned();
-            $table->string('name_event', 20);
             $table->date('date');
+
+            $table->unsignedInteger('event_id')->nullable();
+
             $table->timestamps();
         });
     }
